@@ -167,21 +167,21 @@
 			"question": "What is finalize() method?",
 			"answer": "Unlike c++ , we don’t need to destroy objects explicitly in Java. ‘Garbage Collector‘ does that automatically for us. Garbage Collector checks if no references to an object exist, that object is assumed to be no longer required, and the memory occupied by the object can be freed. Sometimes an object can hold non-java resources such as file handle or database connection, then you want to make sure these resources are also released before object is destroyed. To perform such operation Java provide protected void finalize() in object class. You can override this method in your class and do the required tasks. Right before an object is freed, the java run time calls the finalize() method on that object. Refer this for more details.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "algo"
 		},
 		{
 
 			"question": "Difference in Set and List interface?",
 			"answer": "Set and List both are child interface of Collection interface. There are following two main differences between them List can hold duplicate values but Set doesn’t allow this,In List interface data is present in the order you inserted but in the case of Set insertion order is not preserved.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "algo"
 		},
 		{
 
 			"question": "What will happen if you put System.exit(0) on try or catch block? Will finally block execute?",
 			"answer": "By Calling System.exit(0) in try or catch block, we can skip the finally block. System.exit(int) method can throw a SecurityException. If Sysytem.exit(0) exits the JVM without throwing that exception then finally block will not execute. But, if System.exit(0) does throw security exception then finally block will be executed.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "algo"
 		},
 		{
 
@@ -195,21 +195,21 @@
 			"question": "What is protected access modifier?",
 			"answer": "Variables, methods and constructors which are declared protected in a superclass can be accessed only by the subclasses in other package or any class within the package of the protected members' class.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "hrAdmin"
 		},
 		{
 
 			"question": "What do you mean by synchronized Non Access Modifier?",
 			"answer": "Java provides these modifiers for providing functionalities other than Access Modifiers, synchronized used to indicate that a method can be accessed by only one thread at a time.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "hrAdmin"
 		},
 		{
 
 			"question": "Why is String class considered immutable?",
 			"answer": "The String class is immutable, so that once it is created a String object cannot be changed. Since String is immutable it can safely be shared between many threads ,which is considered very important for multithreaded programming.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "hrAdmin"
 		},
 		{
 
@@ -223,21 +223,21 @@
 			"question": "What is the difference between StringBuffer and StringBuilder class?",
 			"answer": "Use StringBuilder whenever possible because it is faster than StringBuffer. But, if thread safety is necessary then use StringBuffer objects.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "mySQL"
 		},
 		{
 
 			"question": "Explain Runtime Exceptions?",
 			"answer": "It is an exception that occurs that probably could have been avoided by the programmer. As opposed to checked exceptions, runtime exceptions are ignored at the time of compliation.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "mySQL"
 		},
 		{
 
 			"question": "When Abstract methods are used?",
 			"answer": "If you want a class to contain a particular method but you want the actual implementation of that method to be determined by child classes, you can declare the method in the parent class as abstract.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "mySQL"
 		},
 		{
 
@@ -272,28 +272,28 @@
 			"question": "What is NullPointerException?",
 			"answer": "A NullPointerException is thrown when calling the instance method of a null object, accessing or modifying the field of a null object etc.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "cSharp"
 		},
 		{
 
 			"question": "What invokes a thread's run() method?",
 			"answer": "After a thread is started, via its start() method of the Thread class, the JVM invokes the thread's run() method when the thread is initially executed.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "cSharp"
 		},
 		{
 
 			"question": "What is the difference between yielding and sleeping?",
 			"answer": "When a task invokes its yield() method, it returns to the ready state. When a task invokes its sleep() method, it returns to the waiting state.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "cSharp"
 		},
 		{
 
 			"question": "Why Vector class is used?",
 			"answer": "The Vector class provides the capability to implement a growable array of objects. Vector proves to be very useful if you don't know the size of the array in advance, or you just need one that can change sizes over the lifetime of a program.",
 			"priority": "low",
-			"language": "coreJava"
+			"language": "cSharp"
 		}, {
 
 			"question": "What are Wrapper classes?",
@@ -705,15 +705,86 @@
 			"question": "What is static block?",
 			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
 			"priority": "low",
-			"language": "advancedJava"
+			"language": "python"
 		},
 		{
 
 			"question": "What is static block?",
 			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
 			"priority": "low",
-			"language": "advancedJava"
+			"language": "python"
+		},
+		{
+
+			"question": "What is static block?",
+			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
+			"priority": "low",
+			"language": "python"
+		},
+		{
+
+			"question": "What is static block?",
+			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
+			"priority": "low",
+			"language": "android"
+		},
+		{
+
+			"question": "What is static block?",
+			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
+			"priority": "low",
+			"language": "android"
+		},
+		{
+
+			"question": "What is static block?",
+			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
+			"priority": "low",
+			"language": "android"
+		},
+		{
+
+			"question": "What is static block?",
+			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
+			"priority": "low",
+			"language": "android"
+		},
+		{
+
+			"question": "What is static block?",
+			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
+			"priority": "low",
+			"language": "kotlin"
+		},
+		{
+
+			"question": "What is static block?",
+			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
+			"priority": "low",
+			"language": "kotlin"
+		},
+		{
+
+			"question": "What is static block?",
+			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
+			"priority": "low",
+			"language": "kotlin"
+		},
+		{
+
+			"question": "What is static block?",
+			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
+			"priority": "low",
+			"language": "kotlin"
 		}
+
+
+
+
+
+
+
+
 
 
 	]

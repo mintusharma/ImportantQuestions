@@ -776,6 +776,13 @@
 			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
 			"priority": "low",
 			"language": "kotlin"
+		},
+		{
+
+			"question": "What is static block?",
+			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
+			"priority": "low",
+			"language": "algo"
 		}
 
 	]

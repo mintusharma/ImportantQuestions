@@ -1,802 +1,1019 @@
 {
-	"questionList": [
-
-		{
-
-			"question": " What is Java?",
-			"answer": "Java is the high-level, object-oriented, robust, secure programming language, platform-independent, high performance, Multithreaded, and portable programming language. It was developed by James Gosling in June 1991. It can also be known as the platform as it provides its own JRE and API.",
-			"Priority": "low",
+	"questionList": [{
+			"question": "What is difference between JDK,JRE and JVM? ",
+			"answer": " JVM is an acronym for Java Virtual Machine, it is an abstract machine which provides the runtime environment in which java bytecode can be executed. It is a specification.\nJVMs are available for many hardware and software platforms (so JVM is platform dependent).\nJRE stands for Java Runtime Environment. It is the implementation of JVM.\nJDK is an acronym for Java Development Kit. It physically exists. It contains JRE + development tools.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "What is the platform ?",
-			"answer": "A platform is the hardware or software environment in which a piece of software is executed. There are two types of platforms, software-based and hardware-based. Java provides the software-based platform",
-			"Priority": "low",
+			"question": " How many types of memory areas are allocated by JVM?",
+			"answer": " Class(Method) Area\nHeap\nStack\nProgram Counter Register\nNative Method Stack",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "What is an object?",
-			"answer": "The Object is the real-time entity having some state and behavior. In Java, Object is an instance of the class having the instance variables as the state of the object and the methods as the behavior of the object. The object of a class can be created by using the new keyword.",
-			"Priority": "low",
+			"question": " What is JIT compiler?",
+			"answer": " Just-In-Time(JIT) compiler:It is used to improve the performance. JIT compiles parts of the byte code that have similar functionality at the same time, and hence reduces the amount of time needed for compilation.Here the term “compiler” refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": " What is “this” keyword in java?",
-			"answer": "Within an instance method or a constructor, this is a reference to the current object — the object whose method or constructor is being called. You can refer to any member of the current object from within an instance method or a constructor by using this.",
-			"Priority": "low",
+			"question": "What is platform? ",
+			"answer": "A platform is basically the hardware or software environment in which a program runs. There are two types of platforms software-based and hardware-based. Java provides software-based platform. ",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "Can we override private methods in Java?",
-			"answer": "No, a private method cannot be overridden since it is not visible from any other class.",
-			"priority": "low",
+			"question": " What is the main difference between Java platform and other platforms?",
+			"answer": "The Java platform differs from most other platforms in the sense that it's a software-based platform that runs on top of other hardware-based platforms.It has two components:\nRuntime Environment\nAPI(Application Programming Interface) ",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": " What is an abstract class?",
-			"answer": "Abstract classes are classes that contain one or more abstract methods. An abstract method is a method that is declared but contains no implementation. Abstract classes may not be instantiated, and require subclasses to provide implementations for the abstract methods",
-			"priority": "low",
+			"question": "What gives Java its 'write once and run anywhere' nature? ",
+			"answer": " The bytecode. Java is compiled to be a byte code which is the intermediate language between source code and machine code. This byte code is not platform specific and hence can be fed to any platform.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": ". Can we overload main() method?",
-			"answer": "The main method in Java is no extra-terrestrial method. Apart from the fact that main() is just like any other method & can be overloaded in a similar manner, JVM always looks for the method signature to launch the program.",
-			"priority": "low",
+			"question": "What is classloader? ",
+			"answer": " The classloader is a subsystem of JVM that is used to load classes and interfaces.There are many types of classloaders e.g. Bootstrap classloader, Extension classloader, System classloader, Plugin classloader etc.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "What is object cloning?",
-			"answer": "Object cloning means to create an exact copy of the original object. If a class needs to support cloning, it must implement java.lang.Cloneable interface and override clone() method from Object class. ",
-			"priority": "low",
+			"question": " If I don't provide any arguments on the command line, then the String array of Main method will be empty or null?",
+			"answer": "It is empty. But not null. ",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "Why method overloading is not possible by changing the return type in java?",
-			"answer": "n C++ and Java, functions can not be overloaded if they differ only in the return type. The return type of functions is not a part of the mangled name which is generated by the compiler for uniquely identifying each function. The No of arguments, Type of arguments & Sequence of arguments are the parameters which are used to generate the unique mangled name for each function. It is on the basis of these unique mangled names that compiler can understand which function to call even if the names are same(overloading).",
-			"priority": "low",
+			"question": "What if I write static public void instead of public static void? ",
+			"answer": " Program compiles and runs properly.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": " Can we override private methods in Java?",
-			"answer": "No, a private method cannot be overridden since it is not visible from any other class.",
-			"priority": "low",
+			"question": "What is the default value of the local variables? ",
+			"answer": " The local variables are not initialized to any default value, neither primitives nor object references.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": " What is blank final variable?",
-			"answer": "A final variable in Java can be assigned a value only once, we can assign a value either in declaration or later ,A final variable in Java can be assigned a value only once, we can assign a value either in declaration or later.",
-			"priority": "low",
+			"question": " What is the advantage of Properties file?",
+			"answer": " If you change the value in properties file, you don't need to recompile the java class. So, it makes the application easy to manage.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "What is “super” keyword in java?",
-			"answer": "The super keyword in java is a reference variable that is used to refer parent class objects. The keyword “super” came into the picture with the concept of Inheritance. Whenever you create the instance of a subclass, an instance of parent class is created implicitly i.e. referred by super reference variable.",
-			"priority": "low",
+			"question": "Why we override equals() method? ",
+			"answer": " The equals method is used to check whether two objects are same or not. It needs to be overridden if we want to check the objects based on property.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "What is static variable in Java?",
-			"answer": "The static keyword in java is used for memory management mainly. We can apply java static keyword with variables, methods, blocks and nested class. The static keyword belongs to the class than the instance of the class.",
-			"priority": "low",
+			"question": " How to synchronize List, Set and Map elements?",
+			"answer": "Yes, Collections class provides methods to make List, Set or Map elements as synchronized ",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "Differences between HashMap and HashTable in Java.",
-			"answer": "HashMap is non synchronized. It is not-thread safe and can’t be shared between many threads without proper synchronization code whereas Hashtable is synchronized. It is thread-safe and can be shared with many threads,HashMap allows one null key and multiple null values whereas Hashtable doesn’t allow any null key or value ,HashMap is generally preferred over HashTable if thread synchronization is not needed",
-			"priority": "low",
+			"question": " What is the advantage of generic collection? ",
+			"answer": " If we use generic class, we don't need typecasting. It is typesafe and checked at compile time.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "How are Java objects stored in memory?",
-			"answer": "In Java, all objects are dynamically allocated on Heap. This is different from C++ where objects can be allocated memory either on Stack or on Heap. In C++, when we allocate abject using new(), the object is allocated on Heap, otherwise on Stack if not global or static.",
-			"priority": "low",
+			"question": " What is hash-collision in Hashtable and how it is handled in Java?",
+			"answer": " Two different keys with the same hash value is known as hash-collision. Two different entries will be kept in a single hash bucket to avoid the collision",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "Explain Final keyword in java?",
-			"answer": "Final keyword in java is used to restrict usage of variable, class and method.Variable:\n Value of Final variable is constant,you can not change it.\nMethod: you can’ t override a Final method.\nClass: you can’ t inherit from Final class.",
-			"priority": "low",
+			"question": " What is the Dictionary class?",
+			"answer": " The Dictionary class provides the capability to store key-value pairs.",
+			"Priority": " easy",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "Why is Java called the ‘Platform Independent Programming Language’?",
-			"answer": "Platform independence means that execution of your program does not dependent on type of operating system(it could be any : Linux, windows, Mac ..etc). So compile code only once and run it on any System (In C/C++, we need to compile the code for every machine on which we run it). Java is both compiler(javac) and interpreter(jvm) based lauguage. Your java source code is first compiled into byte code using javac compiler. This byte code can be easily converted to equivalent machine code using JVM. JVM(Java Virtual Machine) is available in all operating systems we install. Hence, byte code generated by javac is universal and can be converted to machine code on any operating system, this is the reason why java is platform independent.",
-			"priority": "low",
+			"question": " What is the default size of load factor in hashing based collection?",
+			"answer": " The default size of load factor is 0.75. The default capacity is computed as initial capacity * load factor. For example, 16 * 0.75 = 12. So, 12 is the default capacity of Map.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "When is the super keyword used?",
-			"answer": "super keyword is used to refer:\nimmediate parent class constructor,\nimmediate parent class variable,\nimmediate parent class method.",
-			"priority": "low",
+			"question": "What is Exception Handling? ",
+			"answer": "Exception Handling is a mechanism to handle runtime errors.It is mainly used to handle checked exceptions. ",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "What is the difference between StringBuffer and String?",
-			"answer": "String is an Immutable class, i.e. you can not modify its content once created. While StringBuffer is a mutable class, means you can change its content later. Whenever we alter content of String object, it creates a new string and refer to that,it does not modify the existing one. This is the reason that the performance with StringBuffer is better than with String.",
-			"priority": "low",
+			"question": " What is difference between Checked Exception and Unchecked Exception?",
+			"answer": " Checked Exception\nThe classes that extend Throwable class except RuntimeException and Error are known as checked exceptions e.g.IOException,SQLException etc. Checked exceptions are checked at compile-time.\nUnchecked Exception\nThe classes that extend RuntimeException are known as unchecked exceptions e.g. ArithmeticException,NullPointerException etc. Unchecked exceptions are not checked at compile-time.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "Why multiple inheritance is not supported in java?",
-			"answer": "Java supports multiple inheritance but not through classes, it supports only through its interfaces. The reason for not supporting multiple inheritance is to avoid the conflict and complexity arises due to it and keep Java a Simple Object Oriented Language. If we recall this in C++, there is a special case of multiple inheritance (diamond problem) where you have a multiple inheritance with two classes which have methods in conflicts. So, Java developers decided to avoid such conflicts and didn’t allow multiple inheritance through classes at all.",
-			"priority": "low",
+			"question": "What is the base class for Error and Exception? ",
+			"answer": "Throwable. ",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "Can a top level class be private or protected?",
-			"answer": "Top level classes in java can’t be private or protected, but inner classes in java can. The reason for not making a top level class as private is very obvious, because nobody can see a private class and thus they can not use it. Declaring a class as protected also doesn’t make any sense. The only difference between default visibility and protected visibility is that we can use it in any package by inheriting it. Since in java there is no such concept of package inheritance, defining a class as protected is no different from default.",
-			"priority": "low",
+			"question": "Is it necessary that each try block must be followed by a catch block? ",
+			"answer": "It is not necessary that each try block must be followed by a catch block. It should be followed by either a catch block OR a finally block. And whatever exceptions are likely to be thrown should be declared in the throws clause of the method. ",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "What is the difference between ‘throw’ and ‘throws’ in Java Exception Handling?",
-			"answer": "throw keyword is used to throw Exception from any method or static block whereas throws is used to indicate that which Exception can possibly be thrown by this method,If any method throws checked Exception,then caller can either handle this exception (using try catch block) or can re throw it by declaring another‘ throws’ clause in method declaration.throw clause can be used in any part of code where you feel a specific exception needs to be thrown to the calling method ",
-			"priority": "low",
+			"question": " What is finally block?",
+			"answer": " finally block is a block that is always executed.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "What are the ways in which a thread can enter the waiting state?",
-			"answer": "A thread can enter the waiting state by invoking its sleep() method, by blocking on IO, by unsuccessfully attempting to acquire an object's lock, or by invoking an object's wait() method. It can also enter the waiting state by invoking its (deprecated) suspend() method.",
-			"priority": "low",
+			"question": "Can finally block be used without catch? ",
+			"answer": " Yes, by try block. finally must be followed by either try or catch.",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "What is finalize() method?",
-			"answer": "Unlike c++ , we don’t need to destroy objects explicitly in Java. ‘Garbage Collector‘ does that automatically for us. Garbage Collector checks if no references to an object exist, that object is assumed to be no longer required, and the memory occupied by the object can be freed. Sometimes an object can hold non-java resources such as file handle or database connection, then you want to make sure these resources are also released before object is destroyed. To perform such operation Java provide protected void finalize() in object class. You can override this method in your class and do the required tasks. Right before an object is freed, the java run time calls the finalize() method on that object. Refer this for more details.",
-			"priority": "low",
-			"language": "algo"
-		},
-		{
-
-			"question": "Difference in Set and List interface?",
-			"answer": "Set and List both are child interface of Collection interface. There are following two main differences between them List can hold duplicate values but Set doesn’t allow this,In List interface data is present in the order you inserted but in the case of Set insertion order is not preserved.",
-			"priority": "low",
-			"language": "algo"
-		},
-		{
-
-			"question": "What will happen if you put System.exit(0) on try or catch block? Will finally block execute?",
-			"answer": "By Calling System.exit(0) in try or catch block, we can skip the finally block. System.exit(int) method can throw a SecurityException. If Sysytem.exit(0) exits the JVM without throwing that exception then finally block will not execute. But, if System.exit(0) does throw security exception then finally block will be executed.",
-			"priority": "low",
-			"language": "algo"
-		},
-		{
-
-			"question": "What do you mean by Access Modifier?",
-			"answer": "Java provides access modifiers to set access levels for classes, variables, methods and constructors. A member has package or default accessibility when no accessibility modifier is specified.",
-			"priority": "low",
+			"question": " Is there any case when finally will not be executed?",
+			"answer": "finally block will not be executed if program exits(either by calling System.exit() or by causing a fatal error that causes the process to abort). ",
+			"Priority": " medium",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "What is protected access modifier?",
-			"answer": "Variables, methods and constructors which are declared protected in a superclass can be accessed only by the subclasses in other package or any class within the package of the protected members' class.",
-			"priority": "low",
-			"language": "hrAdmin"
-		},
-		{
-
-			"question": "What do you mean by synchronized Non Access Modifier?",
-			"answer": "Java provides these modifiers for providing functionalities other than Access Modifiers, synchronized used to indicate that a method can be accessed by only one thread at a time.",
-			"priority": "low",
-			"language": "hrAdmin"
-		},
-		{
-
-			"question": "Why is String class considered immutable?",
-			"answer": "The String class is immutable, so that once it is created a String object cannot be changed. Since String is immutable it can safely be shared between many threads ,which is considered very important for multithreaded programming.",
-			"priority": "low",
-			"language": "hrAdmin"
-		},
-		{
-
-			"question": "Why is StringBuffer called mutable?",
-			"answer": "The String class is considered as immutable, so that once it is created a String object cannot be changed. If there is a necessity to make alot of modifications to Strings of characters then StringBuffer should be used.",
-			"priority": "low",
+			"question": "Can an exception be rethrown? ",
+			"answer": " yes",
+			"Priority": " easy",
 			"language": "coreJava"
 		},
 		{
-
-			"question": "What is the difference between StringBuffer and StringBuilder class?",
-			"answer": "Use StringBuilder whenever possible because it is faster than StringBuffer. But, if thread safety is necessary then use StringBuffer objects.",
-			"priority": "low",
+			"question": "Can subclass overriding method declare an exception if parent class method doesn't throw an exception ? ",
+			"answer": " Yes but only unchecked exception not checked.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " What is exception propagation ?",
+			"answer": " Forwarding the exception object to the invoking method is known as exception propagation.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " What is Garbage Collection?",
+			"answer": " Garbage collection is a process of reclaiming the runtime unused objects.It is performed for memory management.",
+			"Priority": " easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "What is gc()? ",
+			"answer": " gc() is a daemon thread.gc() method is defined in System class that is used to send request to JVM to perform garbage collection.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " What is the purpose of finalize() method?",
+			"answer": " finalize() method is invoked just before the object is garbage collected.It is used to perform cleanup processing.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " Can an unrefrenced objects be refrenced again?",
+			"answer": " yes",
+			"Priority": " easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "What kind of thread is the Garbage collector thread? ",
+			"answer": " Daemon thread.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": "What is the purpose of the Runtime class? ",
+			"answer": " The purpose of the Runtime class is to provide access to the Java runtime system.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " How will you invoke any external process in Java?",
+			"answer": " By Runtime.getRuntime().exec(?) method",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " What is serialization?",
+			"answer": "Serialization is a process of writing the state of an object into a byte stream.It is mainly used to travel object's state on the network ",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " What is Deserialization?",
+			"answer": " Deserialization is the process of reconstructing the object from the serialized state.It is the reverse operation of serialization.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": "What is transient keyword? ",
+			"answer": " If you define any data member as transient,it will not be serialized.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": "What is Externalizable ",
+			"answer": " Externalizable interface is used to write the state of an object into a byte stream in compressed format.It is not a marker interface.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " What is the difference between Serializalble and Externalizable interface?",
+			"answer": " Serializable is a marker interface but Externalizable is not a marker interface.When you use Serializable interface, your class is serialized automatically by default. But you can override writeObject() and readObject() two methods to control more complex object serailization process. When you use Externalizable interface, you have a complete control over your class's serialization process. ",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": "What is the difference between the Reader/Writer class hierarchy and the InputStream/OutputStream class hierarchy? ",
+			"answer": " The Reader/Writer class hierarchy is character-oriented, and the InputStream/OutputStream class hierarchy is byte-oriented.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " What an I/O filter?",
+			"answer": " I/O filter is an object that reads from one stream and writes to another, usually altering the data in some way as it is passed from one stream to another. ",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " Can you access the private method from outside the class?",
+			"answer": " Yes, by changing the runtime behaviour of a class if the class is not secured.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": "What are wrapper classes? ",
+			"answer": "Wrapper classes are classes that allow primitive types to be accessed as objects. ",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " What is a native method?",
+			"answer": " A native method is a method that is implemented in a language other than Java.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": "What is the purpose of the System class? ",
+			"answer": "The purpose of the System class is to provide access to system resources. ",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": "What comes to mind when someone mentions a shallow copy in Java? ",
+			"answer": " Object cloning.",
+			"Priority": " easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "What is singleton class? ",
+			"answer": " Singleton class means that any given time only one instance of the class is present, in one JVM.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " Which containers use a border layout as their default layout?",
+			"answer": " The Window, Frame and Dialog classes use a border layout as their default layout.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " Which containers use a FlowLayout as their default layout?",
+			"answer": " The Panel and Applet classes use the FlowLayout as their default layout.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " What are peerless components?",
+			"answer": " The peerless components are called light weight components.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " Is the difference between a Scrollbar and a ScrollPane?",
+			"answer": " A Scrollbar is a Component, but not a Container. A ScrollPane is a Container. A ScrollPane handles its own events and performs its own scrolling.",
+			"Priority": " medium",
+			"language": "coreJava"
+		},
+		{
+			"question": " What is Android?",
+			"answer": " Android is an open-source, Linux-based operating system used in mobiles, tablets, televisions, etc.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " Who is the founder of Android?",
+			"answer": " Andy Rubin.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": "Does android support other languages than java? ",
+			"answer": " Yes, an android app can be developed in C/C++ also using android NDK (Native Development Kit). It makes the performance faster. It should be used with Android SDK.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " What is activity in Android?",
+			"answer": "Activity is like a frame or window in java that represents GUI. It represents one screen of android. ",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": "  What is intent?",
+			"answer": " It is a kind of message or information that is passed to the components. It is used to launch an activity, display a web page, send SMS, send email, etc. There are Implicit Intent,Explicit Intent",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " what is Android toast?",
+			"answer": " An android toast provides feedback to the users about the operation being performed by them. It displays the message regarding the status of operation initiated by the user. ",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": "  Explain the use of 'bundle' in android?",
+			"answer": "We use bundles to pass the required data to various subfolders. ",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " What is an application resource file?",
+			"answer": " The files which can be injected for the building up of a process are called as application resource file. ",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": "What is service in android? ",
+			"answer": " A service is a component that runs in the background. It is used to play music, handle network transaction, etc. ",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " What is AAPT?",
+			"answer": " AAPT is an acronym for android asset packaging tool. It handles the packaging process.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": "What is a content provider? ",
+			"answer": " A content provider is used to share information between Android applications.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " What is fragment?",
+			"answer": "The fragment is a part of Activity by which we can display multiple screens on one activity. ",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": "What is ADB? ",
+			"answer": " ADB stands for Android Debug Bridge. It is a command line tool that is used to communicate with the emulator instance.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " What is NDK?",
+			"answer": " NDK stands for Native Development Kit. By using NDK, you can develop a part of an app using native language such as C/C++ to boost the performance.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": "What is the Google Android SDK? ",
+			"answer": " The Google Android SDK is a toolset which is used by developers to write apps on Android-enabled devices. It contains a graphical interface that emulates an Android-driven handheld environment and allows them to test and debug their codes.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " What is an APK format?",
+			"answer": " APK is a short form stands for Android Packaging Key. It is a compressed key with classes, UI's, supportive assets and manifest. All files are compressed to a single file is called APK.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " What is a singleton class in Android? ",
+			"answer": "A singleton class is a class which can create only an object that can be shared by all other classes. ",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " What do you mean by a drawable folder in Android?",
+			"answer": " In Android, a drawable folder is compiled a visual resource that can use as a background, banners, icons, splash screen, etc.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " What is sleep mode in Android?",
+			"answer": " In sleep mode, CPU is slept and doesn't accept any commands from android device except Radio interface layer and alarm.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": "What is nine-patch images tool in Android? ",
+			"answer": "We can change bitmap images into nine sections with four corners, four edges, and an axis. ",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " Define and explain the Android Framework. ",
+			"answer": " Android framework is a set of API’s using which the Android developers write code for the mobile apps. It contains the methods and classes to write the programming code.Android framework includes a different set of tools to create image pane, text field, buttons, etc. It also includes “Activities” with which the user interacts and “Services”, which are the programs that run in the background. It is a package of different components like Intents, Broadcast Receivers, Content Providers, etc.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": "Explain Activity Lifecycle briefly. ",
+			"answer": " When a user interacts with the app and moves here and there, out of the app, returns to the app, etc. During all this process (Activity) instances also move in the different stages in their lifecycle.There are seven different states  like –\n onCreate(), \nonStart(), \nonRestart(), \nonResume(), \nonPause(), \nonStop(), \nand onDestroy().\n These are termed as a ‘callback’. Android system invokes these callbacks to know that the state has been changed.",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": "What is AIDL? ",
+			"answer": "In the Android platform, there are remote methods that facilitate the use of methods from one program to another. To create and implement the remote methods the first step is to define the communication interface in AIDL. ",
+			"Priority": " medium",
+			"language": "android"
+		},
+		{
+			"question": " What is C#?",
+			"answer": "C# is a simple, modern, general purpose programming language. It is an object oriented programming language developed by Microsoft. It is a safe and managed language that is compiled by .NET framework to generate Microsoft intermediate language (machine code). ",
+			"Priority": " easy",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is the reason behind the invention of C#?",
+			"answer": " C# is designed for Common Language Infrastructure (CLI). It contains the executable code and runtime environment that makes the users able to use various high-level languages on different computer platforms and architectures.",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What are the main reasons to use C# language?",
+			"answer": " These are top reasons to use C# language:\nEasy to learn\nGeneral purpose and object oriented programming language\nComponent oriented\nStructured language\nCan be compiled on variety of computer platforms\nProduces efficient programs Part of .net framework",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is the difference between public, static and void?",
+			"answer": " You can access public declared variables anywhere in the application.\nStatic declared variables are globally accessible without creating an instance of the class.\nVoid is a type modifier that specifies that the method doesn't return any value",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What are constructors in C#?",
+			"answer": " A constructor is a member function in the class and has the same name as its class. Whenever the object class is created, the constructor is automatically invoked. It constructs the value of data members while initializing the class.",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What are the different types of constructors in C#?",
+			"answer": " Basically, there are five types of constructors:\nStatic constructor\nPrivate constructor\nCopy constructor\nDefault constructor\nParameterized constructor",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is static constructor?",
+			"answer": "Static constructor is used to initialize static data members as soon as the class is referenced first time. ",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": "What is method overloading in C#? ",
+			"answer": "Method overloading is mechanism to create multiple methods with the same name and unique signature in the same class. When you go for compilation, the compiler uses overload resolution to determine the specific method to be invoked. ",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " Is overriding of a function possible in the same class?",
+			"answer": " no",
+			"Priority": " easy",
+			"language": "cSharp"
+		},
+		{
+			"question": "What is array? ",
+			"answer": " Array is a set of related instances either value or reference types.",
+			"Priority": " easy",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is ArrayList?",
+			"answer": " ArrayList is a dynamic array. You can add and remove the elements from an ArrayList at runtime. In the ArrayList, elements are not automatically sorted.",
+			"Priority": " easy",
+			"language": "cSharp"
+		},
+		{
+			"question": "What is a collection? ",
+			"answer": " A collection works as a container for instances of other classes. All classes implement ICollection interface.",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is an interface?",
+			"answer": " Interface is an abstract class that has only public abstract method. These methods only have declaration not the definition. These abstract methods must be implemented in the inherited classes.",
+			"Priority": " easy",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is the lock statement in C#?",
+			"answer": " Lock statement is used to ensure that one thread doesn?t enter a critical section of code while another thread is in the critical section. If another thread attempts to enter a locked code it will wait, block, until the object is released.",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is serialization?",
+			"answer": " If you want to transport an object through network then you have to convert the object into a stream of bytes. The process of converting an object into a stream of bytes is called serialization.",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is the difference between early binding and late binding in C#?",
+			"answer": " Early binding and late binding are the concept of polymorphism. There are two types of polymorphism in C#.\nCompile Time Polymorphism \nIt is also known as early binding.\nRun Time Polymorphism: It is also known as late binding or method overriding or dynamic polymorphism.",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " Which are the access modifiers available in C#?",
+			"answer": "Following are the access modifiers generally used for accessibility:\nPublic: If you define an attribute or method as public, it can be accessed from any code of the project.\nPrivate: A private defined attribute or method can be accessed by any code within the containing class only.Protected: If you define the method or attribute as protected it can be accessed by any method in the inherited classes and any method within the same class.\nInternal: If you define an attribute or a method as internal, it is restricted to classes within the current position assembly.Protected internal: If you define an attribute or method as protected internal, access is restricted to classes within the current project assembly or types derived from the containing class. ",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is the difference between abstract class and interface in C#?",
+			"answer": " Abstract class can have abstract and concrete methods whereas interface has only abstract methods.",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": "What is the difference between dispose() and finalize() methods in C#? ",
+			"answer": " The dispose() method is explicitly called by user to free unmanaged resources such as files, database connections etc whereas finalize method is implicitly called by garbage collector to free unmanaged resources like files, database connections etc.\nThe dispose() method belongs to IDisposable interface whereas finalize() method belongs the Object class.",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is the difference between method overloading and method overriding in C#?",
+			"answer": " Method parameters must be different in method overloading whereas it must be same in method overriding.\nInheritance is not required in method overloading, it occurs within the same class. But inheritance is required in method overriding.",
+			"Priority": " easy",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is object pool in .Net?",
+			"answer": "Object pool is a container of ready to use objects. It reduces the overhead of creating new object. ",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": "What is delegate in C#? ",
+			"answer": "A delegate in C# is an object that holds the reference to a method. It is like function pointer in C++. ",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is Hashtable?",
+			"answer": " A Hashtable is a collection of key/value pairs. It contains values based on the key.",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is Reflection?",
+			"answer": " Reflection allows us to get metadata and assemblies of an object at runtime.",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is Garbage Collection?",
+			"answer": "Garbage Collection is a process of releasing memory automatically occupied by objects which are no longer accessible. ",
+			"Priority": " medium",
+			"language": "cSharp"
+		},
+		{
+			"question": " What is MySQL? ",
+			"answer": " MySQL is a multithreaded, multi-user SQL database management system which has more than 11 million installations. This is the world's second most popular and widely used open source database.",
+			"Priority": " easy",
 			"language": "mySQL"
 		},
 		{
-
-			"question": "Explain Runtime Exceptions?",
-			"answer": "It is an exception that occurs that probably could have been avoided by the programmer. As opposed to checked exceptions, runtime exceptions are ignored at the time of compliation.",
-			"priority": "low",
+			"question": " In which language MySQL is written?",
+			"answer": " MySQL is written in C and C++ and its SQL parser is written in yacc.",
+			"Priority": " easy",
 			"language": "mySQL"
 		},
 		{
-
-			"question": "When Abstract methods are used?",
-			"answer": "If you want a class to contain a particular method but you want the actual implementation of that method to be determined by child classes, you can declare the method in the parent class as abstract.",
-			"priority": "low",
+			"question": " What are the technical specification of MySQL?",
+			"answer": " MySQL has the following technical specifications\n\tFlexible structure\n\tHigh performance\n\tManageable and easy to use\n\tReplication and high availability\n\tSecurity and storage management ",
+			"Priority": " medium",
 			"language": "mySQL"
 		},
 		{
-
-			"question": "What is Encapsulation?",
-			"answer": "It is the technique of making the fields in a class private and providing access to the fields via public methods. If a field is declared private, it cannot be accessed by anyone outside the class, thereby hiding the fields within the class. Therefore encapsulation is also referred to as data hiding ",
-			"priority": "low",
-			"language": "coreJava"
-		},
-		{
-
-			"question": "What is Comparable Interface?",
-			"answer": "It is used to sort collections and arrays of objects using the collections.sort() and java.utils. The objects of the class implementing the Comparable interface can be ordered.",
-			"priority": "low",
-			"language": "coreJava"
-		},
-		{
-
-			"question": "What is a WAR file?",
-			"answer": "This is Web Archive File and used to store XML, java classes, and JavaServer pages. which is used to distribute a collection of JavaServer Pages, Java Servlets, Java classes, XML files, static Web pages etc.",
-			"priority": "low",
-			"language": "coreJava"
-		},
-		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "coreJava"
-		},
-		{
-
-			"question": "What is NullPointerException?",
-			"answer": "A NullPointerException is thrown when calling the instance method of a null object, accessing or modifying the field of a null object etc.",
-			"priority": "low",
-			"language": "cSharp"
-		},
-		{
-
-			"question": "What invokes a thread's run() method?",
-			"answer": "After a thread is started, via its start() method of the Thread class, the JVM invokes the thread's run() method when the thread is initially executed.",
-			"priority": "low",
-			"language": "cSharp"
-		},
-		{
-
-			"question": "What is the difference between yielding and sleeping?",
-			"answer": "When a task invokes its yield() method, it returns to the ready state. When a task invokes its sleep() method, it returns to the waiting state.",
-			"priority": "low",
-			"language": "cSharp"
-		},
-		{
-
-			"question": "Why Vector class is used?",
-			"answer": "The Vector class provides the capability to implement a growable array of objects. Vector proves to be very useful if you don't know the size of the array in advance, or you just need one that can change sizes over the lifetime of a program.",
-			"priority": "low",
-			"language": "cSharp"
-		}, {
-
-			"question": "What are Wrapper classes?",
-			"answer": "These are classes that allow primitive types to be accessed as objects. Example: Integer, Character, Double, Boolean etc.",
-			"priority": "low",
-			"language": "coreJava"
-		},
-		{
-
-			"question": "What is the difference between the paint() and repaint() methods?",
-			"answer": "The paint() method supports painting via a Graphics object. The repaint() method is used to cause paint() to be invoked by the AWT painting thread.",
-			"priority": "low",
-			"language": "coreJava"
-		},
-		{
-
-			"question": "What is Serialization and deserialization?",
-			"answer": "Serialization is the process of writing the state of an object to a byte stream. Deserialization is the process of restoring these objects.",
-			"priority": "low",
-			"language": "coreJava"
+			"question": "How many Triggers are possible in MySQL? ",
+			"answer": " There are only six Triggers allowed to use in MySQL database.\n\tBefore Insert\n\tAfter Insert\n\tBefore Update\n\tAfter Update\n\tBefore Delete\n\tAfter Delete",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "Explain the use of sublass in a Java program?",
-			"answer": "Sub class inherits all the public and protected methods and the implementation. It also inherits all the default modifier methods and their implementation",
-			"priority": "low",
-			"language": "coreJava"
+			"question": "What is heap table? ",
+			"answer": " Tables that are present in memory is known as HEAP tables. When you create a heap table in MySQL, you should need to specify the TYPE as HEAP. These tables are commonly known as memory tables. They are used for high speed storage on temporary basis. They do not allow BLOB or TEXT fields.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "What is the difference between Swing and AWT components?",
-			"answer": "AWT components are heavy-weight, whereas Swing components are lightweight. Heavy weight components depend on the local windowing toolkit. For example, java.awt.Button is a heavy weight component, when it is running on the Java platform for Unix platform, it maps to a real Motif button.",
-			"priority": "low",
-			"language": "coreJava"
+			"question": " What is BLOB and TEXT in MySQL?",
+			"answer": " BLOB is an acronym stands for binary large object. It is used to hold a variable amount of data.\n\tThere are four types of BLOB.\n\tTINYBLOB\n\tBLOB\n\tMEDIUMBLOB\n\tLONGBLOB\nThe differences among all these are the maximum length of values they can hold.TEXT is case-insensitive BLOB. TEXT values are non-binary strings (character string). They have a character set and values are stored and compared based on the collation of the character set.\n\tThere are four types of TEXT.\n\tTINYTEXT \n\tTEXT\n\tMEDIUMTEXT                   LONGTEXT",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "Is there any limitation of using Inheritance?",
-			"answer": "Yes, since inheritance inherits everything from the super class and interface, it may make the subclass too clustering and sometimes error-prone when dynamic overriding or dynamic overloading in some situation.",
-			"priority": "low",
-			"language": "coreJava"
+			"question": "What is a trigger in MySQL? ",
+			"answer": "A trigger is a set of codes that executes in response to some events ",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "When is the ArrayStoreException thrown?",
-			"answer": "When copying elements between different arrays, if the source or destination arguments are not arrays or their types are not compatible, an ArrayStoreException will be thrown.",
-			"priority": "low",
-			"language": "coreJava"
+			"question": "What is the difference between FLOAT and DOUBLE? ",
+			"answer": "FLOAT stores floating point numbers with accuracy up to 8 places and allocates 4 bytes, on the other hand DOUBLE stores floating point numbers with accuracy up to 18 places and allocates 8 bytes. ",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "coreJava"
+			"question": " What are the advantages of MySQL in comparison to Oracle?",
+			"answer": " MySQL is a free, fast, reliable, open source relational database while Oracle is expensive, although they have provided Oracle free edition to attract MySQL users.\n\tMySQL uses only just under 1 MB of RAM on your laptop while Oracle 9i installation uses 128 MB.\n\tMySQL is great for database enabled websites while Oracle is made for enterprises.\n\tMySQL is portable.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "coreJava"
+			"question": "What are the disadvantages of MySQL? ",
+			"answer": " MySQL is not so efficient for large scale databases.\n\tIt does not support COMMIT and STORED PROCEDURES functions version less than 5.0.\n\tTransactions are not handled very efficiently.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
-
 		{
-
-			"question": " What is Java?",
-			"answer": "Java is the high-level, object-oriented, robust, secure programming language, platform-independent, high performance, Multithreaded, and portable programming language. It was developed by James Gosling in June 1991. It can also be known as the platform as it provides its own JRE and API.",
-			"Priority": "low",
-			"language": "advancedJava"
+			"question": " What is the difference between CHAR and VARCHAR?",
+			"answer": " CHAR and VARCHAR are differ in storage and retrieval.\n\tCHAR column length is fixed while VARCHAR length is variable.\n\t The maximum no. of character CHAR data type can hold is 255 character while VARCHAR can hold up to 4000 character.\n\tCHAR is 50% faster than VARCHAR.\n\tCHAR uses static memory allocation while VARCHAR uses dynamic memory allocation.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "What is the platform ?",
-			"answer": "A platform is the hardware or software environment in which a piece of software is executed. There are two types of platforms, software-based and hardware-based. Java provides the software-based platform",
-			"Priority": "low",
-			"language": "advancedJava"
+			"question": "' What does ' i_am_a_dummy flag' do in MySQL?",
+			"answer": " The ' i_am_a_dummy flag' enables MySQL engine to refuse any UPDATE or DELETE statement to execute if the WHERE clause is not present.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "What is an object?",
-			"answer": "The Object is the real-time entity having some state and behavior. In Java, Object is an instance of the class having the instance variables as the state of the object and the methods as the behavior of the object. The object of a class can be created by using the new keyword.",
-			"Priority": "low",
-			"language": "advancedJava"
+			"question": "How to get the current date in MySQL? ",
+			"answer": " SELECT CURRENT_DATE()",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": " What is “this” keyword in java?",
-			"answer": "Within an instance method or a constructor, this is a reference to the current object — the object whose method or constructor is being called. You can refer to any member of the current object from within an instance method or a constructor by using this.",
-			"Priority": "low",
-			"language": "advancedJava"
+			"question": " What are the security alerts while using MySQL?",
+			"answer": " Install antivirus and configure the operating system's firewall.\n\tNever use the MySQL Server as the UNIX root user.\n\tChange root username and password\n\tRestrict or disable remote access.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "Can we override private methods in Java?",
-			"answer": "No, a private method cannot be overridden since it is not visible from any other class.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is the difference between Unix timestamps and MySQL timestamps?",
+			"answer": " Actually both Unix timestamp and MySQL timestamp are stored as 32-bit integers but MySQL timestamp is represented in readable format of YYYY-MM-DD HH:MM:SS format. ",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": " What is an abstract class?",
-			"answer": "Abstract classes are classes that contain one or more abstract methods. An abstract method is a method that is declared but contains no implementation. Abstract classes may not be instantiated, and require subclasses to provide implementations for the abstract methods",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is MySQL default port number?",
+			"answer": " MySQL default port number is 3306.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": ". Can we overload main() method?",
-			"answer": "The main method in Java is no extra-terrestrial method. Apart from the fact that main() is just like any other method & can be overloaded in a similar manner, JVM always looks for the method signature to launch the program.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is REGEXP?",
+			"answer": " REGEXP is a pattern match using regular expression. Regular expression is a powerful way of specifying a pattern for a complex search.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "What is object cloning?",
-			"answer": "Object cloning means to create an exact copy of the original object. If a class needs to support cloning, it must implement java.lang.Cloneable interface and override clone() method from Object class. ",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " How to change a password for an existing user via Mysqladmin? ",
+			"answer": " Mysqladmin -u root -p password  newpassword ",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "Why method overloading is not possible by changing the return type in java?",
-			"answer": "n C++ and Java, functions can not be overloaded if they differ only in the return type. The return type of functions is not a part of the mangled name which is generated by the compiler for uniquely identifying each function. The No of arguments, Type of arguments & Sequence of arguments are the parameters which are used to generate the unique mangled name for each function. It is on the basis of these unique mangled names that compiler can understand which function to call even if the names are same(overloading).",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " How many columns can you create for an index?",
+			"answer": " You can create maximum of 16 indexed columns for a standard table.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": " Can we override private methods in Java?",
-			"answer": "No, a private method cannot be overridden since it is not visible from any other class.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "What is the difference between NOW() and CURRENT_DATE()? ",
+			"answer": " NOW() command is used to show current year, month, date with hours, minutes and seconds while CURRENT_DATE() shows the current year with month and date only.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": " What is blank final variable?",
-			"answer": "A final variable in Java can be assigned a value only once, we can assign a value either in declaration or later ,A final variable in Java can be assigned a value only once, we can assign a value either in declaration or later.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is the query to display top 20 rows?",
+			"answer": " SELECT * FROM table_name LIMIT 0,20;",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "What is “super” keyword in java?",
-			"answer": "The super keyword in java is a reference variable that is used to refer parent class objects. The keyword “super” came into the picture with the concept of Inheritance. Whenever you create the instance of a subclass, an instance of parent class is created implicitly i.e. referred by super reference variable.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "Write a query to display current date and time? ",
+			"answer": " SELECT NOW();\n\tIf you want to display current date only, \n\tuse -SELECT CURRENT_DATE();",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "What is static variable in Java?",
-			"answer": "The static keyword in java is used for memory management mainly. We can apply java static keyword with variables, methods, blocks and nested class. The static keyword belongs to the class than the instance of the class.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "What is save point in MySQL? ",
+			"answer": " A defined point in any transaction is known as savepoint.\nSAVEPOINT is a statement in MySQL which is used to set a named transaction save point with a name of identifier.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "Differences between HashMap and HashTable in Java.",
-			"answer": "HashMap is non synchronized. It is not-thread safe and can’t be shared between many threads without proper synchronization code whereas Hashtable is synchronized. It is thread-safe and can be shared with many threads,HashMap allows one null key and multiple null values whereas Hashtable doesn’t allow any null key or value ,HashMap is generally preferred over HashTable if thread synchronization is not needed",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is SQLyog?",
+			"answer": " SQLyog program is the most popular GUI tool for admin. It is the most popular MySQL manager and admin tool. It combines the features of MySQL administrator, phpMyadmin and others MySQL front ends and MySQL GUI tools.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
 		{
-
-			"question": "How are Java objects stored in memory?",
-			"answer": "In Java, all objects are dynamically allocated on Heap. This is different from C++ where objects can be allocated memory either on Stack or on Heap. In C++, when we allocate abject using new(), the object is allocated on Heap, otherwise on Stack if not global or static.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " How do you backup a database in MySQl?",
+			"answer": " It is easy to backing up data with phpMyAdmin. Select the database you want to backup by clicking the database name in the left hand navigation bar. Then click the export button and make sure that all tables are highlighted that you want to backup. Then specify the option you want under export and save the output.",
+			"Priority": " medium",
+			"language": "mySQL"
 		},
-		{
 
-			"question": "Explain Final keyword in java?",
-			"answer": "Final keyword in java is used to restrict usage of variable, class and method.\nVariable: Value of Final variable is constant,you can not change it.\nMethod: you can’ t override a Final method.\nClass: you can’ t inherit from Final class.",
-			"priority": "low",
-			"language": "advancedJava"
-		},
 		{
-
-			"question": "Why is Java called the ‘Platform Independent Programming Language’?",
-			"answer": "Platform independence means that execution of your program does not dependent on type of operating system(it could be any : Linux, windows, Mac ..etc). So compile code only once and run it on any System (In C/C++, we need to compile the code for every machine on which we run it). Java is both compiler(javac) and interpreter(jvm) based lauguage. Your java source code is first compiled into byte code using javac compiler. This byte code can be easily converted to equivalent machine code using JVM. JVM(Java Virtual Machine) is available in all operating systems we install. Hence, byte code generated by javac is universal and can be converted to machine code on any operating system, this is the reason why java is platform independent.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is ASP?",
+			"answer": "ASP stands for Active Server Pages. It is also known as classic ASP. It is a server side technology provided by Microsoft which is used to create dynamic and user-friendly web pages. It uses different scripting languages to create dynamic web pages which can be run on any type of browsers ",
+			"Priority": " easy",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "When is the super keyword used?",
-			"answer": "super keyword is used to refer:\nimmediate parent class constructor,\nimmediate parent class variable,\nimmediate parent class method.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is ASP.NET?",
+			"answer": "ASP.Net is a specification by Microsoft which is used to create web applications and web services. It is a part of .Net framework. You can create ASP.Net applications in most of the .Net compatible languages like Visual Basic, C# etc. ASP.Net provides much better performance than scripting languages. ",
+			"Priority": " easy",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What is the difference between StringBuffer and String?",
-			"answer": "String is an Immutable class, i.e. you can not modify its content once created. While StringBuffer is a mutable class, means you can change its content later. Whenever we alter content of String object, it creates a new string and refer to that,it does not modify the existing one. This is the reason that the performance with StringBuffer is better than with String.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "What is the difference between the ASP and ASP.NET? ",
+			"answer": " The main difference between ASP and ASP.Net is that ASP is interpreted, while ASP.Net is compiled. ASP uses VBScript, therefore when the ASP page is executed, it is interpreted. On the other hand, ASP.Net uses .Net languages like C# and VB.NET, which is compiled to Microsoft intermediate language.",
+			"Priority": " easy",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "Why multiple inheritance is not supported in java?",
-			"answer": "Java supports multiple inheritance but not through classes, it supports only through its interfaces. The reason for not supporting multiple inheritance is to avoid the conflict and complexity arises due to it and keep Java a Simple Object Oriented Language. If we recall this in C++, there is a special case of multiple inheritance (diamond problem) where you have a multiple inheritance with two classes which have methods in conflicts. So, Java developers decided to avoid such conflicts and didn’t allow multiple inheritance through classes at all.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What are the advantages of ASP.NET?",
+			"answer": " ASP.Net is the next generation of ASP technology platform. It is superior to ASP in the following ways: Highly Scalable\nCompiled Code \nUser Authentication\nLanguage Support\nThird party control\nConfiguration and Deployment is easy.\nObject and Page caching\nStrict coding\n requirements",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "Can a top level class be private or protected?",
-			"answer": "Top level classes in java can’t be private or protected, but inner classes in java can. The reason for not making a top level class as private is very obvious, because nobody can see a private class and thus they can not use it. Declaring a class as protected also doesn’t make any sense. The only difference between default visibility and protected visibility is that we can use it in any package by inheriting it. Since in java there is no such concept of package inheritance, defining a class as protected is no different from default.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "What is the concept of Postback in ASP.NET? ",
+			"answer": " Postback is a request which is sent from a client to the server from the same page user is working with. There is HTTP POST request mechanism in ASP.NET. It basically posts a complete page back to server to refresh the whole page. ",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What is the difference between ‘throw’ and ‘throws’ in Java Exception Handling?",
-			"answer": "throw keyword is used to throw Exception from any method or static block whereas throws is used to indicate that which Exception can possibly be thrown by this method\nIf any method throws checked Exception,then caller can either handle this exception(using\ntry\ncatch block) or can re\nthrow it by declaring another‘ throws’ clause in method declaration.throw clause can be used in any part of code where you feel a specific exception needs to be thrown to the calling method ",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " How to check that the page is Post Back?",
+			"answer": "The 'isPostBack' property of page object is used to check that the page is posted back or not. ",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What are the ways in which a thread can enter the waiting state?",
-			"answer": "A thread can enter the waiting state by invoking its sleep() method, by blocking on IO, by unsuccessfully attempting to acquire an object's lock, or by invoking an object's wait() method. It can also enter the waiting state by invoking its (deprecated) suspend() method.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is the parent class of all web server control?",
+			"answer": " System.Web.UI.Control class",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What is finalize() method?",
-			"answer": "Unlike c++ , we don’t need to destroy objects explicitly in Java. ‘Garbage Collector‘ does that automatically for us. Garbage Collector checks if no references to an object exist, that object is assumed to be no longer required, and the memory occupied by the object can be freed. Sometimes an object can hold non-java resources such as file handle or database connection, then you want to make sure these resources are also released before object is destroyed. To perform such operation Java provide protected void finalize() in object class. You can override this method in your class and do the required tasks. Right before an object is freed, the java run time calls the finalize() method on that object. Refer this for more details.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "What is the difference between ASP.NET Webforms and ASP.NET MVC? ",
+			"answer": " ASP.NET Webforms uses the page controller approach for rendering layout. In this approach, every page has its own controller.On the other hand, ASP.NET MVC uses Front Controller approach. In this approach, there is a common controller for all pages.",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "Difference in Set and List interface?",
-			"answer": "Set and List both are child interface of Collection interface. There are following two main differences between them List can hold duplicate values but Set doesn’t allow this,In List interface data is present in the order you inserted but in the case of Set insertion order is not preserved.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is the difference between session object and application object??",
+			"answer": " The session object is used to maintain the session of each user. A session id is generated if a user enters in the application and when the user leaves the application, the session id is automatically deleted.",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What will happen if you put System.exit(0) on try or catch block? Will finally block execute?",
-			"answer": "By Calling System.exit(0) in try or catch block, we can skip the finally block. System.exit(int) method can throw a SecurityException. If Sysytem.exit(0) exits the JVM without throwing that exception then finally block will not execute. But, if System.exit(0) does throw security exception then finally block will be executed.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "  How to sign out from forms authentication?",
+			"answer": " FormsAuthentication.Signout() method is used to sign out from forms authentication.",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What do you mean by Access Modifier?",
-			"answer": "Java provides access modifiers to set access levels for classes, variables, methods and constructors. A member has package or default accessibility when no accessibility modifier is specified.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " How to display validation messages in one control?",
+			"answer": " By the help of ValidationSummary control, we can display all validation messages in one control.",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What is protected access modifier?",
-			"answer": "Variables, methods and constructors which are declared protected in a superclass can be accessed only by the subclasses in other package or any class within the package of the protected members' class.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "What is the difference between authentication and authorization? ",
+			"answer": " Authentication is a process of identifying user whereas authorization is used to check the access rights of an identified user",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What do you mean by synchronized Non Access Modifier?",
-			"answer": "Java provides these modifiers for providing functionalities other than Access Modifiers, synchronized used to indicate that a method can be accessed by only one thread at a time.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "  Which object encapsulates state or data of an user?",
+			"answer": " Session object.",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "Why is String class considered immutable?",
-			"answer": "The String class is immutable, so that once it is created a String object cannot be changed. Since String is immutable it can safely be shared between many threads ,which is considered very important for multithreaded programming.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is ViewState?",
+			"answer": "ViewState is a features of ASP.NET to store the values of a page before it is submitted to the server. After posting the page, data from is ViewState is restored ",
+			"Priority": " easy",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "Why is StringBuffer called mutable?",
-			"answer": "The String class is considered as immutable, so that once it is created a String object cannot be changed. If there is a necessity to make alot of modifications to Strings of characters then StringBuffer should be used.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is ViewState information stored?",
+			"answer": "It is stored in HTML hidden field. ",
+			"Priority": " easy",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What is the difference between StringBuffer and StringBuilder class?",
-			"answer": "Use StringBuilder whenever possible because it is faster than StringBuffer. But, if thread safety is necessary then use StringBuffer objects.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "What are the differences between the Response.Write() and Response.Output.Write()? ",
+			"answer": " Response.Write() is used for normal output whereas Response.Output.Write() is used for formatted output.",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "Explain Runtime Exceptions?",
-			"answer": "It is an exception that occurs that probably could have been avoided by the programmer. As opposed to checked exceptions, runtime exceptions are ignored at the time of compliation.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "Define the types of configuration files. ",
+			"answer": " there are two types of config : Application Level config = Web.config.\nMachine Level config = Machine.config ",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "When Abstract methods are used?",
-			"answer": "If you want a class to contain a particular method but you want the actual implementation of that method to be determined by child classes, you can declare the method in the parent class as abstract.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is the difference between Web config and Machine config files?",
+			"answer": " Web config file is specific to web application whereas Machine config file is specific to machine or server.\n\tThere can be multiple web config files in an application but only one machine config file",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What is Encapsulation?",
-			"answer": "It is the technique of making the fields in a class private and providing access to the fields via public methods. If a field is declared private, it cannot be accessed by anyone outside the class, thereby hiding the fields within the class. Therefore encapsulation is also referred to as data hiding ",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is MVC?",
+			"answer": " MVC stands for Model View Controller. It is a design pattern that is used to separate business logic and presentation logic. It is used to develop highly customized application.",
+			"Priority": " easy",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What is Comparable Interface?",
-			"answer": "It is used to sort collections and arrays of objects using the collections.sort() and java.utils. The objects of the class implementing the Comparable interface can be ordered.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What are the built-in objects in ASP.NET?",
+			"answer": " The major built-in objects are given below:\n\tApplication\n\tSession\n\tContext\n\tRequest\n\tResponse\n\tServer\n\tTrace",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What is a WAR file?",
-			"answer": "This is Web Archive File and used to store XML, java classes, and JavaServer pages. which is used to distribute a collection of JavaServer Pages, Java Servlets, Java classes, XML files, static Web pages etc.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "What is Role-base security? ",
+			"answer": " In role-based security, you can assign a role to each user. In such way, each user has privilege to do some task. ",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "What is cookie? ",
+			"answer": " ookie is a small piece of information which is stored at client side. There are two types of cookie Session/Temporary Cookie: valid for single session\nPersistent Cookie: valid for multiple session",
+			"Priority": "medium",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What is NullPointerException?",
-			"answer": "A NullPointerException is thrown when calling the instance method of a null object, accessing or modifying the field of a null object etc.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is the default timeout for cookie? ",
+			"answer": " 30 minutes.",
+			"Priority": " easy",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What invokes a thread's run() method?",
-			"answer": "After a thread is started, via its start() method of the Thread class, the JVM invokes the thread's run() method when the thread is initially executed.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " Which protocol is used to call web service?",
+			"answer": " HTTP protocol.",
+			"Priority": " easy",
+			"language": "dotNet"
 		},
 		{
-
-			"question": "What is the difference between yielding and sleeping?",
-			"answer": "When a task invokes its yield() method, it returns to the ready state. When a task invokes its sleep() method, it returns to the waiting state.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is the file extension of web service? ",
+			"answer": " File extension of web service is .asmx.",
+			"Priority": " easy",
+			"language": "dotNet"
 		},
-		{
 
-			"question": "Why Vector class is used?",
-			"answer": "The Vector class provides the capability to implement a growable array of objects. Vector proves to be very useful if you don't know the size of the array in advance, or you just need one that can change sizes over the lifetime of a program.",
-			"priority": "low",
-			"language": "advancedJava"
-		}, {
-
-			"question": "What are Wrapper classes?",
-			"answer": "These are classes that allow primitive types to be accessed as objects. Example: Integer, Character, Double, Boolean etc.",
-			"priority": "low",
-			"language": "advancedJava"
-		},
 		{
-
-			"question": "What is the difference between the paint() and repaint() methods?",
-			"answer": "The paint() method supports painting via a Graphics object. The repaint() method is used to cause paint() to be invoked by the AWT painting thread.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is Data Structure? Explain.",
+			"answer": " Data structure is a way that specifies how to organize and manipulate the data. It also specifies the relationship between them. It provides some algorithms to make data access more efficient and easy",
+			"Priority": "easy",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is Serialization and deserialization?",
-			"answer": "Serialization is the process of writing the state of an object to a byte stream. Deserialization is the process of restoring these objects.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "  In which areas data structures are applied extensively?",
+			"answer": " Data structures are applied extensively in the following areas of computer science:\n\tCompiler Design,\n\tOperating System,\n\tDatabase Management System,\n\tStatistical analysis package,\n\tNumerical Analysis,\n\tGraphics,\n\tArtificial Intelligence, \n\tSimulation",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "Explain the use of sublass in a Java program?",
-			"answer": "Sub class inherits all the public and protected methods and the implementation. It also inherits all the default modifier methods and their implementation",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": "What is the difference between file structure and storage structure? ",
+			"answer": "Difference between file structure and storage structure:\nThe main difference between file structure and storage structure is based on memory area that is being accessed.\nStorage structure: When we deal with the structure that resides in the main memory of the computer system, known as the storage structure.\nFile structure: When we deal with an auxiliary structure then it is referred as file structures ",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is the difference between Swing and AWT components?",
-			"answer": "AWT components are heavy-weight, whereas Swing components are lightweight. Heavy weight components depend on the local windowing toolkit. For example, java.awt.Button is a heavy weight component, when it is running on the Java platform for Unix platform, it maps to a real Motif button.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " Which data structures are used with the following areas: RDBMS, Network data model and hierarchical data model?",
+			"answer": " RDBMS uses Array data structure\n\tNetwork data model uses Graph\n\tHierarchal data model uses Trees",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "Is there any limitation of using Inheritance?",
-			"answer": "Yes, since inheritance inherits everything from the super class and interface, it may make the subclass too clustering and sometimes error-prone when dynamic overriding or dynamic overloading in some situation.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What are Binary trees?",
+			"answer": " A Binary Tree is a type of data structure that has two nodes: A left node and a right node. In programming, binary trees are actually an extension of the linked list structures.",
+			"Priority": "easy",
+			"language": "ds"
 		},
 		{
-
-			"question": "When is the ArrayStoreException thrown?",
-			"answer": "When copying elements between different arrays, if the source or destination arguments are not arrays or their types are not compatible, an ArrayStoreException will be thrown.",
-			"priority": "low",
-			"language": "advancedJava"
+			"question": " What is a Stack?",
+			"answer": " A stack is a data structure in which only the top element can be accessed. As data is stored in the stack, each data is pushed downward, leaving the most recently added data on top.",
+			"Priority": "easy",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "python"
+			"question": "What is a multidimensional array? ",
+			"answer": " A multidimensional array stores data in multiple indexes. It is used when the storing data that cannot be represented using a single dimensional indexing, such as data representation in a board game, tables with data stored in more than one column.",
+			"Priority": "easy",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "python"
+			"question": " What is a linked list in data structure?",
+			"answer": " A linked list is a sequence of nodes in which each node is connected to the node following it. It makes a chain like link of data storage.",
+			"Priority": "easy",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "python"
+			"question": "  If you are using C language to implement the heterogeneous linked list, what pointer type should be used?",
+			"answer": " The heterogeneous linked list contains different data types, so it is not possible to use ordinary pointers for this. For this work, you have to use a generic pointer type like void pointer because void pointer is capable of storing pointer to any type.",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "android"
+			"question": " How many minimum numbers of queues are needed to implement the priority queue?",
+			"answer": " Two queues are needed. One queue is used for actual storing of data and another for storing priorities.",
+			"Priority": "easy",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "android"
+			"question": "Which data structure is used to perform recursion? ",
+			"answer": " Stack is used to perform recursion because of its LIFO (Last In First Out) property. It knows whom to return when the function has to return.",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "android"
+			"question": " When should you use binary search engine?",
+			"answer": " A binary search algorithm is used to search a list when the elements are already in order or sorted. The list starts searching in the middle, if the middle value is not the target search key, it will check to see if it will continue the search on the lower half of the list or the higher half. The split and search will then continue in the same manner.",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "android"
+			"question": "How to reference all the elements in a one-dimension array? ",
+			"answer": " It can be done by using an indexed loop such that the counter runs from 0 to the array size minus one. By this manner, you can reference all the elements in sequence by using the loop counter as the array subscript.",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "kotlin"
+			"question": " Which notations are used in Evaluation of Arithmetic Expressions using prefix and postfix forms?",
+			"answer": " Polish and Reverse Polish notations.",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "kotlin"
+			"question": " Give some example of the application of Tree-data structure?",
+			"answer": " Application of Tree- data structure:\n\tThe manipulation of Arithmetic expression,\n\tSymbol Table construction,\n\tSyntax analysis",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "kotlin"
+			"question": " Give the example of some applications that make use of Multilinked Structures?",
+			"answer": " Sparse matrix,\n\tIndex generation",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "kotlin"
+			"question": "Are linked lists considered linear or non-linear data structures? ",
+			"answer": " A linked list is considered both linear and non-linear data structure depending on the situation.\nOn the basis of data storage, it is considered as non-linear data structure.\nOn the basis of access strategy, it is considered as linear data-structure.",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "kotlin"
+			"question": " What is the difference between NULL and VOID?",
+			"answer": " Null is actually a value, whereas Void is a data type identifier. \nA null variable simply indicates an empty value, whereas void is used to identify pointers as having no initial size.",
+			"Priority": "medium",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "algo"
+			"question": " What is a postfix expression?",
+			"answer": " An expression which each operator follows its operand is known as postfix expression. The main benefit of this form is that there is no need to group sub-expressions in parentheses or to consider operator precedence",
+			"Priority": "easy",
+			"language": "ds"
 		},
 		{
-
-			"question": "What is static block?",
-			"answer": "It is used to initialize the static data member, It is excuted before main method at the time of classloading.",
-			"priority": "low",
-			"language": "algo"
+			"question": "What is the difference between PUSH and POP? ",
+			"answer": " PUSH and POP operations specify how data is stored and retrieved in a stack.\n\tPUSH: PUSH specifies that data is being  pushed  into the stack.\n\tPOP: POP specifies data retrieval, and in particular refers to the topmost data being accessed. ",
+			"Priority": "medium",
+			"language": "ds"
 		}
 
 	]

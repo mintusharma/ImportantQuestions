@@ -1014,6 +1014,221 @@
 			"answer": " PUSH and POP operations specify how data is stored and retrieved in a stack.\n\tPUSH: PUSH specifies that data is being  pushed  into the stack.\n\tPOP: POP specifies data retrieval, and in particular refers to the topmost data being accessed. ",
 			"Priority": "medium",
 			"language": "ds"
+		},
+		{
+			"question": "What is JDBC? ",
+			"answer": " JDBC is a Java API that is used to connect and execute query to the database. JDBC API uses jdbc drivers to connects to the database.",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "What is JDBC Driver? ",
+			"answer": " JDBC Driver is a software component that enables java application to interact with the database.There are 4 types of JDBC drivers:\n\t1.JDBC-ODBC bridge driver\n\t2.Native-API driver (partially java driver)\n\t3Network Protocol driver (fully java driver)\n\t4Thin driver (fully java driver)",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "What are the steps to connect to the database in java?",
+			"answer": "Registering the driver class\n\t-Creating connection\n\t-Creating statement\n\t-Executing queries\n\t-Closing connection",
+			"Priority": "medium",
+			"language": "coreJava"
+		},
+		{
+			"question": "What are the JDBC API components?",
+			"answer": " The java.sql package contains interfaces and classes for JDBC API.\n\tInterfaces \t\t\t\tClasses\n\tConnection \t\t\t\tDriverManager\n\tStatement \t\t\t\tBlob\n\tPreparedStatement \t\t\t\tClob\n\tResultSet \t\t\t\tTypes\n\tResultSetMetaData \t\t\t\tSQLException etc.\n\tDatabaseMetaData \n\tCallableStatement  etc..",
+			"Priority": "medium",
+			"language": "coreJava"
+		},
+		{
+			"question": "What are the JDBC statements?",
+			"answer": " There are 3 JDBC statements.\n\tStatement\n\tPreparedStatement\n\tCallableStatement.",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "What is the difference between Statement and PreparedStatement interface? ",
+			"answer": " In case of Statement, query is complied each time whereas in case of PreparedStatement, query is complied only once. So performance of PreparedStatement is better than Statement.",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+		{
+			"question": " How can we execute stored procedures and functions?",
+			"answer": " By using Callable statement interface, we can execute procedures and functions.",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "What is the role of JDBC DriverManager class? ",
+			"answer": " The DriverManager class manages the registered drivers. It can be used to register and unregister drivers. It provides factory method that returns the instance of Connection.",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "What does the JDBC Connection interface? ",
+			"answer": "The Connection interface maintains a session with the database. It can be used for transaction management. It provides factory methods that returns the instance of Statement, PreparedStatement, CallableStatement and DatabaseMetaData.",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "What does the JDBC ResultSet interface? ",
+			"answer": " The ResultSet object represents a row of a table. It can be used to change the cursor pointer and get the information from the database.",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "What does the JDBC ResultSetMetaData interface? ",
+			"answer": " The ResultSetMetaData interface returns the information of table such as total number of columns, column name, column type etc. ",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "Which interface is responsible for transaction management in JDBC? ",
+			"answer": " The Connection interface provides methods for transaction management such as commit(), rollback() etc. ",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "What is batch processing and how to perform batch processing in JDBC? ",
+			"answer": "By using batch processing technique in JDBC, we can execute multiple queries. It makes the performance fast. ",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+		{
+			"question": "How can we store and retrieve images from the database?",
+			"answer": "By using PreparedStatement interface, we can store and retrieve images.",
+			"Priority": "easy",
+			"language": "coreJava"
+		},
+			{
+			"question": "How many objects of a servlet is created?",
+			"answer": "Only one object at the time of first request by servlet or web container.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "What is the life-cycle of a servlet?",
+			"answer": "1.Servlet is loaded\n2.servlet is instantiated\n3.servlet is initialized\n4.service the request\n5.servlet is destroyed",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "How many objects of a servlet is created?",
+			"answer": "Only one object at the time of first request by servlet or web container.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "What are the life-cycle methods for a servlet?",
+			"answer": "Only one object at the time of first request by servlet or web container.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "How many objects of a servlet is created?",
+			"answer": "Only one object at the time of first request by servlet or web container.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "How many objects of a servlet is created?",
+			"answer": "Method - public void init(ServletConfig config)  \n[Description -	It is invoked only once when first request comes for the servlet. It is used to initialize the servlet.]\n\nMethod - public void service(ServletRequest request,ServletResponse)throws ServletException,IOException\n[Description -It is invoked at each request.The service() method is used to service the request.]\n\npublic void destroy()\n[Description - 	It is invoked only once when servlet is unloaded.]",
+			"Priority": "medium",
+			"language": "advancedJava"
+		},{
+			"question": "Who is responsible to create the object of servlet?",
+			"answer": "The web container or servlet container.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "When servlet object is created?",
+			"answer": "At the time of first request.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "What is difference between Get and Post method?",
+			"answer": "GET\n1) Limited amount of data can be sent because data is sent in header.\n2) Not Secured because data is exposed in URL bar.\n3) Can be bookmarked\n4) Idempotent\n5) It is more efficient and used than Post\n\nPOST\n1)Large amount of data can be sent because data is sent in body.\n2)Secured because data is not exposed in URL bar.\n3)Cannot be bookmarked\n4)Non-Idempotent\n5)It is less efficient and used",
+			"Priority": "medium",
+			"language": "advancedJava"
+		},{
+			"question": "What is difference between PrintWriter and ServletOutputStream?",
+			"answer": "PrintWriter is a character-stream class where as ServletOutputStream is a byte-stream class. The PrintWriter class can be used to write only character-based information whereas ServletOutputStream class can be used to write primitive values as well as character-based information.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": " What is difference between GenericServlet and HttpServlet?",
+			"answer": "The GenericServlet is protocol independent whereas HttpServlet is HTTP protocol specific. HttpServlet provides additional functionalities such as state management etc.",
+			"Priority": "medium",
+			"language": "advancedJava"
+		},{
+			"question": "What is servlet collaboration?",
+			"answer": "When one servlet communicates to another servlet, it is known as servlet collaboration. There are many ways of servlet collaboration:\n1.RequestDispacher interface\n2.sendRedirect() method etc.",
+			"Priority": "medium",
+			"language": "advancedJava"
+		},{
+			"question": "What is the purpose of RequestDispatcher Interface?",
+			"answer": "The RequestDispacher interface provides the facility of dispatching the request to another resource it may be html, servlet or jsp. This interceptor can also be used to include the content of antoher resource.",
+			"Priority": "medium",
+			"language": "advancedJava"
+		},{
+			"question": " Difference between forward() method and sendRedirect() method ?",
+			"answer": "forward() method\n1) forward() sends the same request to another resource.\n2) forward() method works at server side.\n3) forward() method works within the server only.	\n\nsendRedirect() method \n1) sendRedirect() method sends new request always because it uses the URL bar of the browser.\n2) sendRedirect() method works at client side.\n3) sendRedirect() method works within and outside the server.",
+			"Priority": "advaced",
+			"language": "advancedJava"
+		},{
+			"question": "What is difference between ServletConfig and ServletContext?",
+			"answer": "The container creates object of ServletConfig for each servlet whereas object of ServletContext is created for each web application.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "What is Session Tracking?",
+			"answer": "Session simply means a particular interval of time.\nSession Tracking is a way to maintain state of an user.Http protocol is a stateless protocol.Each time user requests to the server, server treats the request as the new request.So we need to maintain the state of an user to recognize to particular user.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "What are Cookies?",
+			"answer": "A cookie is a small piece of information that is persisted between the multiple client requests. A cookie has a name, a single value, and optional attributes such as a comment, path and domain qualifiers, a maximum age, and a version number.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "What is difference between Cookies and HttpSession?",
+			"answer": "Cookie works at client side whereas HttpSession works at server side.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "What is filter?",
+			"answer": "A filter is an object that is invoked either at the preprocessing or postprocessing of a request. It is pluggable.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "How can we perform any action at the time of deploying the project?",
+			"answer": "By the help of ServletContextListener interface.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": " How can we upload the file to the server using servlet?",
+			"answer": "One of the way is by MultipartRequest class provided by third party.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": " What is load-on-startup in servlet?",
+			"answer": "The load-on-startup element of servlet in web.xml is used to load the servlet at the time of deploying the project or server start. So it saves time for the response of first request.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "What is war file?",
+			"answer": "A war (web archive) file specifies the web elements. A servlet or jsp project can be converted into a war file. Moving one servlet project from one place to another will be fast as it is combined into a single file.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "What are the annotations used in Servlet 3?",
+			"answer": "There are mainly 3 annotations used for the servlet.\n1.@WebServlet : for servlet class.\n2.@WebListener : for listener class.\n3.@WebFilter : for filter class.",
+			"Priority": "medium",
+			"language": "advancedJava"
+		},{
+			"question": "What is the use of welcome-file-list?",
+			"answer": "It is used to specify the welcome file for the project.",
+			"Priority": "easy",
+			"language": "advancedJava"
+		},{
+			"question": "What is the use of attribute in servlets?",
+			"answer": "Attribute is a map object that can be used to set, get or remove in request, session or application scope. It is mainly used to share information between one servlet to another.",
+			"Priority": "easy",
+			"language": "advancedJava"
 		}
 
 	]

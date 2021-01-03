@@ -1229,6 +1229,106 @@
 			"answer": "Attribute is a map object that can be used to set, get or remove in request, session or application scope. It is mainly used to share information between one servlet to another.",
 			"Priority": "easy",
 			"language": "advancedJava"
+		},{
+			"question": " What is Kotlin?",
+			"answer": "Kotlin is an open-source programming language that combines object-oriented programming features ,The features like Range Expression, Extension Function, Companion Object, Smart casts, Data classes are considered to be a surplus of the Kotlin Language.",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "Why is Kotlin preferred over Java?",
+			"answer": "Kotlin eases the coding process as it is simpler than Java and has many features required, that is not provided by Java yet like Extension functions, Null Safety, range expressions etc. In Kotlin, we code approximately 40% less number of code lines as compared with Java",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "Explain the data classes in Kotlin?",
+			"answer": "In programming, we use classes to hold data and these classes are called as data classes. An object can be initialized in the data class and to access the individual parameters of these data classes, we use component functions.",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "Explain Kotlin\u2019s Null safety?",
+			"answer": "In Kotlin, the Null safety is used to eliminate the risk of countering the NullPointer exception in real time.",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "How to Declare a Variable in Kotlin?",
+			"answer": "In Kotlin, you can declare a variable using var or val which followed by an optional datatype.Variable declaration in Kotlin looks like val s: String = \"Hi\"var x = 5",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "Explain Higher-Order Functions in Kotlin?",
+			"answer": "Higher-Order Functions: A higher-order function is a function that takes functions as parameters, or returns a function.",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "Which type of Programming does Kotlin support?",
+			"answer": "Kotlin supports only two types of programming, and they are: Procedural programming Object-oriented programming.",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "Where does the Kotlin run and what is the entry point of Kotlin?",
+			"answer": "The Kotlin program once compiled, can run on standard JVM like other programming codes.And, like many other programming languages main() function is the entry point of the Kotlin.",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "What are the different types of constructors in Kotlin?",
+			"answer": "There are two types of constructors in Kotlin : Primary constructor : It is a section of the Class header and is declared after the class name.Secondary constructor : This constructor is declared inside the body.Note: There can be more secondary constructors for a class.",
+			"Priority": "medium",
+			"language": "kotlin"
+		},{
+			"question": "Can you execute Kotlin code without JVM?",
+			"answer": "JVM, which stands for Java Virtual Machine is a feature of Kotlin. This feature compiles a Kotlin code into a native code, which can be done without JVM too.",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "Mention the structural expressions in Kotlin?",
+			"answer": " There are three Structural expressions in Kotlin. They are Return: It returns from the nearest enclosing function or anonymous function by default.Break: This expression terminates the closest enclosing loop.Continue: This expression proceeds you to the next closest enclosing loop.",
+			"Priority": "medium",
+			"language": "kotlin"
+		},{
+			"question": "What are the modifiers that are available in Kotlin?",
+			"answer": "Access modifier in Kotlin  provides the developer to customize the declarations as per the requirements. Kotlin provides four modifiers. They are Private: This makes the declaration visible only inside the file containing a declaration.Public: It is by default, which means that the declarations will be visible everywhere.Internal: This makes the declaration visible everywhere in the same modules.Protected : This keeps the declaration protected and is not available for top-level declarations.",
+			"Priority": "medium",
+			"language": "kotlin"
+		},{
+			"question": "Can you migrate the code from Java to Kotlin? If yes how do you do it?",
+			"answer": "Yes, we can migrate the code from Java to Kotlin.This can be done using JetBrains IDEA, which facilitates the conversion of Java code to Kotlin code.",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "State the differences between Val and Var?",
+			"answer": "Val, which is the short form of value, is a constant and it cannot be changed once assigned.Var: Var, which is the short form of variable, is a storage location that accepts the reassignment of values that have the same data types.",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "List the Basic data types of Kotlin?",
+			"answer": "Data types of a constant or variable decide what type of variable it is and how much space is required to store it. The basic data types in Kotlin are: Numbers Characters Strings Arrays Booleans.",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "What are the types of strings available in Kotlin? And, what do you mean by Kotlin String Interpolation?",
+			"answer": "Strings are a collection of characters together.Kotlin features two types of strings, and they are: Raw string Escaped string In Kotlin String, templates can be evaluated.This evaluation of string templates is called as the string template interpolation.",
+			"Priority": "medium",
+			"language": "kotlin"
+		},{
+			"question": "State the advantages and disadvantages of Kotlin?",
+			"answer": "Advantages:Kotlin is simple and easy to learn as its syntax is similar to that of Java.It is the functional language that is based on JVM (Java Virtual Machine), which removes the boilerplate codes. Upon all this, Kotlin is considered as an expressive language that is easily readable and understandable and the performance is substantially good. It can be used by any desktop, web server or mobile based applications. Disadvantages:Kotlin does not provide the static modifier, which causes problems for conventional java developer.In Kotlin, the function declaration can be done in many places in the application, which creates the trouble for the developer to understand which function is being called.",
+			"Priority": "medium",
+			"language": "kotlin"
+		},{
+			"question": "What is the difference between declaration variable using val or var in Kotlin?",
+			"answer": "In Kotlin a variable declared using val keyword is cannot be changed. It is similar to the final modifiers in Java whereas the variables declared using var keywords can be reassigned.",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "How to convert a String to an Int in Kotlin?",
+			"answer": "toInt() method is used to convert a string value to integer or INT in Kotlin. Below\u00a0is example uses fun main(args: Array) {\n    val s: String = \"Kotlin\"\n    var x = 10\n    x = \"8\".toInt().",
+			"Priority": "easy",
+			"language": "kotlin"
+		},{
+			"question": "Explain Functions In Kotlin?",
+			"answer": "Kotlin functions are first-class functions that are easily stored in variables and data structures and can be pass as arguments and returned from other higher-order functions.Sample function declaration and usage in Kotlin fun double(x: Int): Int {\n    return 2 * x\n}\nval result = double(2).",
+			"Priority": "easy",
+			"language": "kotlin"
 		}
 
 	]

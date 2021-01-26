@@ -1,0 +1,206 @@
+{
+	"categories": {
+		"appDevelopment": [{
+			"name": "Android",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fandroid-min.svg?alt=media&token=fc6f678e-defc-49ec-a386-19eab499ea63",
+			"language": "android"
+			
+		}, {
+			"name": "Flutter",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fflutter.svg?alt=media&token=99f32f37-5e41-4332-ade8-42028833a19a",
+			"language": "flutter"
+		}, {
+			"name": "Ionic",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fionic.png?alt=media&token=e55ff7b9-22e1-4236-9f51-50cf49c88956",
+			"language": "ionic"
+		}, {
+			"name": "React Native",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Freact-min.svg?alt=media&token=454ed5e9-898c-4ddf-8036-31b9342ca6c0",
+			"language": "reactNative"
+		}, {
+			"name": "IOS",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fapple.svg?alt=media&token=8a085b73-7b18-4c50-96a6-454d3ade5626",
+			"language": "ios"
+		}, {
+			"name": "Kotlin",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fkotlin-min.svg?alt=media&token=6f9f640e-f67c-4adf-a169-db7caded1af2",
+			"language": "kotlin"
+		}
+		],
+		
+		
+		"languages": [{
+			"name": "C",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fc.svg?alt=media&token=59ebe5d3-6a4c-48c1-a1d6-07aedb935c01",
+			"language": "c"
+		}, {
+			"name": "CPP",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Ffile-min.svg?alt=media&token=b05a3337-3d47-4ee2-80c5-57d159b45c09",
+			"language": "cpp"
+		}, 
+		{
+			"name": "Java",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fjava-min.svg?alt=media&token=d7937862-efcc-41f5-8f4f-2f69ea88adc0",
+			"language": "java"
+		}, {
+			"name": "C# ( C-Sharp )",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fcsharp-min.svg?alt=media&token=b2c8ab28-e9e5-405c-bfc5-51ea7a2c1698",
+			"language": "cSharp"
+		},
+		{
+			"name": "Python",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fpython.svg?alt=media&token=38a9e675-70f6-4abc-bbe1-2d024a8b15b3",
+			"language": "python"
+		}, {
+			"name": "PHP",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fphp-min.svg?alt=media&token=5bb95a36-2f5a-452b-ab27-b80bd603f3b5",
+			"language": "php"
+		},{
+			"name": "Go Language",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fgo.svg?alt=media&token=0877d6ef-f472-4e9c-ae2b-170b672d4c28",
+			"language": "goLanguage"
+		}, {
+			"name": "R Language",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fr-lang.svg?alt=media&token=ebe21a74-c8cb-41b4-a8e4-1b5da2f6ac3f",
+			"language": "rLanguage"
+		},{
+			"name": "Dot Net ( .Net )",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fdotnet-min.svg?alt=media&token=dacfccc4-df74-490a-b894-d71eab7a4085",
+			"language": "dotNet"
+		}, {
+			"name": "Data Structure",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fds-min.svg?alt=media&token=b23fddf5-5b0c-485d-b772-b676820cb559",
+			"language": "dataStructure"
+		},{
+			"name": "Algorithm",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Falgo-min.svg?alt=media&token=82ccb98d-92b3-4ad6-baad-ef99534ff57b",
+			"language": "algorithm"
+		}, {
+			"name": "Dart",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fdart.svg?alt=media&token=fe37fc96-98b7-4955-b8a5-ca220b4dc450",
+			"language": "dart"
+		},
+		{
+			"name": "Swift",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fswift-min.svg?alt=media&token=16efdf8f-5fd9-44d9-b52b-4fde1295e4a0",
+			"language": "swift"
+		}],
+		
+		
+		"database": [{
+			"name": "MySql",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fmysql-min.svg?alt=media&token=21be0069-243e-4616-a721-43fab718cadc",
+			"language": "mysql"
+		}, {
+			"name": "SQL Server",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fsql-server.jpeg?alt=media&token=33531310-3096-480f-a3f9-f62a13805a48",
+			"language": "sql"
+		}, {
+			"name": "Oracle",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fdatabase-min.svg?alt=media&token=2eb7f64c-d6a8-498e-aa87-5b9401a09f99",
+			"language": "oracle"
+		}],
+		
+		
+		"coreSubject": [{
+			"name": "Programming Fundamental",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fprogramming.svg?alt=media&token=3241e840-eb41-4e60-881e-d428cbf869cf",
+			"language": "programmingFundamnetal"
+		}, {
+			"name": "Operating System",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fcomputer.svg?alt=media&token=881bb416-b72f-4ea7-b756-b1f850d038e5",
+			"language": "operatingSystem"
+		}, {
+			"name": "DBMS",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fdatabase-min.svg?alt=media&token=2eb7f64c-d6a8-498e-aa87-5b9401a09f99",
+			"language": "dbms"
+		},
+		{
+			"name": "Computer Network",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fnetworks.svg?alt=media&token=bf6ae188-5b0d-4863-a495-120cfdb4e55e",
+			"language": "computerNetwork"
+		}, {
+			"name": "DSA",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Falgo-min.svg?alt=media&token=82ccb98d-92b3-4ad6-baad-ef99534ff57b",
+			"language": "dsa"
+		},{
+			"name": "Software Engineering",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fcomputer.svg?alt=media&token=881bb416-b72f-4ea7-b756-b1f850d038e5",
+			"language": "softwareEngineering"
+		}
+		],
+		
+		
+		"networking": [{
+			"name": "Git",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fgithub-min.svg?alt=media&token=2e449eae-9be3-4714-88e6-d93de48a8c20",
+			"language": "git"
+		},{
+			"name": "Computer Network",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fnetworks.svg?alt=media&token=bf6ae188-5b0d-4863-a495-120cfdb4e55e",
+			"language": "computerNetwork"
+		}],
+		
+		
+		"trending": [{
+			"name": "AWS",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Faws.svg?alt=media&token=e70914d1-b825-4457-bdb3-d95f509efafc",
+			"language": "aws"
+		}, {
+			"name": "BlockChain",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fblockchain.svg?alt=media&token=7af65c2f-f567-43f0-9cce-59d978207450",
+			"language": "blockChain"
+		}, {
+			"name": "Machine Learning",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Falgo-min.svg?alt=media&token=82ccb98d-92b3-4ad6-baad-ef99534ff57b",
+			"language": "machineLearning"
+		}, {
+			"name": "Docker",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fdocker-min.svg?alt=media&token=827ed3b1-6cba-4128-8a1c-b56d5fe2e9b8",
+			"language": "docker"
+		}, {
+			"name": "Azure",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fmicrosoft-azure.svg?alt=media&token=48990116-0193-43bb-ac2f-67bc9d76f37a",
+			"language": "azure"
+		}],
+		
+		
+		"webDevelopment": [{
+			"name": "HTML 5",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fhtml-5-min.svg?alt=media&token=afbe6ad7-1e6c-4693-9432-f4dbbdd001bf",
+			"language": "html"
+		}, {
+			"name": "CSS 3",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fcss-min.svg?alt=media&token=48078acb-4fb2-4eca-b5c9-5fdb4835e184",
+			"language": "css"
+		}, {
+			"name": "Bootstrap 4",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fbootstrap-min.svg?alt=media&token=caf85a44-c6f9-4e5e-97d2-a37ab445509d",
+			"language": "bootstrap"
+		}, {
+			"name": "Angular",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fangular.svg?alt=media&token=35749023-865f-4762-ab58-adaa9104931e",
+			"language": "angular"
+		},{
+			"name": "React",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Freact-min.svg?alt=media&token=454ed5e9-898c-4ddf-8036-31b9342ca6c0",
+			"language": "react"
+		}, {
+			"name": "Vue",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fvue-js.svg?alt=media&token=d7daa656-01b5-4006-a075-82cf08fb902f",
+			"language": "vue"
+		}, {
+			"name": "Node",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fnodejs-min.svg?alt=media&token=5e2617c6-b447-4010-b4a7-f0a0fd849eb9",
+			"language": "node"
+		}, {
+			"name": "Laravel",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Flaravel.svg?alt=media&token=af30f5b1-9cdf-4e39-a35a-a4b986a13f50",
+			"language": "laravel"
+		}, {
+			"name": "Spring",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fspring.svg?alt=media&token=ff6b672d-80ea-4367-8b98-d2d5b71a58da",
+			"language": "spring"
+		}]
+	}
+}

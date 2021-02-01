@@ -1,909 +1,909 @@
 {
 	"questionList": [{
 			"question": "What is difference between JDK,JRE and JVM? ",
-			"answer": " JVM is an acronym for Java Virtual Machine, it is an abstract machine which provides the runtime environment in which java bytecode can be executed. It is a specification.\nJVMs are available for many hardware and software platforms (so JVM is platform dependent).\nJRE stands for Java Runtime Environment. It is the implementation of JVM.\nJDK is an acronym for Java Development Kit. It physically exists. It contains JRE + development tools.",
-			"Priority": " medium",
+			"answer": "JVM is an acronym for Java Virtual Machine, it is an abstract machine which provides the runtime environment in which java bytecode can be executed. It is a specification.\nJVMs are available for many hardware and software platforms (so JVM is platform dependent).\nJRE stands for Java Runtime Environment. It is the implementation of JVM.\nJDK is an acronym for Java Development Kit. It physically exists. It contains JRE + development tools.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " How many types of memory areas are allocated by JVM?",
-			"answer": " Class(Method) Area\nHeap\nStack\nProgram Counter Register\nNative Method Stack",
-			"Priority": " medium",
+			"question": "How many types of memory areas are allocated by JVM?",
+			"answer": "Class(Method) Area\nHeap\nStack\nProgram Counter Register\nNative Method Stack",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is JIT compiler?",
-			"answer": " Just-In-Time(JIT) compiler:It is used to improve the performance. JIT compiles parts of the byte code that have similar functionality at the same time, and hence reduces the amount of time needed for compilation.Here the term “compiler” refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU.",
-			"Priority": " medium",
+			"question": "What is JIT compiler?",
+			"answer": "Just-In-Time(JIT) compiler:It is used to improve the performance. JIT compiles parts of the byte code that have similar functionality at the same time, and hence reduces the amount of time needed for compilation.Here the term “compiler” refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is platform? ",
 			"answer": "A platform is basically the hardware or software environment in which a program runs. There are two types of platforms software-based and hardware-based. Java provides software-based platform. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is the main difference between Java platform and other platforms?",
+			"question": "What is the main difference between Java platform and other platforms?",
 			"answer": "The Java platform differs from most other platforms in the sense that it's a software-based platform that runs on top of other hardware-based platforms.It has two components:\nRuntime Environment\nAPI(Application Programming Interface) ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What gives Java its 'write once and run anywhere' nature? ",
-			"answer": " The bytecode. Java is compiled to be a byte code which is the intermediate language between source code and machine code. This byte code is not platform specific and hence can be fed to any platform.",
-			"Priority": " medium",
+			"answer": "The bytecode. Java is compiled to be a byte code which is the intermediate language between source code and machine code. This byte code is not platform specific and hence can be fed to any platform.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is classloader? ",
-			"answer": " The classloader is a subsystem of JVM that is used to load classes and interfaces.There are many types of classloaders e.g. Bootstrap classloader, Extension classloader, System classloader, Plugin classloader etc.",
-			"Priority": " medium",
+			"answer": "The classloader is a subsystem of JVM that is used to load classes and interfaces.There are many types of classloaders e.g. Bootstrap classloader, Extension classloader, System classloader, Plugin classloader etc.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " If I don't provide any arguments on the command line, then the String array of Main method will be empty or null?",
+			"question": "If I don't provide any arguments on the command line, then the String array of Main method will be empty or null?",
 			"answer": "It is empty. But not null. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What if I write static public void instead of public static void? ",
-			"answer": " Program compiles and runs properly.",
-			"Priority": " medium",
+			"answer": "Program compiles and runs properly.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is the default value of the local variables? ",
-			"answer": " The local variables are not initialized to any default value, neither primitives nor object references.",
-			"Priority": " medium",
+			"answer": "The local variables are not initialized to any default value, neither primitives nor object references.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is the advantage of Properties file?",
-			"answer": " If you change the value in properties file, you don't need to recompile the java class. So, it makes the application easy to manage.",
-			"Priority": " medium",
+			"question": "What is the advantage of Properties file?",
+			"answer": "If you change the value in properties file, you don't need to recompile the java class. So, it makes the application easy to manage.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "Why we override equals() method? ",
-			"answer": " The equals method is used to check whether two objects are same or not. It needs to be overridden if we want to check the objects based on property.",
-			"Priority": " medium",
+			"answer": "The equals method is used to check whether two objects are same or not. It needs to be overridden if we want to check the objects based on property.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " How to synchronize List, Set and Map elements?",
+			"question": "How to synchronize List, Set and Map elements?",
 			"answer": "Yes, Collections class provides methods to make List, Set or Map elements as synchronized ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is the advantage of generic collection? ",
-			"answer": " If we use generic class, we don't need typecasting. It is typesafe and checked at compile time.",
-			"Priority": " medium",
+			"question": "What is the advantage of generic collection? ",
+			"answer": "If we use generic class, we don't need typecasting. It is typesafe and checked at compile time.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is hash-collision in Hashtable and how it is handled in Java?",
-			"answer": " Two different keys with the same hash value is known as hash-collision. Two different entries will be kept in a single hash bucket to avoid the collision",
-			"Priority": " medium",
+			"question": "What is hash-collision in Hashtable and how it is handled in Java?",
+			"answer": "Two different keys with the same hash value is known as hash-collision. Two different entries will be kept in a single hash bucket to avoid the collision",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is the Dictionary class?",
-			"answer": " The Dictionary class provides the capability to store key-value pairs.",
-			"Priority": " easy",
+			"question": "What is the Dictionary class?",
+			"answer": "The Dictionary class provides the capability to store key-value pairs.",
+			"Priority": "easy",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is the default size of load factor in hashing based collection?",
-			"answer": " The default size of load factor is 0.75. The default capacity is computed as initial capacity * load factor. For example, 16 * 0.75 = 12. So, 12 is the default capacity of Map.",
-			"Priority": " medium",
+			"question": "What is the default size of load factor in hashing based collection?",
+			"answer": "The default size of load factor is 0.75. The default capacity is computed as initial capacity * load factor. For example, 16 * 0.75 = 12. So, 12 is the default capacity of Map.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is Exception Handling? ",
 			"answer": "Exception Handling is a mechanism to handle runtime errors.It is mainly used to handle checked exceptions. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is difference between Checked Exception and Unchecked Exception?",
-			"answer": " Checked Exception\nThe classes that extend Throwable class except RuntimeException and Error are known as checked exceptions e.g.IOException,SQLException etc. Checked exceptions are checked at compile-time.\nUnchecked Exception\nThe classes that extend RuntimeException are known as unchecked exceptions e.g. ArithmeticException,NullPointerException etc. Unchecked exceptions are not checked at compile-time.",
-			"Priority": " medium",
+			"question": "What is difference between Checked Exception and Unchecked Exception?",
+			"answer": "Checked Exception\nThe classes that extend Throwable class except RuntimeException and Error are known as checked exceptions e.g.IOException,SQLException etc. Checked exceptions are checked at compile-time.\nUnchecked Exception\nThe classes that extend RuntimeException are known as unchecked exceptions e.g. ArithmeticException,NullPointerException etc. Unchecked exceptions are not checked at compile-time.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is the base class for Error and Exception? ",
 			"answer": "Throwable. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "Is it necessary that each try block must be followed by a catch block? ",
 			"answer": "It is not necessary that each try block must be followed by a catch block. It should be followed by either a catch block OR a finally block. And whatever exceptions are likely to be thrown should be declared in the throws clause of the method. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is finally block?",
-			"answer": " finally block is a block that is always executed.",
-			"Priority": " medium",
+			"question": "What is finally block?",
+			"answer": "finally block is a block that is always executed.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "Can finally block be used without catch? ",
-			"answer": " Yes, by try block. finally must be followed by either try or catch.",
-			"Priority": " medium",
+			"answer": "Yes, by try block. finally must be followed by either try or catch.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " Is there any case when finally will not be executed?",
+			"question": "Is there any case when finally will not be executed?",
 			"answer": "finally block will not be executed if program exits(either by calling System.exit() or by causing a fatal error that causes the process to abort). ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "Can an exception be rethrown? ",
-			"answer": " yes",
-			"Priority": " easy",
+			"answer": "yes",
+			"Priority": "easy",
 			"language": "coreJava"
 		},
 		{
 			"question": "Can subclass overriding method declare an exception if parent class method doesn't throw an exception ? ",
-			"answer": " Yes but only unchecked exception not checked.",
-			"Priority": " medium",
+			"answer": "Yes but only unchecked exception not checked.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is exception propagation ?",
-			"answer": " Forwarding the exception object to the invoking method is known as exception propagation.",
-			"Priority": " medium",
+			"question": "What is exception propagation ?",
+			"answer": "Forwarding the exception object to the invoking method is known as exception propagation.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is Garbage Collection?",
-			"answer": " Garbage collection is a process of reclaiming the runtime unused objects.It is performed for memory management.",
-			"Priority": " easy",
+			"question": "What is Garbage Collection?",
+			"answer": "Garbage collection is a process of reclaiming the runtime unused objects.It is performed for memory management.",
+			"Priority": "easy",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is gc()? ",
-			"answer": " gc() is a daemon thread.gc() method is defined in System class that is used to send request to JVM to perform garbage collection.",
-			"Priority": " medium",
+			"answer": "gc() is a daemon thread.gc() method is defined in System class that is used to send request to JVM to perform garbage collection.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is the purpose of finalize() method?",
-			"answer": " finalize() method is invoked just before the object is garbage collected.It is used to perform cleanup processing.",
-			"Priority": " medium",
+			"question": "What is the purpose of finalize() method?",
+			"answer": "finalize() method is invoked just before the object is garbage collected.It is used to perform cleanup processing.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " Can an unrefrenced objects be refrenced again?",
-			"answer": " yes",
-			"Priority": " easy",
+			"question": "Can an unrefrenced objects be refrenced again?",
+			"answer": "yes",
+			"Priority": "easy",
 			"language": "coreJava"
 		},
 		{
 			"question": "What kind of thread is the Garbage collector thread? ",
-			"answer": " Daemon thread.",
-			"Priority": " medium",
+			"answer": "Daemon thread.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is the purpose of the Runtime class? ",
-			"answer": " The purpose of the Runtime class is to provide access to the Java runtime system.",
-			"Priority": " medium",
+			"answer": "The purpose of the Runtime class is to provide access to the Java runtime system.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " How will you invoke any external process in Java?",
-			"answer": " By Runtime.getRuntime().exec(?) method",
-			"Priority": " medium",
+			"question": "How will you invoke any external process in Java?",
+			"answer": "By Runtime.getRuntime().exec(?) method",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is serialization?",
+			"question": "What is serialization?",
 			"answer": "Serialization is a process of writing the state of an object into a byte stream.It is mainly used to travel object's state on the network ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is Deserialization?",
-			"answer": " Deserialization is the process of reconstructing the object from the serialized state.It is the reverse operation of serialization.",
-			"Priority": " medium",
+			"question": "What is Deserialization?",
+			"answer": "Deserialization is the process of reconstructing the object from the serialized state.It is the reverse operation of serialization.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is transient keyword? ",
-			"answer": " If you define any data member as transient,it will not be serialized.",
-			"Priority": " medium",
+			"answer": "If you define any data member as transient,it will not be serialized.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is Externalizable ",
-			"answer": " Externalizable interface is used to write the state of an object into a byte stream in compressed format.It is not a marker interface.",
-			"Priority": " medium",
+			"answer": "Externalizable interface is used to write the state of an object into a byte stream in compressed format.It is not a marker interface.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is the difference between Serializalble and Externalizable interface?",
-			"answer": " Serializable is a marker interface but Externalizable is not a marker interface.When you use Serializable interface, your class is serialized automatically by default. But you can override writeObject() and readObject() two methods to control more complex object serailization process. When you use Externalizable interface, you have a complete control over your class's serialization process. ",
-			"Priority": " medium",
+			"question": "What is the difference between Serializalble and Externalizable interface?",
+			"answer": "Serializable is a marker interface but Externalizable is not a marker interface.When you use Serializable interface, your class is serialized automatically by default. But you can override writeObject() and readObject() two methods to control more complex object serailization process. When you use Externalizable interface, you have a complete control over your class's serialization process. ",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is the difference between the Reader/Writer class hierarchy and the InputStream/OutputStream class hierarchy? ",
-			"answer": " The Reader/Writer class hierarchy is character-oriented, and the InputStream/OutputStream class hierarchy is byte-oriented.",
-			"Priority": " medium",
+			"answer": "The Reader/Writer class hierarchy is character-oriented, and the InputStream/OutputStream class hierarchy is byte-oriented.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What an I/O filter?",
-			"answer": " I/O filter is an object that reads from one stream and writes to another, usually altering the data in some way as it is passed from one stream to another. ",
-			"Priority": " medium",
+			"question": "What an I/O filter?",
+			"answer": "I/O filter is an object that reads from one stream and writes to another, usually altering the data in some way as it is passed from one stream to another. ",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " Can you access the private method from outside the class?",
-			"answer": " Yes, by changing the runtime behaviour of a class if the class is not secured.",
-			"Priority": " medium",
+			"question": "Can you access the private method from outside the class?",
+			"answer": "Yes, by changing the runtime behaviour of a class if the class is not secured.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What are wrapper classes? ",
 			"answer": "Wrapper classes are classes that allow primitive types to be accessed as objects. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is a native method?",
-			"answer": " A native method is a method that is implemented in a language other than Java.",
-			"Priority": " medium",
+			"question": "What is a native method?",
+			"answer": "A native method is a method that is implemented in a language other than Java.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is the purpose of the System class? ",
 			"answer": "The purpose of the System class is to provide access to system resources. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What comes to mind when someone mentions a shallow copy in Java? ",
-			"answer": " Object cloning.",
-			"Priority": " easy",
+			"answer": "Object cloning.",
+			"Priority": "easy",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is singleton class? ",
-			"answer": " Singleton class means that any given time only one instance of the class is present, in one JVM.",
-			"Priority": " medium",
+			"answer": "Singleton class means that any given time only one instance of the class is present, in one JVM.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " Which containers use a border layout as their default layout?",
-			"answer": " The Window, Frame and Dialog classes use a border layout as their default layout.",
-			"Priority": " medium",
+			"question": "Which containers use a border layout as their default layout?",
+			"answer": "The Window, Frame and Dialog classes use a border layout as their default layout.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " Which containers use a FlowLayout as their default layout?",
-			"answer": " The Panel and Applet classes use the FlowLayout as their default layout.",
-			"Priority": " medium",
+			"question": "Which containers use a FlowLayout as their default layout?",
+			"answer": "The Panel and Applet classes use the FlowLayout as their default layout.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What are peerless components?",
-			"answer": " The peerless components are called light weight components.",
-			"Priority": " medium",
+			"question": "What are peerless components?",
+			"answer": "The peerless components are called light weight components.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " Is the difference between a Scrollbar and a ScrollPane?",
-			"answer": " A Scrollbar is a Component, but not a Container. A ScrollPane is a Container. A ScrollPane handles its own events and performs its own scrolling.",
-			"Priority": " medium",
+			"question": "Is the difference between a Scrollbar and a ScrollPane?",
+			"answer": "A Scrollbar is a Component, but not a Container. A ScrollPane is a Container. A ScrollPane handles its own events and performs its own scrolling.",
+			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
-			"question": " What is Android?",
-			"answer": " Android is an open-source, Linux-based operating system used in mobiles, tablets, televisions, etc.",
-			"Priority": " medium",
+			"question": "What is Android?",
+			"answer": "Android is an open-source, Linux-based operating system used in mobiles, tablets, televisions, etc.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " Who is the founder of Android?",
-			"answer": " Andy Rubin.",
-			"Priority": " medium",
+			"question": "Who is the founder of Android?",
+			"answer": "Andy Rubin.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
 			"question": "Does android support other languages than java? ",
-			"answer": " Yes, an android app can be developed in C/C++ also using android NDK (Native Development Kit). It makes the performance faster. It should be used with Android SDK.",
-			"Priority": " medium",
+			"answer": "Yes, an android app can be developed in C/C++ also using android NDK (Native Development Kit). It makes the performance faster. It should be used with Android SDK.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " What is activity in Android?",
+			"question": "What is activity in Android?",
 			"answer": "Activity is like a frame or window in java that represents GUI. It represents one screen of android. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": "  What is intent?",
-			"answer": " It is a kind of message or information that is passed to the components. It is used to launch an activity, display a web page, send SMS, send email, etc. There are Implicit Intent,Explicit Intent",
-			"Priority": " medium",
+			"question": " What is intent?",
+			"answer": "It is a kind of message or information that is passed to the components. It is used to launch an activity, display a web page, send SMS, send email, etc. There are Implicit Intent,Explicit Intent",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " what is Android toast?",
-			"answer": " An android toast provides feedback to the users about the operation being performed by them. It displays the message regarding the status of operation initiated by the user. ",
-			"Priority": " medium",
+			"question": "what is Android toast?",
+			"answer": "An android toast provides feedback to the users about the operation being performed by them. It displays the message regarding the status of operation initiated by the user. ",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": "  Explain the use of 'bundle' in android?",
+			"question": " Explain the use of 'bundle' in android?",
 			"answer": "We use bundles to pass the required data to various subfolders. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " What is an application resource file?",
-			"answer": " The files which can be injected for the building up of a process are called as application resource file. ",
-			"Priority": " medium",
+			"question": "What is an application resource file?",
+			"answer": "The files which can be injected for the building up of a process are called as application resource file. ",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
 			"question": "What is service in android? ",
-			"answer": " A service is a component that runs in the background. It is used to play music, handle network transaction, etc. ",
-			"Priority": " medium",
+			"answer": "A service is a component that runs in the background. It is used to play music, handle network transaction, etc. ",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " What is AAPT?",
-			"answer": " AAPT is an acronym for android asset packaging tool. It handles the packaging process.",
-			"Priority": " medium",
+			"question": "What is AAPT?",
+			"answer": "AAPT is an acronym for android asset packaging tool. It handles the packaging process.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
 			"question": "What is a content provider? ",
-			"answer": " A content provider is used to share information between Android applications.",
-			"Priority": " medium",
+			"answer": "A content provider is used to share information between Android applications.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " What is fragment?",
+			"question": "What is fragment?",
 			"answer": "The fragment is a part of Activity by which we can display multiple screens on one activity. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
 			"question": "What is ADB? ",
-			"answer": " ADB stands for Android Debug Bridge. It is a command line tool that is used to communicate with the emulator instance.",
-			"Priority": " medium",
+			"answer": "ADB stands for Android Debug Bridge. It is a command line tool that is used to communicate with the emulator instance.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " What is NDK?",
-			"answer": " NDK stands for Native Development Kit. By using NDK, you can develop a part of an app using native language such as C/C++ to boost the performance.",
-			"Priority": " medium",
+			"question": "What is NDK?",
+			"answer": "NDK stands for Native Development Kit. By using NDK, you can develop a part of an app using native language such as C/C++ to boost the performance.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
 			"question": "What is the Google Android SDK? ",
-			"answer": " The Google Android SDK is a toolset which is used by developers to write apps on Android-enabled devices. It contains a graphical interface that emulates an Android-driven handheld environment and allows them to test and debug their codes.",
-			"Priority": " medium",
+			"answer": "The Google Android SDK is a toolset which is used by developers to write apps on Android-enabled devices. It contains a graphical interface that emulates an Android-driven handheld environment and allows them to test and debug their codes.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " What is an APK format?",
-			"answer": " APK is a short form stands for Android Packaging Key. It is a compressed key with classes, UI's, supportive assets and manifest. All files are compressed to a single file is called APK.",
-			"Priority": " medium",
+			"question": "What is an APK format?",
+			"answer": "APK is a short form stands for Android Packaging Key. It is a compressed key with classes, UI's, supportive assets and manifest. All files are compressed to a single file is called APK.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " What is a singleton class in Android? ",
+			"question": "What is a singleton class in Android? ",
 			"answer": "A singleton class is a class which can create only an object that can be shared by all other classes. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " What do you mean by a drawable folder in Android?",
-			"answer": " In Android, a drawable folder is compiled a visual resource that can use as a background, banners, icons, splash screen, etc.",
-			"Priority": " medium",
+			"question": "What do you mean by a drawable folder in Android?",
+			"answer": "In Android, a drawable folder is compiled a visual resource that can use as a background, banners, icons, splash screen, etc.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " What is sleep mode in Android?",
-			"answer": " In sleep mode, CPU is slept and doesn't accept any commands from android device except Radio interface layer and alarm.",
-			"Priority": " medium",
+			"question": "What is sleep mode in Android?",
+			"answer": "In sleep mode, CPU is slept and doesn't accept any commands from android device except Radio interface layer and alarm.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
 			"question": "What is nine-patch images tool in Android? ",
 			"answer": "We can change bitmap images into nine sections with four corners, four edges, and an axis. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " Define and explain the Android Framework. ",
-			"answer": " Android framework is a set of API’s using which the Android developers write code for the mobile apps. It contains the methods and classes to write the programming code.Android framework includes a different set of tools to create image pane, text field, buttons, etc. It also includes “Activities” with which the user interacts and “Services”, which are the programs that run in the background. It is a package of different components like Intents, Broadcast Receivers, Content Providers, etc.",
-			"Priority": " medium",
+			"question": "Define and explain the Android Framework. ",
+			"answer": "Android framework is a set of API’s using which the Android developers write code for the mobile apps. It contains the methods and classes to write the programming code.Android framework includes a different set of tools to create image pane, text field, buttons, etc. It also includes “Activities” with which the user interacts and “Services”, which are the programs that run in the background. It is a package of different components like Intents, Broadcast Receivers, Content Providers, etc.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
 			"question": "Explain Activity Lifecycle briefly. ",
-			"answer": " When a user interacts with the app and moves here and there, out of the app, returns to the app, etc. During all this process (Activity) instances also move in the different stages in their lifecycle.There are seven different states  like –\n onCreate(), \nonStart(), \nonRestart(), \nonResume(), \nonPause(), \nonStop(), \nand onDestroy().\n These are termed as a ‘callback’. Android system invokes these callbacks to know that the state has been changed.",
-			"Priority": " medium",
+			"answer": "When a user interacts with the app and moves here and there, out of the app, returns to the app, etc. During all this process (Activity) instances also move in the different stages in their lifecycle.There are seven different states  like –\n onCreate(), \nonStart(), \nonRestart(), \nonResume(), \nonPause(), \nonStop(), \nand onDestroy().\n These are termed as a ‘callback’. Android system invokes these callbacks to know that the state has been changed.",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
 			"question": "What is AIDL? ",
 			"answer": "In the Android platform, there are remote methods that facilitate the use of methods from one program to another. To create and implement the remote methods the first step is to define the communication interface in AIDL. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "android"
 		},
 		{
-			"question": " What is C#?",
+			"question": "What is C#?",
 			"answer": "C# is a simple, modern, general purpose programming language. It is an object oriented programming language developed by Microsoft. It is a safe and managed language that is compiled by .NET framework to generate Microsoft intermediate language (machine code). ",
-			"Priority": " easy",
+			"Priority": "easy",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is the reason behind the invention of C#?",
-			"answer": " C# is designed for Common Language Infrastructure (CLI). It contains the executable code and runtime environment that makes the users able to use various high-level languages on different computer platforms and architectures.",
-			"Priority": " medium",
+			"question": "What is the reason behind the invention of C#?",
+			"answer": "C# is designed for Common Language Infrastructure (CLI). It contains the executable code and runtime environment that makes the users able to use various high-level languages on different computer platforms and architectures.",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What are the main reasons to use C# language?",
-			"answer": " These are top reasons to use C# language:\nEasy to learn\nGeneral purpose and object oriented programming language\nComponent oriented\nStructured language\nCan be compiled on variety of computer platforms\nProduces efficient programs Part of .net framework",
-			"Priority": " medium",
+			"question": "What are the main reasons to use C# language?",
+			"answer": "These are top reasons to use C# language:\nEasy to learn\nGeneral purpose and object oriented programming language\nComponent oriented\nStructured language\nCan be compiled on variety of computer platforms\nProduces efficient programs Part of .net framework",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is the difference between public, static and void?",
-			"answer": " You can access public declared variables anywhere in the application.\nStatic declared variables are globally accessible without creating an instance of the class.\nVoid is a type modifier that specifies that the method doesn't return any value",
-			"Priority": " medium",
+			"question": "What is the difference between public, static and void?",
+			"answer": "You can access public declared variables anywhere in the application.\nStatic declared variables are globally accessible without creating an instance of the class.\nVoid is a type modifier that specifies that the method doesn't return any value",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What are constructors in C#?",
-			"answer": " A constructor is a member function in the class and has the same name as its class. Whenever the object class is created, the constructor is automatically invoked. It constructs the value of data members while initializing the class.",
-			"Priority": " medium",
+			"question": "What are constructors in C#?",
+			"answer": "A constructor is a member function in the class and has the same name as its class. Whenever the object class is created, the constructor is automatically invoked. It constructs the value of data members while initializing the class.",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What are the different types of constructors in C#?",
-			"answer": " Basically, there are five types of constructors:\nStatic constructor\nPrivate constructor\nCopy constructor\nDefault constructor\nParameterized constructor",
-			"Priority": " medium",
+			"question": "What are the different types of constructors in C#?",
+			"answer": "Basically, there are five types of constructors:\nStatic constructor\nPrivate constructor\nCopy constructor\nDefault constructor\nParameterized constructor",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is static constructor?",
+			"question": "What is static constructor?",
 			"answer": "Static constructor is used to initialize static data members as soon as the class is referenced first time. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
 			"question": "What is method overloading in C#? ",
 			"answer": "Method overloading is mechanism to create multiple methods with the same name and unique signature in the same class. When you go for compilation, the compiler uses overload resolution to determine the specific method to be invoked. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " Is overriding of a function possible in the same class?",
-			"answer": " no",
-			"Priority": " easy",
+			"question": "Is overriding of a function possible in the same class?",
+			"answer": "no",
+			"Priority": "easy",
 			"language": "cSharp"
 		},
 		{
 			"question": "What is array? ",
-			"answer": " Array is a set of related instances either value or reference types.",
-			"Priority": " easy",
+			"answer": "Array is a set of related instances either value or reference types.",
+			"Priority": "easy",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is ArrayList?",
-			"answer": " ArrayList is a dynamic array. You can add and remove the elements from an ArrayList at runtime. In the ArrayList, elements are not automatically sorted.",
-			"Priority": " easy",
+			"question": "What is ArrayList?",
+			"answer": "ArrayList is a dynamic array. You can add and remove the elements from an ArrayList at runtime. In the ArrayList, elements are not automatically sorted.",
+			"Priority": "easy",
 			"language": "cSharp"
 		},
 		{
 			"question": "What is a collection? ",
-			"answer": " A collection works as a container for instances of other classes. All classes implement ICollection interface.",
-			"Priority": " medium",
+			"answer": "A collection works as a container for instances of other classes. All classes implement ICollection interface.",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is an interface?",
-			"answer": " Interface is an abstract class that has only public abstract method. These methods only have declaration not the definition. These abstract methods must be implemented in the inherited classes.",
-			"Priority": " easy",
+			"question": "What is an interface?",
+			"answer": "Interface is an abstract class that has only public abstract method. These methods only have declaration not the definition. These abstract methods must be implemented in the inherited classes.",
+			"Priority": "easy",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is the lock statement in C#?",
-			"answer": " Lock statement is used to ensure that one thread doesn?t enter a critical section of code while another thread is in the critical section. If another thread attempts to enter a locked code it will wait, block, until the object is released.",
-			"Priority": " medium",
+			"question": "What is the lock statement in C#?",
+			"answer": "Lock statement is used to ensure that one thread doesn?t enter a critical section of code while another thread is in the critical section. If another thread attempts to enter a locked code it will wait, block, until the object is released.",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is serialization?",
-			"answer": " If you want to transport an object through network then you have to convert the object into a stream of bytes. The process of converting an object into a stream of bytes is called serialization.",
-			"Priority": " medium",
+			"question": "What is serialization?",
+			"answer": "If you want to transport an object through network then you have to convert the object into a stream of bytes. The process of converting an object into a stream of bytes is called serialization.",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is the difference between early binding and late binding in C#?",
-			"answer": " Early binding and late binding are the concept of polymorphism. There are two types of polymorphism in C#.\nCompile Time Polymorphism \nIt is also known as early binding.\nRun Time Polymorphism: It is also known as late binding or method overriding or dynamic polymorphism.",
-			"Priority": " medium",
+			"question": "What is the difference between early binding and late binding in C#?",
+			"answer": "Early binding and late binding are the concept of polymorphism. There are two types of polymorphism in C#.\nCompile Time Polymorphism \nIt is also known as early binding.\nRun Time Polymorphism: It is also known as late binding or method overriding or dynamic polymorphism.",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " Which are the access modifiers available in C#?",
+			"question": "Which are the access modifiers available in C#?",
 			"answer": "Following are the access modifiers generally used for accessibility:\nPublic: If you define an attribute or method as public, it can be accessed from any code of the project.\nPrivate: A private defined attribute or method can be accessed by any code within the containing class only.Protected: If you define the method or attribute as protected it can be accessed by any method in the inherited classes and any method within the same class.\nInternal: If you define an attribute or a method as internal, it is restricted to classes within the current position assembly.Protected internal: If you define an attribute or method as protected internal, access is restricted to classes within the current project assembly or types derived from the containing class. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is the difference between abstract class and interface in C#?",
-			"answer": " Abstract class can have abstract and concrete methods whereas interface has only abstract methods.",
-			"Priority": " medium",
+			"question": "What is the difference between abstract class and interface in C#?",
+			"answer": "Abstract class can have abstract and concrete methods whereas interface has only abstract methods.",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
 			"question": "What is the difference between dispose() and finalize() methods in C#? ",
-			"answer": " The dispose() method is explicitly called by user to free unmanaged resources such as files, database connections etc whereas finalize method is implicitly called by garbage collector to free unmanaged resources like files, database connections etc.\nThe dispose() method belongs to IDisposable interface whereas finalize() method belongs the Object class.",
-			"Priority": " medium",
+			"answer": "The dispose() method is explicitly called by user to free unmanaged resources such as files, database connections etc whereas finalize method is implicitly called by garbage collector to free unmanaged resources like files, database connections etc.\nThe dispose() method belongs to IDisposable interface whereas finalize() method belongs the Object class.",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is the difference between method overloading and method overriding in C#?",
-			"answer": " Method parameters must be different in method overloading whereas it must be same in method overriding.\nInheritance is not required in method overloading, it occurs within the same class. But inheritance is required in method overriding.",
-			"Priority": " easy",
+			"question": "What is the difference between method overloading and method overriding in C#?",
+			"answer": "Method parameters must be different in method overloading whereas it must be same in method overriding.\nInheritance is not required in method overloading, it occurs within the same class. But inheritance is required in method overriding.",
+			"Priority": "easy",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is object pool in .Net?",
+			"question": "What is object pool in .Net?",
 			"answer": "Object pool is a container of ready to use objects. It reduces the overhead of creating new object. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
 			"question": "What is delegate in C#? ",
 			"answer": "A delegate in C# is an object that holds the reference to a method. It is like function pointer in C++. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is Hashtable?",
-			"answer": " A Hashtable is a collection of key/value pairs. It contains values based on the key.",
-			"Priority": " medium",
+			"question": "What is Hashtable?",
+			"answer": "A Hashtable is a collection of key/value pairs. It contains values based on the key.",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is Reflection?",
-			"answer": " Reflection allows us to get metadata and assemblies of an object at runtime.",
-			"Priority": " medium",
+			"question": "What is Reflection?",
+			"answer": "Reflection allows us to get metadata and assemblies of an object at runtime.",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is Garbage Collection?",
+			"question": "What is Garbage Collection?",
 			"answer": "Garbage Collection is a process of releasing memory automatically occupied by objects which are no longer accessible. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "cSharp"
 		},
 		{
-			"question": " What is MySQL? ",
-			"answer": " MySQL is a multithreaded, multi-user SQL database management system which has more than 11 million installations. This is the world's second most popular and widely used open source database.",
-			"Priority": " easy",
+			"question": "What is MySQL? ",
+			"answer": "MySQL is a multithreaded, multi-user SQL database management system which has more than 11 million installations. This is the world's second most popular and widely used open source database.",
+			"Priority": "easy",
 			"language": "mySQL"
 		},
 		{
-			"question": " In which language MySQL is written?",
-			"answer": " MySQL is written in C and C++ and its SQL parser is written in yacc.",
-			"Priority": " easy",
+			"question": "In which language MySQL is written?",
+			"answer": "MySQL is written in C and C++ and its SQL parser is written in yacc.",
+			"Priority": "easy",
 			"language": "mySQL"
 		},
 		{
-			"question": " What are the technical specification of MySQL?",
-			"answer": " MySQL has the following technical specifications\n\tFlexible structure\n\tHigh performance\n\tManageable and easy to use\n\tReplication and high availability\n\tSecurity and storage management ",
-			"Priority": " medium",
+			"question": "What are the technical specification of MySQL?",
+			"answer": "MySQL has the following technical specifications\n\tFlexible structure\n\tHigh performance\n\tManageable and easy to use\n\tReplication and high availability\n\tSecurity and storage management ",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
 			"question": "How many Triggers are possible in MySQL? ",
-			"answer": " There are only six Triggers allowed to use in MySQL database.\n\tBefore Insert\n\tAfter Insert\n\tBefore Update\n\tAfter Update\n\tBefore Delete\n\tAfter Delete",
-			"Priority": " medium",
+			"answer": "There are only six Triggers allowed to use in MySQL database.\n\tBefore Insert\n\tAfter Insert\n\tBefore Update\n\tAfter Update\n\tBefore Delete\n\tAfter Delete",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
 			"question": "What is heap table? ",
-			"answer": " Tables that are present in memory is known as HEAP tables. When you create a heap table in MySQL, you should need to specify the TYPE as HEAP. These tables are commonly known as memory tables. They are used for high speed storage on temporary basis. They do not allow BLOB or TEXT fields.",
-			"Priority": " medium",
+			"answer": "Tables that are present in memory is known as HEAP tables. When you create a heap table in MySQL, you should need to specify the TYPE as HEAP. These tables are commonly known as memory tables. They are used for high speed storage on temporary basis. They do not allow BLOB or TEXT fields.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " What is BLOB and TEXT in MySQL?",
-			"answer": " BLOB is an acronym stands for binary large object. It is used to hold a variable amount of data.\n\tThere are four types of BLOB.\n\tTINYBLOB\n\tBLOB\n\tMEDIUMBLOB\n\tLONGBLOB\nThe differences among all these are the maximum length of values they can hold.TEXT is case-insensitive BLOB. TEXT values are non-binary strings (character string). They have a character set and values are stored and compared based on the collation of the character set.\n\tThere are four types of TEXT.\n\tTINYTEXT \n\tTEXT\n\tMEDIUMTEXT                   LONGTEXT",
-			"Priority": " medium",
+			"question": "What is BLOB and TEXT in MySQL?",
+			"answer": "BLOB is an acronym stands for binary large object. It is used to hold a variable amount of data.\n\tThere are four types of BLOB.\n\tTINYBLOB\n\tBLOB\n\tMEDIUMBLOB\n\tLONGBLOB\nThe differences among all these are the maximum length of values they can hold.TEXT is case-insensitive BLOB. TEXT values are non-binary strings (character string). They have a character set and values are stored and compared based on the collation of the character set.\n\tThere are four types of TEXT.\n\tTINYTEXT \n\tTEXT\n\tMEDIUMTEXT                   LONGTEXT",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
 			"question": "What is a trigger in MySQL? ",
 			"answer": "A trigger is a set of codes that executes in response to some events ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
 			"question": "What is the difference between FLOAT and DOUBLE? ",
 			"answer": "FLOAT stores floating point numbers with accuracy up to 8 places and allocates 4 bytes, on the other hand DOUBLE stores floating point numbers with accuracy up to 18 places and allocates 8 bytes. ",
-			"Priority": " medium",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " What are the advantages of MySQL in comparison to Oracle?",
-			"answer": " MySQL is a free, fast, reliable, open source relational database while Oracle is expensive, although they have provided Oracle free edition to attract MySQL users.\n\tMySQL uses only just under 1 MB of RAM on your laptop while Oracle 9i installation uses 128 MB.\n\tMySQL is great for database enabled websites while Oracle is made for enterprises.\n\tMySQL is portable.",
-			"Priority": " medium",
+			"question": "What are the advantages of MySQL in comparison to Oracle?",
+			"answer": "MySQL is a free, fast, reliable, open source relational database while Oracle is expensive, although they have provided Oracle free edition to attract MySQL users.\n\tMySQL uses only just under 1 MB of RAM on your laptop while Oracle 9i installation uses 128 MB.\n\tMySQL is great for database enabled websites while Oracle is made for enterprises.\n\tMySQL is portable.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
 			"question": "What are the disadvantages of MySQL? ",
-			"answer": " MySQL is not so efficient for large scale databases.\n\tIt does not support COMMIT and STORED PROCEDURES functions version less than 5.0.\n\tTransactions are not handled very efficiently.",
-			"Priority": " medium",
+			"answer": "MySQL is not so efficient for large scale databases.\n\tIt does not support COMMIT and STORED PROCEDURES functions version less than 5.0.\n\tTransactions are not handled very efficiently.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " What is the difference between CHAR and VARCHAR?",
-			"answer": " CHAR and VARCHAR are differ in storage and retrieval.\n\tCHAR column length is fixed while VARCHAR length is variable.\n\t The maximum no. of character CHAR data type can hold is 255 character while VARCHAR can hold up to 4000 character.\n\tCHAR is 50% faster than VARCHAR.\n\tCHAR uses static memory allocation while VARCHAR uses dynamic memory allocation.",
-			"Priority": " medium",
+			"question": "What is the difference between CHAR and VARCHAR?",
+			"answer": "CHAR and VARCHAR are differ in storage and retrieval.\n\tCHAR column length is fixed while VARCHAR length is variable.\n\t The maximum no. of character CHAR data type can hold is 255 character while VARCHAR can hold up to 4000 character.\n\tCHAR is 50% faster than VARCHAR.\n\tCHAR uses static memory allocation while VARCHAR uses dynamic memory allocation.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
 			"question": "' What does ' i_am_a_dummy flag' do in MySQL?",
-			"answer": " The ' i_am_a_dummy flag' enables MySQL engine to refuse any UPDATE or DELETE statement to execute if the WHERE clause is not present.",
-			"Priority": " medium",
+			"answer": "The ' i_am_a_dummy flag' enables MySQL engine to refuse any UPDATE or DELETE statement to execute if the WHERE clause is not present.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
 			"question": "How to get the current date in MySQL? ",
-			"answer": " SELECT CURRENT_DATE()",
-			"Priority": " medium",
+			"answer": "SELECT CURRENT_DATE()",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " What are the security alerts while using MySQL?",
-			"answer": " Install antivirus and configure the operating system's firewall.\n\tNever use the MySQL Server as the UNIX root user.\n\tChange root username and password\n\tRestrict or disable remote access.",
-			"Priority": " medium",
+			"question": "What are the security alerts while using MySQL?",
+			"answer": "Install antivirus and configure the operating system's firewall.\n\tNever use the MySQL Server as the UNIX root user.\n\tChange root username and password\n\tRestrict or disable remote access.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " What is the difference between Unix timestamps and MySQL timestamps?",
-			"answer": " Actually both Unix timestamp and MySQL timestamp are stored as 32-bit integers but MySQL timestamp is represented in readable format of YYYY-MM-DD HH:MM:SS format. ",
-			"Priority": " medium",
+			"question": "What is the difference between Unix timestamps and MySQL timestamps?",
+			"answer": "Actually both Unix timestamp and MySQL timestamp are stored as 32-bit integers but MySQL timestamp is represented in readable format of YYYY-MM-DD HH:MM:SS format. ",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " What is MySQL default port number?",
-			"answer": " MySQL default port number is 3306.",
-			"Priority": " medium",
+			"question": "What is MySQL default port number?",
+			"answer": "MySQL default port number is 3306.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " What is REGEXP?",
-			"answer": " REGEXP is a pattern match using regular expression. Regular expression is a powerful way of specifying a pattern for a complex search.",
-			"Priority": " medium",
+			"question": "What is REGEXP?",
+			"answer": "REGEXP is a pattern match using regular expression. Regular expression is a powerful way of specifying a pattern for a complex search.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " How to change a password for an existing user via Mysqladmin? ",
-			"answer": " Mysqladmin -u root -p password  newpassword ",
-			"Priority": " medium",
+			"question": "How to change a password for an existing user via Mysqladmin? ",
+			"answer": "Mysqladmin -u root -p password  newpassword ",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " How many columns can you create for an index?",
-			"answer": " You can create maximum of 16 indexed columns for a standard table.",
-			"Priority": " medium",
+			"question": "How many columns can you create for an index?",
+			"answer": "You can create maximum of 16 indexed columns for a standard table.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
 			"question": "What is the difference between NOW() and CURRENT_DATE()? ",
-			"answer": " NOW() command is used to show current year, month, date with hours, minutes and seconds while CURRENT_DATE() shows the current year with month and date only.",
-			"Priority": " medium",
+			"answer": "NOW() command is used to show current year, month, date with hours, minutes and seconds while CURRENT_DATE() shows the current year with month and date only.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " What is the query to display top 20 rows?",
-			"answer": " SELECT * FROM table_name LIMIT 0,20;",
-			"Priority": " medium",
+			"question": "What is the query to display top 20 rows?",
+			"answer": "SELECT * FROM table_name LIMIT 0,20;",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
 			"question": "Write a query to display current date and time? ",
-			"answer": " SELECT NOW();\n\tIf you want to display current date only, \n\tuse -SELECT CURRENT_DATE();",
-			"Priority": " medium",
+			"answer": "SELECT NOW();\n\tIf you want to display current date only, \n\tuse -SELECT CURRENT_DATE();",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
 			"question": "What is save point in MySQL? ",
-			"answer": " A defined point in any transaction is known as savepoint.\nSAVEPOINT is a statement in MySQL which is used to set a named transaction save point with a name of identifier.",
-			"Priority": " medium",
+			"answer": "A defined point in any transaction is known as savepoint.\nSAVEPOINT is a statement in MySQL which is used to set a named transaction save point with a name of identifier.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " What is SQLyog?",
-			"answer": " SQLyog program is the most popular GUI tool for admin. It is the most popular MySQL manager and admin tool. It combines the features of MySQL administrator, phpMyadmin and others MySQL front ends and MySQL GUI tools.",
-			"Priority": " medium",
+			"question": "What is SQLyog?",
+			"answer": "SQLyog program is the most popular GUI tool for admin. It is the most popular MySQL manager and admin tool. It combines the features of MySQL administrator, phpMyadmin and others MySQL front ends and MySQL GUI tools.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 		{
-			"question": " How do you backup a database in MySQl?",
-			"answer": " It is easy to backing up data with phpMyAdmin. Select the database you want to backup by clicking the database name in the left hand navigation bar. Then click the export button and make sure that all tables are highlighted that you want to backup. Then specify the option you want under export and save the output.",
-			"Priority": " medium",
+			"question": "How do you backup a database in MySQl?",
+			"answer": "It is easy to backing up data with phpMyAdmin. Select the database you want to backup by clicking the database name in the left hand navigation bar. Then click the export button and make sure that all tables are highlighted that you want to backup. Then specify the option you want under export and save the output.",
+			"Priority": "medium",
 			"language": "mySQL"
 		},
 
 		{
-			"question": " What is ASP?",
+			"question": "What is ASP?",
 			"answer": "ASP stands for Active Server Pages. It is also known as classic ASP. It is a server side technology provided by Microsoft which is used to create dynamic and user-friendly web pages. It uses different scripting languages to create dynamic web pages which can be run on any type of browsers ",
-			"Priority": " easy",
+			"Priority": "easy",
 			"language": "dotNet"
 		},
 		{
-			"question": " What is ASP.NET?",
+			"question": "What is ASP.NET?",
 			"answer": "ASP.Net is a specification by Microsoft which is used to create web applications and web services. It is a part of .Net framework. You can create ASP.Net applications in most of the .Net compatible languages like Visual Basic, C# etc. ASP.Net provides much better performance than scripting languages. ",
-			"Priority": " easy",
+			"Priority": "easy",
 			"language": "dotNet"
 		},
 		{
 			"question": "What is the difference between the ASP and ASP.NET? ",
-			"answer": " The main difference between ASP and ASP.Net is that ASP is interpreted, while ASP.Net is compiled. ASP uses VBScript, therefore when the ASP page is executed, it is interpreted. On the other hand, ASP.Net uses .Net languages like C# and VB.NET, which is compiled to Microsoft intermediate language.",
-			"Priority": " easy",
+			"answer": "The main difference between ASP and ASP.Net is that ASP is interpreted, while ASP.Net is compiled. ASP uses VBScript, therefore when the ASP page is executed, it is interpreted. On the other hand, ASP.Net uses .Net languages like C# and VB.NET, which is compiled to Microsoft intermediate language.",
+			"Priority": "easy",
 			"language": "dotNet"
 		},
 		{
-			"question": " What are the advantages of ASP.NET?",
-			"answer": " ASP.Net is the next generation of ASP technology platform. It is superior to ASP in the following ways: Highly Scalable\nCompiled Code \nUser Authentication\nLanguage Support\nThird party control\nConfiguration and Deployment is easy.\nObject and Page caching\nStrict coding\n requirements",
+			"question": "What are the advantages of ASP.NET?",
+			"answer": "ASP.Net is the next generation of ASP technology platform. It is superior to ASP in the following ways: Highly Scalable\nCompiled Code \nUser Authentication\nLanguage Support\nThird party control\nConfiguration and Deployment is easy.\nObject and Page caching\nStrict coding\n requirements",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
 			"question": "What is the concept of Postback in ASP.NET? ",
-			"answer": " Postback is a request which is sent from a client to the server from the same page user is working with. There is HTTP POST request mechanism in ASP.NET. It basically posts a complete page back to server to refresh the whole page. ",
+			"answer": "Postback is a request which is sent from a client to the server from the same page user is working with. There is HTTP POST request mechanism in ASP.NET. It basically posts a complete page back to server to refresh the whole page. ",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
-			"question": " How to check that the page is Post Back?",
+			"question": "How to check that the page is Post Back?",
 			"answer": "The 'isPostBack' property of page object is used to check that the page is posted back or not. ",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
-			"question": " What is the parent class of all web server control?",
-			"answer": " System.Web.UI.Control class",
+			"question": "What is the parent class of all web server control?",
+			"answer": "System.Web.UI.Control class",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
 			"question": "What is the difference between ASP.NET Webforms and ASP.NET MVC? ",
-			"answer": " ASP.NET Webforms uses the page controller approach for rendering layout. In this approach, every page has its own controller.On the other hand, ASP.NET MVC uses Front Controller approach. In this approach, there is a common controller for all pages.",
+			"answer": "ASP.NET Webforms uses the page controller approach for rendering layout. In this approach, every page has its own controller.On the other hand, ASP.NET MVC uses Front Controller approach. In this approach, there is a common controller for all pages.",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
-			"question": " What is the difference between session object and application object??",
-			"answer": " The session object is used to maintain the session of each user. A session id is generated if a user enters in the application and when the user leaves the application, the session id is automatically deleted.",
+			"question": "What is the difference between session object and application object??",
+			"answer": "The session object is used to maintain the session of each user. A session id is generated if a user enters in the application and when the user leaves the application, the session id is automatically deleted.",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
-			"question": "  How to sign out from forms authentication?",
-			"answer": " FormsAuthentication.Signout() method is used to sign out from forms authentication.",
+			"question": " How to sign out from forms authentication?",
+			"answer": "FormsAuthentication.Signout() method is used to sign out from forms authentication.",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
-			"question": " How to display validation messages in one control?",
-			"answer": " By the help of ValidationSummary control, we can display all validation messages in one control.",
+			"question": "How to display validation messages in one control?",
+			"answer": "By the help of ValidationSummary control, we can display all validation messages in one control.",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
 			"question": "What is the difference between authentication and authorization? ",
-			"answer": " Authentication is a process of identifying user whereas authorization is used to check the access rights of an identified user",
+			"answer": "Authentication is a process of identifying user whereas authorization is used to check the access rights of an identified user",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
-			"question": "  Which object encapsulates state or data of an user?",
-			"answer": " Session object.",
+			"question": " Which object encapsulates state or data of an user?",
+			"answer": "Session object.",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
-			"question": " What is ViewState?",
+			"question": "What is ViewState?",
 			"answer": "ViewState is a features of ASP.NET to store the values of a page before it is submitted to the server. After posting the page, data from is ViewState is restored ",
-			"Priority": " easy",
+			"Priority": "easy",
 			"language": "dotNet"
 		},
 		{
-			"question": " What is ViewState information stored?",
+			"question": "What is ViewState information stored?",
 			"answer": "It is stored in HTML hidden field. ",
-			"Priority": " easy",
+			"Priority": "easy",
 			"language": "dotNet"
 		},
 		{
 			"question": "What are the differences between the Response.Write() and Response.Output.Write()? ",
-			"answer": " Response.Write() is used for normal output whereas Response.Output.Write() is used for formatted output.",
+			"answer": "Response.Write() is used for normal output whereas Response.Output.Write() is used for formatted output.",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
 			"question": "Define the types of configuration files. ",
-			"answer": " there are two types of config : Application Level config = Web.config.\nMachine Level config = Machine.config ",
+			"answer": "there are two types of config : Application Level config = Web.config.\nMachine Level config = Machine.config ",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
-			"question": " What is the difference between Web config and Machine config files?",
-			"answer": " Web config file is specific to web application whereas Machine config file is specific to machine or server.\n\tThere can be multiple web config files in an application but only one machine config file",
+			"question": "What is the difference between Web config and Machine config files?",
+			"answer": "Web config file is specific to web application whereas Machine config file is specific to machine or server.\n\tThere can be multiple web config files in an application but only one machine config file",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
-			"question": " What is MVC?",
-			"answer": " MVC stands for Model View Controller. It is a design pattern that is used to separate business logic and presentation logic. It is used to develop highly customized application.",
-			"Priority": " easy",
+			"question": "What is MVC?",
+			"answer": "MVC stands for Model View Controller. It is a design pattern that is used to separate business logic and presentation logic. It is used to develop highly customized application.",
+			"Priority": "easy",
 			"language": "dotNet"
 		},
 		{
-			"question": " What are the built-in objects in ASP.NET?",
-			"answer": " The major built-in objects are given below:\n\tApplication\n\tSession\n\tContext\n\tRequest\n\tResponse\n\tServer\n\tTrace",
+			"question": "What are the built-in objects in ASP.NET?",
+			"answer": "The major built-in objects are given below:\n\tApplication\n\tSession\n\tContext\n\tRequest\n\tResponse\n\tServer\n\tTrace",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
 			"question": "What is Role-base security? ",
-			"answer": " In role-based security, you can assign a role to each user. In such way, each user has privilege to do some task. ",
+			"answer": "In role-based security, you can assign a role to each user. In such way, each user has privilege to do some task. ",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
 			"question": "What is cookie? ",
-			"answer": " ookie is a small piece of information which is stored at client side. There are two types of cookie Session/Temporary Cookie: valid for single session\nPersistent Cookie: valid for multiple session",
+			"answer": "ookie is a small piece of information which is stored at client side. There are two types of cookie Session/Temporary Cookie: valid for single session\nPersistent Cookie: valid for multiple session",
 			"Priority": "medium",
 			"language": "dotNet"
 		},
 		{
-			"question": " What is the default timeout for cookie? ",
-			"answer": " 30 minutes.",
-			"Priority": " easy",
+			"question": "What is the default timeout for cookie? ",
+			"answer": "30 minutes.",
+			"Priority": "easy",
 			"language": "dotNet"
 		},
 		{
-			"question": " Which protocol is used to call web service?",
-			"answer": " HTTP protocol.",
-			"Priority": " easy",
+			"question": "Which protocol is used to call web service?",
+			"answer": "HTTP protocol.",
+			"Priority": "easy",
 			"language": "dotNet"
 		},
 		{
-			"question": " What is the file extension of web service? ",
-			"answer": " File extension of web service is .asmx.",
-			"Priority": " easy",
+			"question": "What is the file extension of web service? ",
+			"answer": "File extension of web service is .asmx.",
+			"Priority": "easy",
 			"language": "dotNet"
 		},
 
 		{
-			"question": " What is Data Structure? Explain.",
-			"answer": " Data structure is a way that specifies how to organize and manipulate the data. It also specifies the relationship between them. It provides some algorithms to make data access more efficient and easy",
+			"question": "What is Data Structure? Explain.",
+			"answer": "Data structure is a way that specifies how to organize and manipulate the data. It also specifies the relationship between them. It provides some algorithms to make data access more efficient and easy",
 			"Priority": "easy",
 			"language": "ds"
 		},
 		{
-			"question": "  In which areas data structures are applied extensively?",
-			"answer": " Data structures are applied extensively in the following areas of computer science:\n\tCompiler Design,\n\tOperating System,\n\tDatabase Management System,\n\tStatistical analysis package,\n\tNumerical Analysis,\n\tGraphics,\n\tArtificial Intelligence, \n\tSimulation",
+			"question": " In which areas data structures are applied extensively?",
+			"answer": "Data structures are applied extensively in the following areas of computer science:\n\tCompiler Design,\n\tOperating System,\n\tDatabase Management System,\n\tStatistical analysis package,\n\tNumerical Analysis,\n\tGraphics,\n\tArtificial Intelligence, \n\tSimulation",
 			"Priority": "medium",
 			"language": "ds"
 		},
@@ -914,116 +914,116 @@
 			"language": "ds"
 		},
 		{
-			"question": " Which data structures are used with the following areas: RDBMS, Network data model and hierarchical data model?",
-			"answer": " RDBMS uses Array data structure\n\tNetwork data model uses Graph\n\tHierarchal data model uses Trees",
+			"question": "Which data structures are used with the following areas: RDBMS, Network data model and hierarchical data model?",
+			"answer": "RDBMS uses Array data structure\n\tNetwork data model uses Graph\n\tHierarchal data model uses Trees",
 			"Priority": "medium",
 			"language": "ds"
 		},
 		{
-			"question": " What are Binary trees?",
-			"answer": " A Binary Tree is a type of data structure that has two nodes: A left node and a right node. In programming, binary trees are actually an extension of the linked list structures.",
+			"question": "What are Binary trees?",
+			"answer": "A Binary Tree is a type of data structure that has two nodes: A left node and a right node. In programming, binary trees are actually an extension of the linked list structures.",
 			"Priority": "easy",
 			"language": "ds"
 		},
 		{
-			"question": " What is a Stack?",
-			"answer": " A stack is a data structure in which only the top element can be accessed. As data is stored in the stack, each data is pushed downward, leaving the most recently added data on top.",
+			"question": "What is a Stack?",
+			"answer": "A stack is a data structure in which only the top element can be accessed. As data is stored in the stack, each data is pushed downward, leaving the most recently added data on top.",
 			"Priority": "easy",
 			"language": "ds"
 		},
 		{
 			"question": "What is a multidimensional array? ",
-			"answer": " A multidimensional array stores data in multiple indexes. It is used when the storing data that cannot be represented using a single dimensional indexing, such as data representation in a board game, tables with data stored in more than one column.",
+			"answer": "A multidimensional array stores data in multiple indexes. It is used when the storing data that cannot be represented using a single dimensional indexing, such as data representation in a board game, tables with data stored in more than one column.",
 			"Priority": "easy",
 			"language": "ds"
 		},
 		{
-			"question": " What is a linked list in data structure?",
-			"answer": " A linked list is a sequence of nodes in which each node is connected to the node following it. It makes a chain like link of data storage.",
+			"question": "What is a linked list in data structure?",
+			"answer": "A linked list is a sequence of nodes in which each node is connected to the node following it. It makes a chain like link of data storage.",
 			"Priority": "easy",
 			"language": "ds"
 		},
 		{
-			"question": "  If you are using C language to implement the heterogeneous linked list, what pointer type should be used?",
-			"answer": " The heterogeneous linked list contains different data types, so it is not possible to use ordinary pointers for this. For this work, you have to use a generic pointer type like void pointer because void pointer is capable of storing pointer to any type.",
+			"question": " If you are using C language to implement the heterogeneous linked list, what pointer type should be used?",
+			"answer": "The heterogeneous linked list contains different data types, so it is not possible to use ordinary pointers for this. For this work, you have to use a generic pointer type like void pointer because void pointer is capable of storing pointer to any type.",
 			"Priority": "medium",
 			"language": "ds"
 		},
 		{
-			"question": " How many minimum numbers of queues are needed to implement the priority queue?",
-			"answer": " Two queues are needed. One queue is used for actual storing of data and another for storing priorities.",
+			"question": "How many minimum numbers of queues are needed to implement the priority queue?",
+			"answer": "Two queues are needed. One queue is used for actual storing of data and another for storing priorities.",
 			"Priority": "easy",
 			"language": "ds"
 		},
 		{
 			"question": "Which data structure is used to perform recursion? ",
-			"answer": " Stack is used to perform recursion because of its LIFO (Last In First Out) property. It knows whom to return when the function has to return.",
+			"answer": "Stack is used to perform recursion because of its LIFO (Last In First Out) property. It knows whom to return when the function has to return.",
 			"Priority": "medium",
 			"language": "ds"
 		},
 		{
-			"question": " When should you use binary search engine?",
-			"answer": " A binary search algorithm is used to search a list when the elements are already in order or sorted. The list starts searching in the middle, if the middle value is not the target search key, it will check to see if it will continue the search on the lower half of the list or the higher half. The split and search will then continue in the same manner.",
+			"question": "When should you use binary search engine?",
+			"answer": "A binary search algorithm is used to search a list when the elements are already in order or sorted. The list starts searching in the middle, if the middle value is not the target search key, it will check to see if it will continue the search on the lower half of the list or the higher half. The split and search will then continue in the same manner.",
 			"Priority": "medium",
 			"language": "ds"
 		},
 		{
 			"question": "How to reference all the elements in a one-dimension array? ",
-			"answer": " It can be done by using an indexed loop such that the counter runs from 0 to the array size minus one. By this manner, you can reference all the elements in sequence by using the loop counter as the array subscript.",
+			"answer": "It can be done by using an indexed loop such that the counter runs from 0 to the array size minus one. By this manner, you can reference all the elements in sequence by using the loop counter as the array subscript.",
 			"Priority": "medium",
 			"language": "ds"
 		},
 		{
-			"question": " Which notations are used in Evaluation of Arithmetic Expressions using prefix and postfix forms?",
-			"answer": " Polish and Reverse Polish notations.",
+			"question": "Which notations are used in Evaluation of Arithmetic Expressions using prefix and postfix forms?",
+			"answer": "Polish and Reverse Polish notations.",
 			"Priority": "medium",
 			"language": "ds"
 		},
 		{
-			"question": " Give some example of the application of Tree-data structure?",
-			"answer": " Application of Tree- data structure:\n\tThe manipulation of Arithmetic expression,\n\tSymbol Table construction,\n\tSyntax analysis",
+			"question": "Give some example of the application of Tree-data structure?",
+			"answer": "Application of Tree- data structure:\n\tThe manipulation of Arithmetic expression,\n\tSymbol Table construction,\n\tSyntax analysis",
 			"Priority": "medium",
 			"language": "ds"
 		},
 		{
-			"question": " Give the example of some applications that make use of Multilinked Structures?",
-			"answer": " Sparse matrix,\n\tIndex generation",
+			"question": "Give the example of some applications that make use of Multilinked Structures?",
+			"answer": "Sparse matrix,\n\tIndex generation",
 			"Priority": "medium",
 			"language": "ds"
 		},
 		{
 			"question": "Are linked lists considered linear or non-linear data structures? ",
-			"answer": " A linked list is considered both linear and non-linear data structure depending on the situation.\nOn the basis of data storage, it is considered as non-linear data structure.\nOn the basis of access strategy, it is considered as linear data-structure.",
+			"answer": "A linked list is considered both linear and non-linear data structure depending on the situation.\nOn the basis of data storage, it is considered as non-linear data structure.\nOn the basis of access strategy, it is considered as linear data-structure.",
 			"Priority": "medium",
 			"language": "ds"
 		},
 		{
-			"question": " What is the difference between NULL and VOID?",
-			"answer": " Null is actually a value, whereas Void is a data type identifier. \nA null variable simply indicates an empty value, whereas void is used to identify pointers as having no initial size.",
+			"question": "What is the difference between NULL and VOID?",
+			"answer": "Null is actually a value, whereas Void is a data type identifier. \nA null variable simply indicates an empty value, whereas void is used to identify pointers as having no initial size.",
 			"Priority": "medium",
 			"language": "ds"
 		},
 		{
-			"question": " What is a postfix expression?",
-			"answer": " An expression which each operator follows its operand is known as postfix expression. The main benefit of this form is that there is no need to group sub-expressions in parentheses or to consider operator precedence",
+			"question": "What is a postfix expression?",
+			"answer": "An expression which each operator follows its operand is known as postfix expression. The main benefit of this form is that there is no need to group sub-expressions in parentheses or to consider operator precedence",
 			"Priority": "easy",
 			"language": "ds"
 		},
 		{
 			"question": "What is the difference between PUSH and POP? ",
-			"answer": " PUSH and POP operations specify how data is stored and retrieved in a stack.\n\tPUSH: PUSH specifies that data is being  pushed  into the stack.\n\tPOP: POP specifies data retrieval, and in particular refers to the topmost data being accessed. ",
+			"answer": "PUSH and POP operations specify how data is stored and retrieved in a stack.\n\tPUSH: PUSH specifies that data is being  pushed  into the stack.\n\tPOP: POP specifies data retrieval, and in particular refers to the topmost data being accessed. ",
 			"Priority": "medium",
 			"language": "ds"
 		},
 		{
 			"question": "What is JDBC? ",
-			"answer": " JDBC is a Java API that is used to connect and execute query to the database. JDBC API uses jdbc drivers to connects to the database.",
+			"answer": "JDBC is a Java API that is used to connect and execute query to the database. JDBC API uses jdbc drivers to connects to the database.",
 			"Priority": "easy",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is JDBC Driver? ",
-			"answer": " JDBC Driver is a software component that enables java application to interact with the database.There are 4 types of JDBC drivers:\n\t1.JDBC-ODBC bridge driver\n\t2.Native-API driver (partially java driver)\n\t3Network Protocol driver (fully java driver)\n\t4Thin driver (fully java driver)",
+			"answer": "JDBC Driver is a software component that enables java application to interact with the database.There are 4 types of JDBC drivers:\n\t1.JDBC-ODBC bridge driver\n\t2.Native-API driver (partially java driver)\n\t3Network Protocol driver (fully java driver)\n\t4Thin driver (fully java driver)",
 			"Priority": "easy",
 			"language": "coreJava"
 		},
@@ -1035,31 +1035,31 @@
 		},
 		{
 			"question": "What are the JDBC API components?",
-			"answer": " The java.sql package contains interfaces and classes for JDBC API.\n\tInterfaces \t\t\t\tClasses\n\tConnection \t\t\t\tDriverManager\n\tStatement \t\t\t\tBlob\n\tPreparedStatement \t\t\t\tClob\n\tResultSet \t\t\t\tTypes\n\tResultSetMetaData \t\t\t\tSQLException etc.\n\tDatabaseMetaData \n\tCallableStatement  etc..",
+			"answer": "The java.sql package contains interfaces and classes for JDBC API.\n\tInterfaces \t\t\t\tClasses\n\tConnection \t\t\t\tDriverManager\n\tStatement \t\t\t\tBlob\n\tPreparedStatement \t\t\t\tClob\n\tResultSet \t\t\t\tTypes\n\tResultSetMetaData \t\t\t\tSQLException etc.\n\tDatabaseMetaData \n\tCallableStatement  etc..",
 			"Priority": "medium",
 			"language": "coreJava"
 		},
 		{
 			"question": "What are the JDBC statements?",
-			"answer": " There are 3 JDBC statements.\n\tStatement\n\tPreparedStatement\n\tCallableStatement.",
+			"answer": "There are 3 JDBC statements.\n\tStatement\n\tPreparedStatement\n\tCallableStatement.",
 			"Priority": "easy",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is the difference between Statement and PreparedStatement interface? ",
-			"answer": " In case of Statement, query is complied each time whereas in case of PreparedStatement, query is complied only once. So performance of PreparedStatement is better than Statement.",
+			"answer": "In case of Statement, query is complied each time whereas in case of PreparedStatement, query is complied only once. So performance of PreparedStatement is better than Statement.",
 			"Priority": "easy",
 			"language": "coreJava"
 		},
 		{
-			"question": " How can we execute stored procedures and functions?",
-			"answer": " By using Callable statement interface, we can execute procedures and functions.",
+			"question": "How can we execute stored procedures and functions?",
+			"answer": "By using Callable statement interface, we can execute procedures and functions.",
 			"Priority": "easy",
 			"language": "coreJava"
 		},
 		{
 			"question": "What is the role of JDBC DriverManager class? ",
-			"answer": " The DriverManager class manages the registered drivers. It can be used to register and unregister drivers. It provides factory method that returns the instance of Connection.",
+			"answer": "The DriverManager class manages the registered drivers. It can be used to register and unregister drivers. It provides factory method that returns the instance of Connection.",
 			"Priority": "easy",
 			"language": "coreJava"
 		},
@@ -1071,19 +1071,19 @@
 		},
 		{
 			"question": "What does the JDBC ResultSet interface? ",
-			"answer": " The ResultSet object represents a row of a table. It can be used to change the cursor pointer and get the information from the database.",
+			"answer": "The ResultSet object represents a row of a table. It can be used to change the cursor pointer and get the information from the database.",
 			"Priority": "easy",
 			"language": "coreJava"
 		},
 		{
 			"question": "What does the JDBC ResultSetMetaData interface? ",
-			"answer": " The ResultSetMetaData interface returns the information of table such as total number of columns, column name, column type etc. ",
+			"answer": "The ResultSetMetaData interface returns the information of table such as total number of columns, column name, column type etc. ",
 			"Priority": "easy",
 			"language": "coreJava"
 		},
 		{
 			"question": "Which interface is responsible for transaction management in JDBC? ",
-			"answer": " The Connection interface provides methods for transaction management such as commit(), rollback() etc. ",
+			"answer": "The Connection interface provides methods for transaction management such as commit(), rollback() etc. ",
 			"Priority": "easy",
 			"language": "coreJava"
 		},
@@ -1150,7 +1150,7 @@
 			"Priority": "easy",
 			"language": "advancedJava"
 		},{
-			"question": " What is difference between GenericServlet and HttpServlet?",
+			"question": "What is difference between GenericServlet and HttpServlet?",
 			"answer": "The GenericServlet is protocol independent whereas HttpServlet is HTTP protocol specific. HttpServlet provides additional functionalities such as state management etc.",
 			"Priority": "medium",
 			"language": "advancedJava"
@@ -1165,7 +1165,7 @@
 			"Priority": "medium",
 			"language": "advancedJava"
 		},{
-			"question": " Difference between forward() method and sendRedirect() method ?",
+			"question": "Difference between forward() method and sendRedirect() method ?",
 			"answer": "forward() method\n1) forward() sends the same request to another resource.\n2) forward() method works at server side.\n3) forward() method works within the server only.	\n\nsendRedirect() method \n1) sendRedirect() method sends new request always because it uses the URL bar of the browser.\n2) sendRedirect() method works at client side.\n3) sendRedirect() method works within and outside the server.",
 			"Priority": "advaced",
 			"language": "advancedJava"
@@ -1200,12 +1200,12 @@
 			"Priority": "easy",
 			"language": "advancedJava"
 		},{
-			"question": " How can we upload the file to the server using servlet?",
+			"question": "How can we upload the file to the server using servlet?",
 			"answer": "One of the way is by MultipartRequest class provided by third party.",
 			"Priority": "easy",
 			"language": "advancedJava"
 		},{
-			"question": " What is load-on-startup in servlet?",
+			"question": "What is load-on-startup in servlet?",
 			"answer": "The load-on-startup element of servlet in web.xml is used to load the servlet at the time of deploying the project or server start. So it saves time for the response of first request.",
 			"Priority": "easy",
 			"language": "advancedJava"
@@ -1230,7 +1230,7 @@
 			"Priority": "easy",
 			"language": "advancedJava"
 		},{
-			"question": " What is Kotlin?",
+			"question": "What is Kotlin?",
 			"answer": "Kotlin is an open-source programming language that combines object-oriented programming features ,The features like Range Expression, Extension Function, Companion Object, Smart casts, Data classes are considered to be a surplus of the Kotlin Language.",
 			"Priority": "easy",
 			"language": "kotlin"
@@ -1281,7 +1281,7 @@
 			"language": "kotlin"
 		},{
 			"question": "Mention the structural expressions in Kotlin?",
-			"answer": " There are three Structural expressions in Kotlin. They are Return: It returns from the nearest enclosing function or anonymous function by default.Break: This expression terminates the closest enclosing loop.Continue: This expression proceeds you to the next closest enclosing loop.",
+			"answer": "There are three Structural expressions in Kotlin. They are Return: It returns from the nearest enclosing function or anonymous function by default.Break: This expression terminates the closest enclosing loop.Continue: This expression proceeds you to the next closest enclosing loop.",
 			"Priority": "medium",
 			"language": "kotlin"
 		},{
@@ -1541,7 +1541,7 @@
    },
    {
       "question":"What are the rules for local and global variables in Python?",
-      "answer":".In Python, variables that are only called and declared inside a function become inherently global. But, If a variable is assigned a new value within the same function, it will then be a local variable.But, you also have the flexibility of explicitly declaring a variable as \"global\" within the same function.",
+      "answer":".In Python, variables that are only called and declared inside a function become inherently global. But, If a variable is assigned a new value within the same function, it will then be a local variable.But, you also have the flexibility of explicitly declaring a variable as \"global\"within the same function.",
       "Priority":"easy",
       "language":"python"
    },
@@ -1601,7 +1601,7 @@
    },
    {
       "question":"How to compare two lists in Python?",
-      "answer":"There are multiple ways to compare 2 lists in Python and check they are Identical or not. Here we are going to use sum() + zip() + len() to perform this check.  .# initializing our lists  .list1 = [1, 2, 4, 3, 5] .list2 = [1, 2, 4, 3, 6] .  .# printing lists .print (\"The first list is : \" + str(list1)) print (\"The second list is : \" + str(list2))  .# using sum() + zip() + len() to check if  .# lists are equal .if len(list1)== len(list2) and len(list1) == sum([1 for i, j in zip(list1, list2) if i == j]): .    print (\"The lists are identical\") .else : .    print (\"The lists are not identical\") .",
+      "answer":"There are multiple ways to compare 2 lists in Python and check they are Identical or not. Here we are going to use sum() + zip() + len() to perform this check.  .# initializing our lists  .list1 = [1, 2, 4, 3, 5] .list2 = [1, 2, 4, 3, 6] .  .# printing lists .print (\"The first list is : \"+ str(list1)) print (\"The second list is : \"+ str(list2))  .# using sum() + zip() + len() to check if  .# lists are equal .if len(list1)== len(list2) and len(list1) == sum([1 for i, j in zip(list1, list2) if i == j]): .    print (\"The lists are identical\") .else : .    print (\"The lists are not identical\") .",
       "Priority":"easy",
       "language":"python"
    },
@@ -1660,438 +1660,438 @@
       "language":"python"
    },{
 		"question": "What are static variables in C ?",
-		"answers": ".C defines another class of variables called static variables. Static variables are of two types:.Static variables.that are declared within a function (function static variables). These variables retain their values from the previous call, i.e., the values which they had before returning from the function.File static variables.These variables are declared outside any function using the keyword static. File static variables are accessible only in the file in which they are declared. This case arises when multiple files are used to generate one executable code.#include &lt;stdio.h&gt;\nvoid PrintCount()\n{\n static int Count = 1;\n //Count is initialized only on the first call\n printf( \"Count = %d\\n\", Count);\n Count = Count + 1;\n //The incremented value of Count is retained\n}\nint main()\n{\n PrintCount();\n PrintCount();\n PrintCount();\n return 0;\n}\n.OutPut:.\nCount = 1\nCount = 2\nCount = 3\n The output of the program is a sequence of numbers starting with 1, rather than a string of 1s. The initialization of static variable Countis performed only at the first instance of the function call. In successive calls to the function, the variable count retains its previous value. However, these static variables are not accessible from other parts of the program.",
-		"Priority": " easy",
+		"answer": ".C defines another class of variables called static variables. Static variables are of two types:.Static variables.that are declared within a function (function static variables). These variables retain their values from the previous call, i.e., the values which they had before returning from the function.File static variables.These variables are declared outside any function using the keyword static. File static variables are accessible only in the file in which they are declared. This case arises when multiple files are used to generate one executable code.#include &lt;stdio.h&gt;\nvoid PrintCount()\n{\n static int Count = 1;\n //Count is initialized only on the first call\n printf( \"Count = %d\\n\", Count);\n Count = Count + 1;\n //The incremented value of Count is retained\n}\nint main()\n{\n PrintCount();\n PrintCount();\n PrintCount();\n return 0;\n}\n.OutPut:.\nCount = 1\nCount = 2\nCount = 3\n The output of the program is a sequence of numbers starting with 1, rather than a string of 1s. The initialization of static variable Countis performed only at the first instance of the function call. In successive calls to the function, the variable count retains its previous value. However, these static variables are not accessible from other parts of the program.",
+		"Priority": "easy",
 		"language": "c"
 	},
 	{
 		"question": "What is a scope resolution operator in C ?",
-		"answers": ".The scope resolution operator.(::).is useful in C programming when both global and local variables have the same name, a statement using that name will access the local variable (more precisely, it will access the variable of that name in the innermost block containing that statement). The scope resolution operator represented as.(a double colon) can be used to select the global variable explicitly.Consider the example below.#include&lt;stdio.h&gt;\nint x = 10;\nint main() \n{\n  int x = 20;\n  printf(\"%d\\n\",x);\n  printf(\"%d\\n\", ::x);\n  return 0;\n}\n.OutPut:.\n20\n10\n.",
-		"Priority": " easy",
+		"answer": ".The scope resolution operator.(::).is useful in C programming when both global and local variables have the same name, a statement using that name will access the local variable (more precisely, it will access the variable of that name in the innermost block containing that statement). The scope resolution operator represented as.(a double colon) can be used to select the global variable explicitly.Consider the example below.#include&lt;stdio.h&gt;\nint x = 10;\nint main() \n{\n  int x = 20;\n  printf(\"%d\\n\",x);\n  printf(\"%d\\n\", ::x);\n  return 0;\n}\n.OutPut:.\n20\n10\n.",
+		"Priority": "easy",
 		"language": "c"
 	},
 	{
 		"question": "What is register variable in C language ?",
-		"answers": ".C language allows the use of the prefix register in primitive variable declarations. Such variables are called register variables and are stored in the registers of the microprocessor. The number of variables which can be declared register are limited. If more variables are declared register variables, they are treated as auto variables. A program that uses register variables executes faster as compared to a similar program without register variables. It is possible to find out the allocation of register variables only by executing and comparing the performance with respect to the time taken by the program (perceptible in large programs). It is the responsibility of the compiler to allow register variables.In case the compiler is unable to do so, these variables are treated as auto variables. Loop indices, accessed more frequently, can be declared as register variables. For example, index is a register variable in the program given below.//Illustration of register variables in C language.#include &lt;stdio.h&gt;\n#include &lt;string.h&gt;\nint main()\n{\n  char Name[30];\n  register int Index;\n \n  printf( \"Enter a string: \");\n  gets( Name );\n \n  printf( \"The reverse of the string is : \");\n  for( Index = strlen( Name ) - 1; Index &gt;= 0; Index-- )\n\t  printf( \"%c\", Name[Index]);\n  printf( \"\\n\" );\n  return 0;\n}\n.OutPut:.\nEnter a string: Apple is Red\nThe reverse of the string is : deR si elppA\n.",
+		"answer": ".C language allows the use of the prefix register in primitive variable declarations. Such variables are called register variables and are stored in the registers of the microprocessor. The number of variables which can be declared register are limited. If more variables are declared register variables, they are treated as auto variables. A program that uses register variables executes faster as compared to a similar program without register variables. It is possible to find out the allocation of register variables only by executing and comparing the performance with respect to the time taken by the program (perceptible in large programs). It is the responsibility of the compiler to allow register variables.In case the compiler is unable to do so, these variables are treated as auto variables. Loop indices, accessed more frequently, can be declared as register variables. For example, index is a register variable in the program given below.//Illustration of register variables in C language.#include &lt;stdio.h&gt;\n#include &lt;string.h&gt;\nint main()\n{\n  char Name[30];\n  register int Index;\n \n  printf( \"Enter a string: \");\n  gets( Name );\n \n  printf( \"The reverse of the string is : \");\n  for( Index = strlen( Name ) - 1; Index &gt;= 0; Index-- )\n\t  printf( \"%c\", Name[Index]);\n  printf( \"\\n\");\n  return 0;\n}\n.OutPut:.\nEnter a string: Apple is Red\nThe reverse of the string is : deR si elppA\n.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What is a structure in C Language.How to initialise a structure in C?",
-		"answers": ".A structure is a composite data type declaration that defines a physically grouped list of variables to be placed under one name in a block of memory, allowing the different variables to be accessed via a single pointer.Defining a structure in C: In C language a structure is defined using struct keyword followed by variable or pointer name below is the basic syntax for declaring a structure in C language.struct tag_name {\n   type member1;\n   type member2;\n   /* declare as many members as desired, but the entire structure size must be known to the compiler. */\n};\n.",
+		"answer": ".A structure is a composite data type declaration that defines a physically grouped list of variables to be placed under one name in a block of memory, allowing the different variables to be accessed via a single pointer.Defining a structure in C: In C language a structure is defined using struct keyword followed by variable or pointer name below is the basic syntax for declaring a structure in C language.struct tag_name {\n   type member1;\n   type member2;\n   /* declare as many members as desired, but the entire structure size must be known to the compiler. */\n};\n.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What is an auto variable in C ?",
-		"answers": ".All variables declared within a function are auto by default. The extent of a variable is defined by its scope. Variables declared auto can only be accessed only within the function or the nested block within which they are declared. They are created when the block is entered into and destroyed when it is exited. i.e., memory is allocated automatically upon entry to a block and freed automatically upon exit from the block and note that default value is a garbage value.",
+		"answer": ".All variables declared within a function are auto by default. The extent of a variable is defined by its scope. Variables declared auto can only be accessed only within the function or the nested block within which they are declared. They are created when the block is entered into and destroyed when it is exited. i.e., memory is allocated automatically upon entry to a block and freed automatically upon exit from the block and note that default value is a garbage value.",
 		"Priority": "easy",
 		"language": "c"
 	},
 	{
 		"question": "What is the use of extern in C?",
-		"answers": ".Global Static variables are global to the file in which they are defined. They are used when the same global variable is referenced in each of the files and these variables must be independent of each other across the files. The use of global variables is not recommended, as function independence is one of the basic idea of modular programming. Global variables should be used only when it is inevitable (i.e., when all the functions need a particular variable).When program spans across different files and we want to have a global variable accessible to all functions in these files, the keyword extern should be used before the data type name in the declarations in all these files where it is accessed except one. The linker requires that only one of these files have the definition of the identifier. Global variables definitions can occur in one file only.Consider the following program example to understand better the use of keyword extern,./* file sub_file.c Defines the function sub_func */\nextern int globalVar;\n \nvoid inc_global()\n{\n  globalVar++;\n}\n.The code of the second file, mainfile.c is given below,./*file mainfile.c Defines the function main and uses the function\ninc_global. Compile with cc mainfile.c sub_file.c */\nint globalVar;\n \nvoid main()\n{\n /*Assign something to globalVar*/\n globalVar = 10;\n \nprintf( \" globalVar before calling = %d\\n\", globalVar);\ninc_global();\nprintf( \" globalVar after calling = %d\\n\", globalVar);\n}\n.Observe the integer.globalVar.has been declared in the sub_file.c as.extern.globalVar;.Upon encountering the above statement, the compiler knows that an integer.globalVar.exists. It goes ahead to produce the object file. In the file mainfile.c, the actual definition of.globalVar.occurs with the statement.int globalVar;.Note that no special keywords are necessary to say that.globalVar.spans across files. This is because a declaration such as the one shown above tells the compiler that the integer.globalVar.is exported and can be accessed in different files.The linker is then invoked to link the two object together. When the compiler produces the object file of sub_file.c, it does not know the exact location of the variable.globalVar. So, it includes the information in the locations in the object file where the global variable is accessed. In the object file of mainfile.c, the compiler will store this information (that a global integer called.globalVar.exists, that can be used across files). When the linker links these two object files together, it knows the location of.globalVar.from the object file of mainfile.c. It uses this information to complete the object file of sub_file.c, where the compiler had encoded the information where.globalVar.is accessed in sub_file.c.",
+		"answer": ".Global Static variables are global to the file in which they are defined. They are used when the same global variable is referenced in each of the files and these variables must be independent of each other across the files. The use of global variables is not recommended, as function independence is one of the basic idea of modular programming. Global variables should be used only when it is inevitable (i.e., when all the functions need a particular variable).When program spans across different files and we want to have a global variable accessible to all functions in these files, the keyword extern should be used before the data type name in the declarations in all these files where it is accessed except one. The linker requires that only one of these files have the definition of the identifier. Global variables definitions can occur in one file only.Consider the following program example to understand better the use of keyword extern,./* file sub_file.c Defines the function sub_func */\nextern int globalVar;\n \nvoid inc_global()\n{\n  globalVar++;\n}\n.The code of the second file, mainfile.c is given below,./*file mainfile.c Defines the function main and uses the function\ninc_global. Compile with cc mainfile.c sub_file.c */\nint globalVar;\n \nvoid main()\n{\n /*Assign something to globalVar*/\n globalVar = 10;\n \nprintf( \"globalVar before calling = %d\\n\", globalVar);\ninc_global();\nprintf( \"globalVar after calling = %d\\n\", globalVar);\n}\n.Observe the integer.globalVar.has been declared in the sub_file.c as.extern.globalVar;.Upon encountering the above statement, the compiler knows that an integer.globalVar.exists. It goes ahead to produce the object file. In the file mainfile.c, the actual definition of.globalVar.occurs with the statement.int globalVar;.Note that no special keywords are necessary to say that.globalVar.spans across files. This is because a declaration such as the one shown above tells the compiler that the integer.globalVar.is exported and can be accessed in different files.The linker is then invoked to link the two object together. When the compiler produces the object file of sub_file.c, it does not know the exact location of the variable.globalVar. So, it includes the information in the locations in the object file where the global variable is accessed. In the object file of mainfile.c, the compiler will store this information (that a global integer called.globalVar.exists, that can be used across files). When the linker links these two object files together, it knows the location of.globalVar.from the object file of mainfile.c. It uses this information to complete the object file of sub_file.c, where the compiler had encoded the information where.globalVar.is accessed in sub_file.c.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What is the difference between #include <header file> and #include .cheader file ?",
-		"answers": "The difference between these two is the location the compiler searches for the header file to be included. If the file name is enclosed in quotes, the compiler searches in the same directory in which the file is included. This method is normally used to include programmer defined headers. If the file name is enclosed in brackets which are used for standard library headers; the search is performed in an implementation dependent manner, normally through pre-designated directories. These both file inclusions one using angle brackets and the other using quotes in an include statement can be used in C and C++.cpath/myheaderfile.h is short for ./path/myheaderfile.h.is short for./path/headerfile.h ",
+		"answer": "The difference between these two is the location the compiler searches for the header file to be included. If the file name is enclosed in quotes, the compiler searches in the same directory in which the file is included. This method is normally used to include programmer defined headers. If the file name is enclosed in brackets which are used for standard library headers; the search is performed in an implementation dependent manner, normally through pre-designated directories. These both file inclusions one using angle brackets and the other using quotes in an include statement can be used in C and C++.cpath/myheaderfile.h is short for ./path/myheaderfile.h.is short for./path/headerfile.h ",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What are Derived data types in C ?",
-		"answers": ".Derived data types are object types which are aggregates of one or more types of basic data types. below are the list of derived datatype in C Language.Pointer types.Array types.Structure types.Union types.Function types.",
+		"answer": ".Derived data types are object types which are aggregates of one or more types of basic data types. below are the list of derived datatype in C Language.Pointer types.Array types.Structure types.Union types.Function types.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "9) Explain C preprocessor ?",
-		"answers": ".The C preprocessor or cpp is the macro preprocessor for the C and C++ computer programming languages. The preprocessor provides the ability for the inclusion of header files, macro expansions, conditional compilation, and line control.",
+		"answer": ".The C preprocessor or cpp is the macro preprocessor for the C and C++ computer programming languages. The preprocessor provides the ability for the inclusion of header files, macro expansions, conditional compilation, and line control.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What is recursion in C ?",
-		"answers": ".Recursion: A function, which calls itself, recursion is simple to write in program but takes more memory space and time to execute.Advantages of using recursion:-.Avoid unnecessary calling of functions.Substitute for iteration.Useful when applying the same solution.Factorial program in c using Recursion.#include \n\nint factorial(unsigned int i) {\n\n   if(i &lt;= 1) {\n      return 1;\n   }\n   return i * factorial(i - 1);\n}\n\nint  main() {\n   int i = 15;\n   printf(\"Factorial of %d is %d\\n\", i, factorial(i));\n   return 0;\n}\n.",
+		"answer": ".Recursion: A function, which calls itself, recursion is simple to write in program but takes more memory space and time to execute.Advantages of using recursion:-.Avoid unnecessary calling of functions.Substitute for iteration.Useful when applying the same solution.Factorial program in c using Recursion.#include \n\nint factorial(unsigned int i) {\n\n   if(i &lt;= 1) {\n      return 1;\n   }\n   return i * factorial(i - 1);\n}\n\nint  main() {\n   int i = 15;\n   printf(\"Factorial of %d is %d\\n\", i, factorial(i));\n   return 0;\n}\n.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "Explain Enumerated types in C language?",
-		"answers": ".Enumerated types are used to define variables that can only assign certain discrete integer values throughout the program.Enumeration variables are variables that can assume values symbolically.Declaration and usage of an Enumerated variable.enum boolean{\nfalse;\ntrue;\n};\nenum boolean\n.",
+		"answer": ".Enumerated types are used to define variables that can only assign certain discrete integer values throughout the program.Enumeration variables are variables that can assume values symbolically.Declaration and usage of an Enumerated variable.enum boolean{\nfalse;\ntrue;\n};\nenum boolean\n.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "Differentiate call by value and call by reference ?",
-		"answers": ".Call by value:. A process in which the values of the actual parameters sent by the calling function are copied to the formal parameters of the called function.Call by reference:. A process in which the parameters of a calling function are passed to the parameters of the called function using an address.",
+		"answer": ".Call by value:. A process in which the values of the actual parameters sent by the calling function are copied to the formal parameters of the called function.Call by reference:. A process in which the parameters of a calling function are passed to the parameters of the called function using an address.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "List some basic data types in C ?",
-		"answers": ".In Programming Languages data types are used to define a variable before its use.Below are list of some basic data types in C language.Integer:.used to define integer numbers, denoted as int.Floating point:.decimal.Character:.defines character.Void:.void type has no value and only one operation: assignment. Plays a role of generic data type.",
+		"answer": ".In Programming Languages data types are used to define a variable before its use.Below are list of some basic data types in C language.Integer:.used to define integer numbers, denoted as int.Floating point:.decimal.Character:.defines character.Void:.void type has no value and only one operation: assignment. Plays a role of generic data type.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What is typecasting?",
-		"answers": ".Typecasting is a way to convert a variable/constant from one type to another data type.",
+		"answer": ".Typecasting is a way to convert a variable/constant from one type to another data type.",
 		"Priority": "easy",
 		"language": "c"
 	},
 	{
 		"question": "Explain about block scope in C ?",
-		"answers": ".A block is defined as a sequence of statements enclosed between curly braces, { and }. In other words, a block is a compound statement. For example, a function body is a block, because it is simply a sequence of statements enclosed within curly braces. Blocks of statements in if statements and loops. All these blocks of statements actually follow the same rules.Consider the example shown below, the variable j declared in both main and the user defined function other func. Accessing j uses the local declaration in the called function.//Illustration of block scope\n#include &lt;stdio.h&gt;\nvoid OtherFunc( void )\n{\n\tint i = 10;\n\tprintf(\" Inside the function OtherFunc, the value of i is %d\\n\", i);\n}\nint main() \n{\n  int i = 20;\n  printf(\" Inside the function main, the value of i is %d\\n\", i);\n  OtherFunc();\n  return 0;\n}\n.OutPut:. \nInside the function main, the value of i is 20\nInside the function OtherFunc, the value of i is 10\n.The variables defined can be accessed only within the block in which they are declared. In cases of nested blocks, the variables declared in the outer blocks are accessible by statements in the inner blocks, and not vice-versa. These variables are called local variables because they are localized to the block. It helps to prevent the integrity of data (data of one function cannot be modified by another function, directly). It can be observed that if two variables of the same name are declared in many functions, they are distinct and unrelated variables. The scope of the variables in the function parameter list is also confined to the function, i.e., they are also local variables.",
+		"answer": ".A block is defined as a sequence of statements enclosed between curly braces, { and }. In other words, a block is a compound statement. For example, a function body is a block, because it is simply a sequence of statements enclosed within curly braces. Blocks of statements in if statements and loops. All these blocks of statements actually follow the same rules.Consider the example shown below, the variable j declared in both main and the user defined function other func. Accessing j uses the local declaration in the called function.//Illustration of block scope\n#include &lt;stdio.h&gt;\nvoid OtherFunc( void )\n{\n\tint i = 10;\n\tprintf(\"Inside the function OtherFunc, the value of i is %d\\n\", i);\n}\nint main() \n{\n  int i = 20;\n  printf(\"Inside the function main, the value of i is %d\\n\", i);\n  OtherFunc();\n  return 0;\n}\n.OutPut:. \nInside the function main, the value of i is 20\nInside the function OtherFunc, the value of i is 10\n.The variables defined can be accessed only within the block in which they are declared. In cases of nested blocks, the variables declared in the outer blocks are accessible by statements in the inner blocks, and not vice-versa. These variables are called local variables because they are localized to the block. It helps to prevent the integrity of data (data of one function cannot be modified by another function, directly). It can be observed that if two variables of the same name are declared in many functions, they are distinct and unrelated variables. The scope of the variables in the function parameter list is also confined to the function, i.e., they are also local variables.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "Explain continue keyword in C",
-		"answers": ".Continue is a jump statement that transfers control back to the beginning of the loop, bypassing any statements that are not yet executed. It can be used only in an iteration statement.",
+		"answer": ".Continue is a jump statement that transfers control back to the beginning of the loop, bypassing any statements that are not yet executed. It can be used only in an iteration statement.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "Compare array data type to pointer data type",
-		"answers": ".Array.is a collection of variables of same type that are referred through a common name and a.pointer.is a variable that holds a memory address. pointers can point to array and array to pointers.",
+		"answer": ".Array.is a collection of variables of same type that are referred through a common name and a.pointer.is a variable that holds a memory address. pointers can point to array and array to pointers.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What are bit fields in C ?",
-		"answers": ".Bit fields are used to store multiple, logical, neighboring bits, where each of the sets of bits and single bits can be addressed.",
+		"answer": ".Bit fields are used to store multiple, logical, neighboring bits, where each of the sets of bits and single bits can be addressed.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What are different storage class specifiers in C",
-		"answers": ".auto, register, static, extern are storage class specifiers in C.",
+		"answer": ".auto, register, static, extern are storage class specifiers in C.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What is NULL pointer?",
-		"answers": ".NULL.is used to indicate that the pointer doesn.9t point to a valid location. Ideally, we should initialize pointers as NULL if we don.9t know their value at the time of declaration. Also, we should make a pointer NULL when memory pointed by it is deallocated in the middle of a program.",
+		"answer": ".NULL.is used to indicate that the pointer doesn.9t point to a valid location. Ideally, we should initialize pointers as NULL if we don.9t know their value at the time of declaration. Also, we should make a pointer NULL when memory pointed by it is deallocated in the middle of a program.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "Explain main function in C ?",
-		"answers": ".Main Function is the function where every C program begins executing. it will usually call other functions to help perform its job, some that you wrote, and from libraries that are provided for you.",
+		"answer": ".Main Function is the function where every C program begins executing. it will usually call other functions to help perform its job, some that you wrote, and from libraries that are provided for you.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What does printf does ?",
-		"answers": ".The printf is a library function that prints output. requires the \\n newline character, even separately like printf(.c\\n);. The first argument is the string of characters to be printed, with each % indicating where one of the other arguments is to be substituted, and in what form it is to be printed.",
+		"answer": ".The printf is a library function that prints output. requires the \\n newline character, even separately like printf(.c\\n);. The first argument is the string of characters to be printed, with each % indicating where one of the other arguments is to be substituted, and in what form it is to be printed.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "List some applications of C programming language?",
-		"answers": ".Application of C Programming Language.To develop embedded software.It is to create a computer application.It is effective to create a compiler for various computer languages to convert them into low-level language that is the machine understandable language.It can be used to develop an Operating system and UNIX is one which is developed by the C .programming language.It is used for creating software for various applications and even hardware.",
+		"answer": ".Application of C Programming Language.To develop embedded software.It is to create a computer application.It is effective to create a compiler for various computer languages to convert them into low-level language that is the machine understandable language.It can be used to develop an Operating system and UNIX is one which is developed by the C .programming language.It is used for creating software for various applications and even hardware.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "Write program to remove duplicate in an array ?",
-		"answers": ".C program to remove duplicate programme:.#include &lt;stdio.h&gt;\nint main(){\n  int n, a[100], b[100], calc = 0, i, j;\n  printf(\"Enter no. of elements in array\\n\");\n  scanf(\"%d\", &amp;n);\n   printf(\"Enter %d integers\\n\", n);\n   for (i = 0; i &lt; n; i++)\n    scanf(\"%d\", &amp;a[i]);\n   for (i = 0; i&lt;n; i++) {\n    for (j = 0; j &lt; calc; j++) {\n      if(a[i] == b[j])\n        .break.;   }\n    if (j== calc){\n      b[count] = a[i];\n      calc++;  }  }\n   printf(\"Array obtained after removing duplicate elements:\\n\");\n   for (i = 0; i &lt; calc; i++)\n    printf(\"%d\\n\", b[i]);\n  return 0;}\n.",
+		"answer": ".C program to remove duplicate programme:.#include &lt;stdio.h&gt;\nint main(){\n  int n, a[100], b[100], calc = 0, i, j;\n  printf(\"Enter no. of elements in array\\n\");\n  scanf(\"%d\", &amp;n);\n   printf(\"Enter %d integers\\n\", n);\n   for (i = 0; i &lt; n; i++)\n    scanf(\"%d\", &amp;a[i]);\n   for (i = 0; i&lt;n; i++) {\n    for (j = 0; j &lt; calc; j++) {\n      if(a[i] == b[j])\n        .break.;   }\n    if (j== calc){\n      b[count] = a[i];\n      calc++;  }  }\n   printf(\"Array obtained after removing duplicate elements:\\n\");\n   for (i = 0; i &lt; calc; i++)\n    printf(\"%d\\n\", b[i]);\n  return 0;}\n.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "Explain Pointers in C programming?",
-		"answers": ".Pointers are variables that are used to store addresses. The concept of the pointer is considered to be one of the difficult part of learning the C and C++ programming languages. There are several easy ways to write programs without pointers, but in case of dynamic memory allocation, the knowledge of pointers is a must.Knowing about memory locations and addresses defined will enable you with the ideas of how every variable function in a program.",
+		"answer": ".Pointers are variables that are used to store addresses. The concept of the pointer is considered to be one of the difficult part of learning the C and C++ programming languages. There are several easy ways to write programs without pointers, but in case of dynamic memory allocation, the knowledge of pointers is a must.Knowing about memory locations and addresses defined will enable you with the ideas of how every variable function in a program.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "How can you find the exact size of a data type in C?",
-		"answers": ".One can determine the exact size of a data type by using the sizeof operator. The storage size of the data type is obtained in bytes by using the syntax: sizeof.(data_type).",
+		"answer": ".One can determine the exact size of a data type by using the sizeof operator. The storage size of the data type is obtained in bytes by using the syntax: sizeof.(data_type).",
 		"Priority": "easy",
 		"language": "c"
 	},
 	{
 		"question": "If the size of int data type is two bytes, what is the range of signed int data type?",
-		"answers": ".The range of signed int data type if from .-32768. to. 32767.",
+		"answer": ".The range of signed int data type if from .-32768. to. 32767.",
 		"Priority": "easy",
 		"language": "c"
 	},
 	{
 		"question": "What do you understand by normalization of pointers?",
-		"answers": ".Normalization is the process by which an address is converted to a form such that if two non-normalized pointers point to the same address, they both are converted to normalized form, thereby having a specific address.",
+		"answer": ".Normalization is the process by which an address is converted to a form such that if two non-normalized pointers point to the same address, they both are converted to normalized form, thereby having a specific address.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What is the best way to store flag values in a program?",
-		"answers": ".Flag values are used to make decisions between two or more options during the execution of a program. Generally, flag values are small (often two) and it tries to save space by not storing each flag according to its own data type.The best way to store flag values is to keep each of the values in their own integer variable. If there are large number of flags, we can create an array of characters or integers. We can also store flag values by using low-order bits more efficiently.",
+		"answer": ".Flag values are used to make decisions between two or more options during the execution of a program. Generally, flag values are small (often two) and it tries to save space by not storing each flag according to its own data type.The best way to store flag values is to keep each of the values in their own integer variable. If there are large number of flags, we can create an array of characters or integers. We can also store flag values by using low-order bits more efficiently.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "Explain bit masking in C?",
-		"answers": ".Bit masking. refers to selecting a particular set of bits from the byte(s) having many values of bits. Bit masking is used to examine the bit values and can be done by 'AND' operation of byte, bitwise.",
+		"answer": ".Bit masking. refers to selecting a particular set of bits from the byte(s) having many values of bits. Bit masking is used to examine the bit values and can be done by 'AND' operation of byte, bitwise.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "Is  there any demerits of using pointer?",
-		"answers": ".Yes. As pointers have access to a particular memory location, the security level decreases and restricted memory areas can be accessed. Other demerits include memory holes, process and memory panics, etc.",
+		"answer": ".Yes. As pointers have access to a particular memory location, the security level decreases and restricted memory areas can be accessed. Other demerits include memory holes, process and memory panics, etc.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "Is there any data type in C with variable size?",
-		"answers": ".Yes,.Struct is one of the data type in C that have variable size. It is because the size of the structure depends on the fields which can be variable as set by the user.",
+		"answer": ".Yes,.Struct is one of the data type in C that have variable size. It is because the size of the structure depends on the fields which can be variable as set by the user.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What is a void pointer?",
-		"answers": ".Void. pointer. is a generic pointer in programming. If the pointer type is unknown, we make use of the void pointer.",
+		"answer": ".Void. pointer. is a generic pointer in programming. If the pointer type is unknown, we make use of the void pointer.",
 		"Priority": "easy",
 		"language": "c"
 	},
 	{
 		"question": "When can you use a pointer with a function?",
-		"answers": ".A pointer can be used with a function-.When an address is to be passed to a function.When an array elements are to be accessed through a function. Passing base address will give access to the whole array.",
+		"answer": ".A pointer can be used with a function-.When an address is to be passed to a function.When an array elements are to be accessed through a function. Passing base address will give access to the whole array.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "When can a far pointer be used?",
-		"answers": ".Sometimes the task we are required to do might not fit in the allocated data and code segments. Far pointers help to access rest of the memory inside a program. Far pointers are the information present outside the data segment (generally 64 kb). Such pointers are used when we need to access an address outside of the current segment.",
+		"answer": ".Sometimes the task we are required to do might not fit in the allocated data and code segments. Far pointers help to access rest of the memory inside a program. Far pointers are the information present outside the data segment (generally 64 kb). Such pointers are used when we need to access an address outside of the current segment.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What is AVL tree?",
-		"answers": ".AVL tree. is a binary search tree where the node difference of heights in either the right and left subtrees is less than or equal to one. Three developers by name Adelson, Velskii and Landi developed the technique for balancing the binary trees height. From the first letter of their names, (AVL) came to be. AVL tree has advantages such as low time complexity in inserting and deleting operations.",
+		"answer": ".AVL tree. is a binary search tree where the node difference of heights in either the right and left subtrees is less than or equal to one. Three developers by name Adelson, Velskii and Landi developed the technique for balancing the binary trees height. From the first letter of their names, (AVL) came to be. AVL tree has advantages such as low time complexity in inserting and deleting operations.",
 		"Priority": "medium",
 		"language": "c"
 	},
 	{
 		"question": "What is array in C?",
-		"answers": ".An array is a collection of the same data items, which are stored in a contagious memory location.",
+		"answer": ".An array is a collection of the same data items, which are stored in a contagious memory location.",
 		"Priority": "medium",
 		"language": "c"
 	},{
 		"question": "Explain what is OOP?",
-		"answers": ". Object-oriented programming (OOP) is a type of computer programming, also more commonly known as software design, in which the programmers define the data type of a data structure and the types of operations or functions which can be applied to the data structure.The data structure becomes an object that includes both data and functions. Additionally, programmers can create relationships between one object and another. Object-oriented programming basically aims to implement real-world entities in programming. These include data abstraction, data encapsulation, inheritance, polymorphism and more.",
+		"answer": ". Object-oriented programming (OOP) is a type of computer programming, also more commonly known as software design, in which the programmers define the data type of a data structure and the types of operations or functions which can be applied to the data structure.The data structure becomes an object that includes both data and functions. Additionally, programmers can create relationships between one object and another. Object-oriented programming basically aims to implement real-world entities in programming. These include data abstraction, data encapsulation, inheritance, polymorphism and more.",
 		"Priority": "easy",
 		"language": "cpp"
 	},
 	{
 		"question": "What is the difference between #import and #include in C++?",
-		"answers": ". The statement #include is used in C++ to include the source file or import the header files containing definitions of function declarations, macro definitions to be shared between several source files and variables using the preprocessor. On the other hand, #import is a Microsoft-specific statement used for binary library like DLL or .Lib files. It is very similar to include that it load all the header function definitions from the DLL file so that the user can use the header file just like the case with #include.The statement #include allows the user to include the same file many times while #import ensures that the preprocessor only includes a file once.",
+		"answer": ". The statement #include is used in C++ to include the source file or import the header files containing definitions of function declarations, macro definitions to be shared between several source files and variables using the preprocessor. On the other hand, #import is a Microsoft-specific statement used for binary library like DLL or .Lib files. It is very similar to include that it load all the header function definitions from the DLL file so that the user can use the header file just like the case with #include.The statement #include allows the user to include the same file many times while #import ensures that the preprocessor only includes a file once.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What is this  pointer?",
-		"answers": ".The .this. pointer is passed as a hidden argument to all the non-static member method calls and is available as a local variable within the body of all non-static methods. The pointer .this. is a constant pointer which holds the memory address of the current object. The pointer .this. is not available in static member functions as static member functions can be called without any object (using class name).",
+		"answer": ".The .this. pointer is passed as a hidden argument to all the non-static member method calls and is available as a local variable within the body of all non-static methods. The pointer .this. is a constant pointer which holds the memory address of the current object. The pointer .this. is not available in static member functions as static member functions can be called without any object (using class name).",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What are the vectors in C++?",
-		"answers": ".Vectors are a kind of data structure sequence containers, which represent arrays but can change in size. Just like arrays, vectors make use of contiguous storage locations for their elements, which implies that the elements of vectors can also be accessed using offsets on regular pointers to its elements, and just as efficiently as in arrays. However, unlike arrays, their size can change dynamically, with their storage being handled automatically by the container.",
+		"answer": ".Vectors are a kind of data structure sequence containers, which represent arrays but can change in size. Just like arrays, vectors make use of contiguous storage locations for their elements, which implies that the elements of vectors can also be accessed using offsets on regular pointers to its elements, and just as efficiently as in arrays. However, unlike arrays, their size can change dynamically, with their storage being handled automatically by the container.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Differentiate between structure and class in C++.",
-		"answers": ".In C++, a class is simply an extension of a structure used in the C programming language. A class is a user-defined data type, which actually binds the data and its related functions in one unit. A structure and a class in C++ differs a lot as a structure has limited functionality and features when compared to a class.The structure is also a user-defined data type with a certain template. It is used to represent a record. In C++, a structure can have both data members as well as methods as classes. They also differ in the purpose for which they are used- class is used for data abstraction and further inheritance whereas a structure is generally meant for grouping of data.",
+		"answer": ".In C++, a class is simply an extension of a structure used in the C programming language. A class is a user-defined data type, which actually binds the data and its related functions in one unit. A structure and a class in C++ differs a lot as a structure has limited functionality and features when compared to a class.The structure is also a user-defined data type with a certain template. It is used to represent a record. In C++, a structure can have both data members as well as methods as classes. They also differ in the purpose for which they are used- class is used for data abstraction and further inheritance whereas a structure is generally meant for grouping of data.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What is the use of dot in C++?",
-		"answers": ".The dot basically means to reference the method or property of the object before it in object-oriented programming. The connection between the attributes or the methods with the object is indicated by a .dot. (...) written between them. Both, the ... (dot) Operator as well as the -&gt; (arrow) operator, are used to reference individual members of classes, structures, and unions. The dot operator is applied to the actual object defined in class.",
+		"answer": ".The dot basically means to reference the method or property of the object before it in object-oriented programming. The connection between the attributes or the methods with the object is indicated by a .dot. (...) written between them. Both, the ... (dot) Operator as well as the -&gt; (arrow) operator, are used to reference individual members of classes, structures, and unions. The dot operator is applied to the actual object defined in class.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Differentiate between a pointer and a reference with respect to C++.",
-		"answers": ".A pointer can be reassigned n number of times while a reference cannot be re-assigned after binding. Pointers can point nowhere or to a NULL value, whereas a reference always refers to an object. The users cannot take the address of a reference like they can with pointers.There.s no .reference arithmetic. but the user can take the address of an object pointed by a reference and perform pointer arithmetic on it.",
+		"answer": ".A pointer can be reassigned n number of times while a reference cannot be re-assigned after binding. Pointers can point nowhere or to a NULL value, whereas a reference always refers to an object. The users cannot take the address of a reference like they can with pointers.There.s no .reference arithmetic. but the user can take the address of an object pointed by a reference and perform pointer arithmetic on it.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What is the Identity function in C++? How is it useful?",
-		"answers": ".In general, an ID is an abbreviation for identification. Identification is the act of being identified so a system can verify whom you say you really are. For example, if a service or system is protected with a username and password and the correct username and password is entered you are identified and can log in to the service or system. Implementing an identity function is usually with the goal of substituting every occurrence of an expression in the code by an identity function without changing the semantics of the program at all. However, the identity function is supposedly nothing more than a cast and it doesn.t affect the performance of the program. Lifetime extension applies to temporaries whose construction is visible. Interposing the call to the identity function disables lifetime extension.",
+		"answer": ".In general, an ID is an abbreviation for identification. Identification is the act of being identified so a system can verify whom you say you really are. For example, if a service or system is protected with a username and password and the correct username and password is entered you are identified and can log in to the service or system. Implementing an identity function is usually with the goal of substituting every occurrence of an expression in the code by an identity function without changing the semantics of the program at all. However, the identity function is supposedly nothing more than a cast and it doesn.t affect the performance of the program. Lifetime extension applies to temporaries whose construction is visible. Interposing the call to the identity function disables lifetime extension.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Differentiate between C and C++?",
-		"answers": "The C language follows the procedural style programming.C++ is a multi-paradigm programming language. It supports both procedural and object-oriented styles of programming.Data is less secure in C as compared to C++.In case of C++, you can use modifiers for class members to make it inaccessible for outside users. Thus, the data is more secure in C++.The C language follows the top-down approach.The C++ language follows the bottom-up approach.There is no scope for function overloading in C.C++ supports function overloading.The user cannot use functions in structure in the case of C.In case of C++, the user can use functions in structure.C also does not support reference variables.C++ supports use of reference variables.In C, the methods scanf() and printf() are mainly used for input or output.The C++ language mainly uses streams cin and cout to perform the input and output operations...",
+		"answer": "The C language follows the procedural style programming.C++ is a multi-paradigm programming language. It supports both procedural and object-oriented styles of programming.Data is less secure in C as compared to C++.In case of C++, you can use modifiers for class members to make it inaccessible for outside users. Thus, the data is more secure in C++.The C language follows the top-down approach.The C++ language follows the bottom-up approach.There is no scope for function overloading in C.C++ supports function overloading.The user cannot use functions in structure in the case of C.In case of C++, the user can use functions in structure.C also does not support reference variables.C++ supports use of reference variables.In C, the methods scanf() and printf() are mainly used for input or output.The C++ language mainly uses streams cin and cout to perform the input and output operations...",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Differentiate between an array and a list?",
-		"answers": ".An array is a collection of homogeneous elements whereas a list is a collection of heterogeneous elements.Array memory allocation is always static and continuous while the memory allocation of a list is dynamic and quite random.In case of arrays, users need not keep a track of next memory allocation, whereas in case of lists, a user has to keep a track of next location where memory is allocated due to its dynamism.",
+		"answer": ".An array is a collection of homogeneous elements whereas a list is a collection of heterogeneous elements.Array memory allocation is always static and continuous while the memory allocation of a list is dynamic and quite random.In case of arrays, users need not keep a track of next memory allocation, whereas in case of lists, a user has to keep a track of next location where memory is allocated due to its dynamism.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Explain what are accessor methods?",
-		"answers": ".An accessor method is a method that fetches private data that is stored within an object. An accessor provides the means by which to obtain the state of an object from other program parts. This is a preferred method in object-oriented paradigms as it provides an abstraction layer that hides the implementation details of functionality sets. An accessor doesn.t need arguments and it has the same type as the retrieved variable. The name of the accessor begins with the Get prefix and a naming convention is necessary while defining accessor methods. Though a new dependent code is contained within accessor methods, yet they directly access state data. Furthermore, within a database fetch, the dependent code need not be changed. This is also an advantage of this type of object-oriented programming.When comparing two data items, two access method calls are necessary in order to make the comparison. Accessors seek underlying data such as data creation, data retrieval, initialization, as well as modification. The accessor method is basically a type of instance method that contains a sequence of programming statements for the purpose of performing an action, customizing those actions with a parameter and producing a return value of some sort. An accessor function or method must be called to access a private object member.",
+		"answer": ".An accessor method is a method that fetches private data that is stored within an object. An accessor provides the means by which to obtain the state of an object from other program parts. This is a preferred method in object-oriented paradigms as it provides an abstraction layer that hides the implementation details of functionality sets. An accessor doesn.t need arguments and it has the same type as the retrieved variable. The name of the accessor begins with the Get prefix and a naming convention is necessary while defining accessor methods. Though a new dependent code is contained within accessor methods, yet they directly access state data. Furthermore, within a database fetch, the dependent code need not be changed. This is also an advantage of this type of object-oriented programming.When comparing two data items, two access method calls are necessary in order to make the comparison. Accessors seek underlying data such as data creation, data retrieval, initialization, as well as modification. The accessor method is basically a type of instance method that contains a sequence of programming statements for the purpose of performing an action, customizing those actions with a parameter and producing a return value of some sort. An accessor function or method must be called to access a private object member.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Explain what is class definition in C++ ?",
-		"answers": ".A class describes the behavior and properties common to any particular type of object. It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. Defining a class means defining a blueprint for a data type or an object. A class definition begins with the keyword class followed by the class name and the class body, which is enclosed by a pair of curly braces. A class definition must always be followed either by a semicolon or a list of declarations for it to be valid.",
+		"answer": ".A class describes the behavior and properties common to any particular type of object. It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. Defining a class means defining a blueprint for a data type or an object. A class definition begins with the keyword class followed by the class name and the class body, which is enclosed by a pair of curly braces. A class definition must always be followed either by a semicolon or a list of declarations for it to be valid.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Explain what are mutator methods in C++?",
-		"answers": ".While an accessor function makes a protected data member or private object accessible to an outside user, it does not give permission for editing it or modifying it in any way. Modification of a protected data member always requires calling a mutator function. Since the mutator methods provide direct access to protected data, both mutator and accessor functions must be written and used carefully by the user.",
+		"answer": ".While an accessor function makes a protected data member or private object accessible to an outside user, it does not give permission for editing it or modifying it in any way. Modification of a protected data member always requires calling a mutator function. Since the mutator methods provide direct access to protected data, both mutator and accessor functions must be written and used carefully by the user.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Explain what are single and multiple inheritances in C++?",
-		"answers": ".The concept of inheritance brings something of a real-world view to programming. It allows a class to be defined that has a certain set of characteristics (such as methods and instance variables) and then other classes to be created, which are derived from that class. The derived class inherits all of the features of the parent class and typically then adds some features of its own. Multiple Inheritances is a feature of C++ wherein a single class can inherit objects and methods from more than one classes. The constructors of the inherited classes are called in the same order by the base class in which they are inherited. Multiple inheritances is a feature which is not common to many programming languages. Even though it is an extremely useful feature which allows a user to apply multiple interfaces to a class, a user might encounter problems such as ambiguity and the Diamond Problem if it is not used or executed correctly.",
+		"answer": ".The concept of inheritance brings something of a real-world view to programming. It allows a class to be defined that has a certain set of characteristics (such as methods and instance variables) and then other classes to be created, which are derived from that class. The derived class inherits all of the features of the parent class and typically then adds some features of its own. Multiple Inheritances is a feature of C++ wherein a single class can inherit objects and methods from more than one classes. The constructors of the inherited classes are called in the same order by the base class in which they are inherited. Multiple inheritances is a feature which is not common to many programming languages. Even though it is an extremely useful feature which allows a user to apply multiple interfaces to a class, a user might encounter problems such as ambiguity and the Diamond Problem if it is not used or executed correctly.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Explain what is polymorphism in C++?",
-		"answers": ".Polymorphism is a kind of runtime generalization that is enabled by the type system in object-oriented as well as functional programming languages like C++ and Haskell. Typically, we talk about two types of polymorphism in programming languages:...Subtype polymorphism . which allows a function that is defined over a formal parameter having one type also to be defined over subtypes of same...Parametric polymorphism . which allows a template, already defined class over a template parameter having one type also to be defined over subtypes of same....",
+		"answer": ".Polymorphism is a kind of runtime generalization that is enabled by the type system in object-oriented as well as functional programming languages like C++ and Haskell. Typically, we talk about two types of polymorphism in programming languages:...Subtype polymorphism . which allows a function that is defined over a formal parameter having one type also to be defined over subtypes of same...Parametric polymorphism . which allows a template, already defined class over a template parameter having one type also to be defined over subtypes of same....",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Explain what data encapsulation is in C++?",
-		"answers": ".Data encapsulation is a mechanism of bundling the data and the functions that use them where the implementation details of a class are kept hidden from the user. With this, the user can only perform a restricted set of operations on the hidden members of the class by executing special functions, which are also commonly known as methods. This vital concept of object-oriented programming is also often used to hide the internal representation, or state, of an object from the outside world.",
+		"answer": ".Data encapsulation is a mechanism of bundling the data and the functions that use them where the implementation details of a class are kept hidden from the user. With this, the user can only perform a restricted set of operations on the hidden members of the class by executing special functions, which are also commonly known as methods. This vital concept of object-oriented programming is also often used to hide the internal representation, or state, of an object from the outside world.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What is data abstraction? How is it different from data encapsulation?",
-		"answers": ".Data abstraction is a mechanism of exposing only the interfaces and hiding the implementation details from the user. Encapsulation can merely be understood as wrapping up of data and methods in a capsule, which means just hiding properties and methods. Encapsulation is used for hiding the code and data in a single unit to protect the data from the outside the world. The class is the best example of encapsulation in C++. On the other hand, abstraction means showing only the necessary details to the intended user.",
+		"answer": ".Data abstraction is a mechanism of exposing only the interfaces and hiding the implementation details from the user. Encapsulation can merely be understood as wrapping up of data and methods in a capsule, which means just hiding properties and methods. Encapsulation is used for hiding the code and data in a single unit to protect the data from the outside the world. The class is the best example of encapsulation in C++. On the other hand, abstraction means showing only the necessary details to the intended user.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "How is new() different from malloc()?",
-		"answers": ".New () is a preprocessor whereas malloc() is a function or method. There is no need for the user to allocate the memory while using new but in malloc() you have to use the function sizeof() to allocate the memory. .new. initializes the new memory to 0 while malloc() stores a random value in the newly allotted memory location.",
+		"answer": ".New () is a preprocessor whereas malloc() is a function or method. There is no need for the user to allocate the memory while using new but in malloc() you have to use the function sizeof() to allocate the memory. .new. initializes the new memory to 0 while malloc() stores a random value in the newly allotted memory location.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What are inline functions? What is the syntax for defining an inline function?",
-		"answers": ".The C++ language provides inline functions to reduce the function call overhead. An inline function is a method or function that is expanded in line when it is called. Whenever the inline function is called, the complete code of the inline function gets inserted or substituted at the point of the inline function call. The C++ compiler does this substitution at compile time. The inline function may increase the efficiency of the code if it is small.The syntax for defining the function inline is:.inline return-type function-name(parameters)..\n{\n// function code\n}\n..",
+		"answer": ".The C++ language provides inline functions to reduce the function call overhead. An inline function is a method or function that is expanded in line when it is called. Whenever the inline function is called, the complete code of the inline function gets inserted or substituted at the point of the inline function call. The C++ compiler does this substitution at compile time. The inline function may increase the efficiency of the code if it is small.The syntax for defining the function inline is:.inline return-type function-name(parameters)..\n{\n// function code\n}\n..",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Is it possible to have a recursive inline function in C++?",
-		"answers": ".Although a user can call an inline function from within itself, the compiler may not generate the inline code as the compiler is unable to determine the depth of recursion at compile time. A compiler with a good optimizer can inline recursive calls until some depth fixed at compile-time (say three or five recursive calls), and insert non-recursive calls at compile time for cases when the actual depth gets exceeded at run time.",
+		"answer": ".Although a user can call an inline function from within itself, the compiler may not generate the inline code as the compiler is unable to determine the depth of recursion at compile time. A compiler with a good optimizer can inline recursive calls until some depth fixed at compile-time (say three or five recursive calls), and insert non-recursive calls at compile time for cases when the actual depth gets exceeded at run time.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What is a responder chain?",
-		"answers": ".The responder chain is a series of linked responder objects. The responder chain begins with the first responder object and ends with the app object. In case the first responder is unable to handle an event, the chain forwards the event to the next responder in line.",
+		"answer": ".The responder chain is a series of linked responder objects. The responder chain begins with the first responder object and ends with the app object. In case the first responder is unable to handle an event, the chain forwards the event to the next responder in line.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What do you mean by delegate? Can a user retain delegates?",
-		"answers": ".A delegate is an object, which acts on behalf of, or in coordination or sync with, another object when the other/second object encounters an event during program execution. Delegates can be retained if the user wants to. If the user declares it to be retained (which means the delegate will be influential in ARC) it.ll be retained. Generally, the norm is not to retain the delegates because they are already retained elsewhere and more importantly, the user can avoid retaining cycles by opting not to retain them.",
+		"answer": ".A delegate is an object, which acts on behalf of, or in coordination or sync with, another object when the other/second object encounters an event during program execution. Delegates can be retained if the user wants to. If the user declares it to be retained (which means the delegate will be influential in ARC) it.ll be retained. Generally, the norm is not to retain the delegates because they are already retained elsewhere and more importantly, the user can avoid retaining cycles by opting not to retain them.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "How is Objective C different from C++?",
-		"answers": ".There are a considerable amount of difference between c and c++ : Objective C.C++.The classes in Objective C allow a method or function and a variable with the exact same name.In case of C++, they must be different.Objective C does not support a constructor or destructor. Instead, it has init and dealloc methods, which must be called explicitly when needed.C++ supports constructors and destructors.Objective C uses the signs + and . to differentiate between class methods (which are also known as factory methods in Java) and instance methods.On the other hand, C++ uses static to specify a factory method.Multiple inheritances is not allowed in Objective C, however, a user can use a protocol to some extent.Multiple inheritances are allowed in C++.Objective C does not directly allow for method overloading and has a workaround, but that is not the case for operator overloading.C++ directly allows for method overloading.Objective C does not allow stack-based objects either. Each object must be a pointer to a block of memory for it to exist.C++ can use stack based objects which is automatically allocated, instantiated and deallocated on the stack.In Objective C the message overloading is somehow faked by naming the parameters. The user is required to mangle the names manually.C++ actually does the same but the compiler does the name mangling for the user instead of having to do it himself.Objective C doesn.t allow automatic type coercion.C++ allows automatic type coercion.Objective C has references. But as pointers can be used wherever a reference is employed, there isn.t any specific need for references in general.C++ has references as the language requires.Objective C doesn.t have templates.The users of C++ need templates because the programming language has a strong typing and static binding that prevents generic classes, such as Lists and Arrays...",
+		"answer": ".There are a considerable amount of difference between c and c++ : Objective C.C++.The classes in Objective C allow a method or function and a variable with the exact same name.In case of C++, they must be different.Objective C does not support a constructor or destructor. Instead, it has init and dealloc methods, which must be called explicitly when needed.C++ supports constructors and destructors.Objective C uses the signs + and . to differentiate between class methods (which are also known as factory methods in Java) and instance methods.On the other hand, C++ uses static to specify a factory method.Multiple inheritances is not allowed in Objective C, however, a user can use a protocol to some extent.Multiple inheritances are allowed in C++.Objective C does not directly allow for method overloading and has a workaround, but that is not the case for operator overloading.C++ directly allows for method overloading.Objective C does not allow stack-based objects either. Each object must be a pointer to a block of memory for it to exist.C++ can use stack based objects which is automatically allocated, instantiated and deallocated on the stack.In Objective C the message overloading is somehow faked by naming the parameters. The user is required to mangle the names manually.C++ actually does the same but the compiler does the name mangling for the user instead of having to do it himself.Objective C doesn.t allow automatic type coercion.C++ allows automatic type coercion.Objective C has references. But as pointers can be used wherever a reference is employed, there isn.t any specific need for references in general.C++ has references as the language requires.Objective C doesn.t have templates.The users of C++ need templates because the programming language has a strong typing and static binding that prevents generic classes, such as Lists and Arrays...",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Explain the volatile and mutable keywords.",
-		"answers": ".The keyword volatile informs the compiler that a variable may change without the compiler knowing it. Variables that are declared as volatile will not be cached by the compiler, and will therefore always be read from memory.The keyword mutable can be used for class member variables. Mutable variables are allowed to change from within constant member functions of the class.",
+		"answer": ".The keyword volatile informs the compiler that a variable may change without the compiler knowing it. Variables that are declared as volatile will not be cached by the compiler, and will therefore always be read from memory.The keyword mutable can be used for class member variables. Mutable variables are allowed to change from within constant member functions of the class.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What is Dynamic and Static Typing?",
-		"answers": ".Static typed languages concerning computer applications are those in which type checking is done only at compile-time, while the dynamic typed languages are those in which type checking is done during run-time.Since C++ is a statically typed language, the user needs to tell the compiler what type of object they.re working with at compile time.",
+		"answer": ".Static typed languages concerning computer applications are those in which type checking is done only at compile-time, while the dynamic typed languages are those in which type checking is done during run-time.Since C++ is a statically typed language, the user needs to tell the compiler what type of object they.re working with at compile time.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What is a static member?",
-		"answers": ".Static is a keyword in C++ programming used to give unique characteristics to an element. The static elements are allocated storage only once in an entire program lifetime in the static storage area. Also, they have a scope for the span of the program lifetime. Static member functions do not have this pointer, and they cannot be of a virtual type Member method declarations with the same name and the name parameter-type-list cannot be overloaded if any of them is a static member function declaration. Furthermore, a static member function cannot be declared as const, volatile, or const volatile.",
+		"answer": ".Static is a keyword in C++ programming used to give unique characteristics to an element. The static elements are allocated storage only once in an entire program lifetime in the static storage area. Also, they have a scope for the span of the program lifetime. Static member functions do not have this pointer, and they cannot be of a virtual type Member method declarations with the same name and the name parameter-type-list cannot be overloaded if any of them is a static member function declaration. Furthermore, a static member function cannot be declared as const, volatile, or const volatile.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What is a virtual function?",
-		"answers": ".A virtual function is a method, which is used to replace the implementation provided by the base class. The said replacement is always called whenever the object in question is actually of the derived class, even if a base pointer instead of a derived pointer accesses the object. Virtual functions are always used with inheritance, and they are called according to the type of the object pointed or referred, not according to the type of pointer or reference. In other words, virtual functions are resolved later than usual, at runtime. The keyword virtual is used to make a method virtual.",
+		"answer": ".A virtual function is a method, which is used to replace the implementation provided by the base class. The said replacement is always called whenever the object in question is actually of the derived class, even if a base pointer instead of a derived pointer accesses the object. Virtual functions are always used with inheritance, and they are called according to the type of the object pointed or referred, not according to the type of pointer or reference. In other words, virtual functions are resolved later than usual, at runtime. The keyword virtual is used to make a method virtual.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What do you mean by function and operator overloading in C++?",
-		"answers": ".C++ facilitates the user to specify more than one definition for a function name or an operator in the same scope. This is called function overloading and operator overloading respectively. Function overloading is primarily a feature in C++ where two or more functions can have not only the same name but also different types and numbers of parameters. Operating overloading, on the other hand, allows the user to make operators work for user-defined classes. For example, we can overload an operator such as .+. in a class like String so that we can concatenate two strings by just using + instead of other descriptive functions. Other example classes where the user may overload arithmetic operators are Complex Number, Fractional Number, Big Integer, and more.",
+		"answer": ".C++ facilitates the user to specify more than one definition for a function name or an operator in the same scope. This is called function overloading and operator overloading respectively. Function overloading is primarily a feature in C++ where two or more functions can have not only the same name but also different types and numbers of parameters. Operating overloading, on the other hand, allows the user to make operators work for user-defined classes. For example, we can overload an operator such as .+. in a class like String so that we can concatenate two strings by just using + instead of other descriptive functions. Other example classes where the user may overload arithmetic operators are Complex Number, Fractional Number, Big Integer, and more.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What is function overriding?",
-		"answers": ".If a user inherits a class into a derived class and provides a definition for one of the base class.s function again inside the derived class, then this function is called an overridden function, and this mechanism is known as function overriding. When the member function exists in both classes (base and derived) is called in the case of overridden functions, the member function of the derived class is invoked, and the function of the base class is ignored.",
+		"answer": ".If a user inherits a class into a derived class and provides a definition for one of the base class.s function again inside the derived class, then this function is called an overridden function, and this mechanism is known as function overriding. When the member function exists in both classes (base and derived) is called in the case of overridden functions, the member function of the derived class is invoked, and the function of the base class is ignored.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Differentiate between a constructor and a destructor in C++.",
-		"answers": "A constructor is used to initialize the instance of a class or object.A destructor simply destroys the objects when they are no longer needed.A constructor is called when a new instance of a class or object is created.A destructor is called when an instance of a class or object is deleted or released.A constructor allocates the memory.A destructor releases or frees the memory.Constructors can have arguments.A destructor cannot have any arguments.Overloading of the constructor is possible in C++.Overloading of destructors is not possible.A constructor has the same name as class name.A destructor also has the same name as class name but with (~) tiled operator...",
+		"answer": "A constructor is used to initialize the instance of a class or object.A destructor simply destroys the objects when they are no longer needed.A constructor is called when a new instance of a class or object is created.A destructor is called when an instance of a class or object is deleted or released.A constructor allocates the memory.A destructor releases or frees the memory.Constructors can have arguments.A destructor cannot have any arguments.Overloading of the constructor is possible in C++.Overloading of destructors is not possible.A constructor has the same name as class name.A destructor also has the same name as class name but with (~) tiled operator...",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What are the two main components of C++?",
-		"answers": ".The C++ language itself has two main components, namely a direct mapping of hardware features, which are provided primarily by the C subset, and zero-overhead abstractions, which are based on those mappings. This is also why C++ is considered to be a highly portable language as compared to  It is often the language of choice for multi-device, multi-platform app development and large-scale commercial applications for end users.",
+		"answer": ".The C++ language itself has two main components, namely a direct mapping of hardware features, which are provided primarily by the C subset, and zero-overhead abstractions, which are based on those mappings. This is also why C++ is considered to be a highly portable language as compared to  It is often the language of choice for multi-device, multi-platform app development and large-scale commercial applications for end users.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Why is C++ a mid-level programming language?",
-		"answers": ".C++ is also considered as (but never proven to be) the superset of C. Since it is like an extension of C language is a mid-level programming language, and it acquires the features of both, low level as well as high-level programming languages.",
+		"answer": ".C++ is also considered as (but never proven to be) the superset of C. Since it is like an extension of C language is a mid-level programming language, and it acquires the features of both, low level as well as high-level programming languages.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "Explain the properties and principles of OOP.",
-		"answers": ".Abstraction is the process of providing only essential information regarding the standard features of objects and procedures while hiding the details from the user.The class is a category of objects, which defines all the common properties of the various objects that belong to it.Encapsulation is the process of combining or wrapping up of data or elements to create a single, new entity.Information hiding is the process of hiding details of an object or function for reducing complexity.Inheritance is a feature that represents the .is-a. relationship between the various classes.The interface is the set of languages and codes that the applications or programs use to communicate with each other as well as with the hardware.Messaging or message passing is a kind of communication used in parallel programming and OOP.The object is a self-contained entity, which consists of both data and procedures employed to manipulate the data.Polymorphism is a programming language.s ability to process objects differently depending on their data type or class.The procedure is merely a section of a program that performs a specific task.",
+		"answer": ".Abstraction is the process of providing only essential information regarding the standard features of objects and procedures while hiding the details from the user.The class is a category of objects, which defines all the common properties of the various objects that belong to it.Encapsulation is the process of combining or wrapping up of data or elements to create a single, new entity.Information hiding is the process of hiding details of an object or function for reducing complexity.Inheritance is a feature that represents the .is-a. relationship between the various classes.The interface is the set of languages and codes that the applications or programs use to communicate with each other as well as with the hardware.Messaging or message passing is a kind of communication used in parallel programming and OOP.The object is a self-contained entity, which consists of both data and procedures employed to manipulate the data.Polymorphism is a programming language.s ability to process objects differently depending on their data type or class.The procedure is merely a section of a program that performs a specific task.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "How many characters are recognized by ANSI C++?",
-		"answers": "There are 128 characters defined in the C++ ASCII list.",
+		"answer": "There are 128 characters defined in the C++ ASCII list.",
 		"Priority": "easy",
 		"language": "cpp"
 	},
 	{
 		"question": "What is copy constructor?",
-		"answers": ".Just like the name, a copy constructor is one the other constructors used for creating a copy of an object of class type that has been in existence already. The translator known as compiler makes available a default copy constructor for every class. The named constructor comes from creating while copy simply means new object from an existing one. In a simpler term, a copy constructor creates a copy of an already existing or available object.",
+		"answer": ".Just like the name, a copy constructor is one the other constructors used for creating a copy of an object of class type that has been in existence already. The translator known as compiler makes available a default copy constructor for every class. The named constructor comes from creating while copy simply means new object from an existing one. In a simpler term, a copy constructor creates a copy of an already existing or available object.",
 		"Priority": "medium",
 		"language": "cpp"
 	},
 	{
 		"question": "What is function overloading in C++?",
-		"answers": "..Function overloading. is one of the features in C++ programming language where more than one function can one particular name but distinct parameters.",
+		"answer": "..Function overloading. is one of the features in C++ programming language where more than one function can one particular name but distinct parameters.",
 		"Priority": "easy",
 		"language": "cpp"
 	}

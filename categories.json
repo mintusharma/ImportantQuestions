@@ -40,11 +40,16 @@
 			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Ffile-min%201-min.png?alt=media&token=07a58d5e-922f-4d7f-9ef9-09b535aaa3e8",
 			"language": "cpp",
 			"category": "languages"
+		},{
+			"name": "Core Java",
+			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fjava-min%201-min.png?alt=media&token=a23421c7-a83c-42bd-af0a-131c586458bb",
+			"language": "coreJava",
+			"category": "languages"
 		}, 
 		{
-			"name": "Java",
+			"name": "Advanced Java",
 			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fjava-min%201-min.png?alt=media&token=a23421c7-a83c-42bd-af0a-131c586458bb",
-			"language": "java",
+			"language": "advancedJava",
 			"category": "languages"
 		}, {
 			"name": "C# ( C-Sharp )",
@@ -80,7 +85,7 @@
 		}, {
 			"name": "Data Structure",
 			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fds-min%201-min.png?alt=media&token=8288732f-06a7-46f5-a8f1-78d1e107f299",
-			"language": "dataStructure",
+			"language": "ds",
 			"category": "languages"
 		},{
 			"name": "Algorithm",
@@ -101,7 +106,7 @@
 		},{
 			"name": "MySql",
 			"url": "https://firebasestorage.googleapis.com/v0/b/interview-preparation-52542.appspot.com/o/images%2Fmysql-min%201-min.png?alt=media&token=dea3a9e3-79c4-4009-9e5b-d53ebeb11b67",
-			"language": "mysql",
+			"language": "mySQL",
 			"category": "database"
 		}, {
 			"name": "SQL Server",

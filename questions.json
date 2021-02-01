@@ -1658,7 +1658,443 @@
       "answer":"SciPy is a python based library that can be accessed by all. In other words, it is an open-source library. SciPy is used in different disciplines such as engineering, scientific computing, technical computing and mathematics. There are different uses of Scipy. It is used for solving common scientific computation issues. This is achieved by its subpackage. This open-source library has sub-packages such as file input and output, fit and optimization, random numbers and statistics, interpolation, special function and others. It is used on the NumPy library array. It is the scientific library that is mostly used but behind GNU Scientific Library that is used for Matlab.",
       "Priority":"medium",
       "language":"python"
-   }
+   },{
+		"question": "What are static variables in C ?",
+		"answers": ".C defines another class of variables called static variables. Static variables are of two types:.Static variables.that are declared within a function (function static variables). These variables retain their values from the previous call, i.e., the values which they had before returning from the function.File static variables.These variables are declared outside any function using the keyword static. File static variables are accessible only in the file in which they are declared. This case arises when multiple files are used to generate one executable code.#include &lt;stdio.h&gt;\nvoid PrintCount()\n{\n static int Count = 1;\n //Count is initialized only on the first call\n printf( \"Count = %d\\n\", Count);\n Count = Count + 1;\n //The incremented value of Count is retained\n}\nint main()\n{\n PrintCount();\n PrintCount();\n PrintCount();\n return 0;\n}\n.OutPut:.\nCount = 1\nCount = 2\nCount = 3\n The output of the program is a sequence of numbers starting with 1, rather than a string of 1s. The initialization of static variable Countis performed only at the first instance of the function call. In successive calls to the function, the variable count retains its previous value. However, these static variables are not accessible from other parts of the program.",
+		"Priority": " easy",
+		"language": "c"
+	},
+	{
+		"question": "What is a scope resolution operator in C ?",
+		"answers": ".The scope resolution operator.(::).is useful in C programming when both global and local variables have the same name, a statement using that name will access the local variable (more precisely, it will access the variable of that name in the innermost block containing that statement). The scope resolution operator represented as.(a double colon) can be used to select the global variable explicitly.Consider the example below.#include&lt;stdio.h&gt;\nint x = 10;\nint main() \n{\n  int x = 20;\n  printf(\"%d\\n\",x);\n  printf(\"%d\\n\", ::x);\n  return 0;\n}\n.OutPut:.\n20\n10\n.",
+		"Priority": " easy",
+		"language": "c"
+	},
+	{
+		"question": "What is register variable in C language ?",
+		"answers": ".C language allows the use of the prefix register in primitive variable declarations. Such variables are called register variables and are stored in the registers of the microprocessor. The number of variables which can be declared register are limited. If more variables are declared register variables, they are treated as auto variables. A program that uses register variables executes faster as compared to a similar program without register variables. It is possible to find out the allocation of register variables only by executing and comparing the performance with respect to the time taken by the program (perceptible in large programs). It is the responsibility of the compiler to allow register variables.In case the compiler is unable to do so, these variables are treated as auto variables. Loop indices, accessed more frequently, can be declared as register variables. For example, index is a register variable in the program given below.//Illustration of register variables in C language.#include &lt;stdio.h&gt;\n#include &lt;string.h&gt;\nint main()\n{\n  char Name[30];\n  register int Index;\n \n  printf( \"Enter a string: \");\n  gets( Name );\n \n  printf( \"The reverse of the string is : \");\n  for( Index = strlen( Name ) - 1; Index &gt;= 0; Index-- )\n\t  printf( \"%c\", Name[Index]);\n  printf( \"\\n\" );\n  return 0;\n}\n.OutPut:.\nEnter a string: Apple is Red\nThe reverse of the string is : deR si elppA\n.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What is a structure in C Language.How to initialise a structure in C?",
+		"answers": ".A structure is a composite data type declaration that defines a physically grouped list of variables to be placed under one name in a block of memory, allowing the different variables to be accessed via a single pointer.Defining a structure in C: In C language a structure is defined using struct keyword followed by variable or pointer name below is the basic syntax for declaring a structure in C language.struct tag_name {\n   type member1;\n   type member2;\n   /* declare as many members as desired, but the entire structure size must be known to the compiler. */\n};\n.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What is an auto variable in C ?",
+		"answers": ".All variables declared within a function are auto by default. The extent of a variable is defined by its scope. Variables declared auto can only be accessed only within the function or the nested block within which they are declared. They are created when the block is entered into and destroyed when it is exited. i.e., memory is allocated automatically upon entry to a block and freed automatically upon exit from the block and note that default value is a garbage value.",
+		"Priority": "easy",
+		"language": "c"
+	},
+	{
+		"question": "What is the use of extern in C?",
+		"answers": ".Global Static variables are global to the file in which they are defined. They are used when the same global variable is referenced in each of the files and these variables must be independent of each other across the files. The use of global variables is not recommended, as function independence is one of the basic idea of modular programming. Global variables should be used only when it is inevitable (i.e., when all the functions need a particular variable).When program spans across different files and we want to have a global variable accessible to all functions in these files, the keyword extern should be used before the data type name in the declarations in all these files where it is accessed except one. The linker requires that only one of these files have the definition of the identifier. Global variables definitions can occur in one file only.Consider the following program example to understand better the use of keyword extern,./* file sub_file.c Defines the function sub_func */\nextern int globalVar;\n \nvoid inc_global()\n{\n  globalVar++;\n}\n.The code of the second file, mainfile.c is given below,./*file mainfile.c Defines the function main and uses the function\ninc_global. Compile with cc mainfile.c sub_file.c */\nint globalVar;\n \nvoid main()\n{\n /*Assign something to globalVar*/\n globalVar = 10;\n \nprintf( \" globalVar before calling = %d\\n\", globalVar);\ninc_global();\nprintf( \" globalVar after calling = %d\\n\", globalVar);\n}\n.Observe the integer.globalVar.has been declared in the sub_file.c as.extern.globalVar;.Upon encountering the above statement, the compiler knows that an integer.globalVar.exists. It goes ahead to produce the object file. In the file mainfile.c, the actual definition of.globalVar.occurs with the statement.int globalVar;.Note that no special keywords are necessary to say that.globalVar.spans across files. This is because a declaration such as the one shown above tells the compiler that the integer.globalVar.is exported and can be accessed in different files.The linker is then invoked to link the two object together. When the compiler produces the object file of sub_file.c, it does not know the exact location of the variable.globalVar. So, it includes the information in the locations in the object file where the global variable is accessed. In the object file of mainfile.c, the compiler will store this information (that a global integer called.globalVar.exists, that can be used across files). When the linker links these two object files together, it knows the location of.globalVar.from the object file of mainfile.c. It uses this information to complete the object file of sub_file.c, where the compiler had encoded the information where.globalVar.is accessed in sub_file.c.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What is the difference between #include <header file> and #include .cheader file ?",
+		"answers": "The difference between these two is the location the compiler searches for the header file to be included. If the file name is enclosed in quotes, the compiler searches in the same directory in which the file is included. This method is normally used to include programmer defined headers. If the file name is enclosed in brackets which are used for standard library headers; the search is performed in an implementation dependent manner, normally through pre-designated directories. These both file inclusions one using angle brackets and the other using quotes in an include statement can be used in C and C++.cpath/myheaderfile.h is short for ./path/myheaderfile.h.is short for./path/headerfile.h ",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What are Derived data types in C ?",
+		"answers": ".Derived data types are object types which are aggregates of one or more types of basic data types. below are the list of derived datatype in C Language.Pointer types.Array types.Structure types.Union types.Function types.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "9) Explain C preprocessor ?",
+		"answers": ".The C preprocessor or cpp is the macro preprocessor for the C and C++ computer programming languages. The preprocessor provides the ability for the inclusion of header files, macro expansions, conditional compilation, and line control.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What is recursion in C ?",
+		"answers": ".Recursion: A function, which calls itself, recursion is simple to write in program but takes more memory space and time to execute.Advantages of using recursion:-.Avoid unnecessary calling of functions.Substitute for iteration.Useful when applying the same solution.Factorial program in c using Recursion.#include \n\nint factorial(unsigned int i) {\n\n   if(i &lt;= 1) {\n      return 1;\n   }\n   return i * factorial(i - 1);\n}\n\nint  main() {\n   int i = 15;\n   printf(\"Factorial of %d is %d\\n\", i, factorial(i));\n   return 0;\n}\n.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "Explain Enumerated types in C language?",
+		"answers": ".Enumerated types are used to define variables that can only assign certain discrete integer values throughout the program.Enumeration variables are variables that can assume values symbolically.Declaration and usage of an Enumerated variable.enum boolean{\nfalse;\ntrue;\n};\nenum boolean\n.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "Differentiate call by value and call by reference ?",
+		"answers": ".Call by value:. A process in which the values of the actual parameters sent by the calling function are copied to the formal parameters of the called function.Call by reference:. A process in which the parameters of a calling function are passed to the parameters of the called function using an address.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "List some basic data types in C ?",
+		"answers": ".In Programming Languages data types are used to define a variable before its use.Below are list of some basic data types in C language.Integer:.used to define integer numbers, denoted as int.Floating point:.decimal.Character:.defines character.Void:.void type has no value and only one operation: assignment. Plays a role of generic data type.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What is typecasting?",
+		"answers": ".Typecasting is a way to convert a variable/constant from one type to another data type.",
+		"Priority": "easy",
+		"language": "c"
+	},
+	{
+		"question": "Explain about block scope in C ?",
+		"answers": ".A block is defined as a sequence of statements enclosed between curly braces, { and }. In other words, a block is a compound statement. For example, a function body is a block, because it is simply a sequence of statements enclosed within curly braces. Blocks of statements in if statements and loops. All these blocks of statements actually follow the same rules.Consider the example shown below, the variable j declared in both main and the user defined function other func. Accessing j uses the local declaration in the called function.//Illustration of block scope\n#include &lt;stdio.h&gt;\nvoid OtherFunc( void )\n{\n\tint i = 10;\n\tprintf(\" Inside the function OtherFunc, the value of i is %d\\n\", i);\n}\nint main() \n{\n  int i = 20;\n  printf(\" Inside the function main, the value of i is %d\\n\", i);\n  OtherFunc();\n  return 0;\n}\n.OutPut:. \nInside the function main, the value of i is 20\nInside the function OtherFunc, the value of i is 10\n.The variables defined can be accessed only within the block in which they are declared. In cases of nested blocks, the variables declared in the outer blocks are accessible by statements in the inner blocks, and not vice-versa. These variables are called local variables because they are localized to the block. It helps to prevent the integrity of data (data of one function cannot be modified by another function, directly). It can be observed that if two variables of the same name are declared in many functions, they are distinct and unrelated variables. The scope of the variables in the function parameter list is also confined to the function, i.e., they are also local variables.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "Explain continue keyword in C",
+		"answers": ".Continue is a jump statement that transfers control back to the beginning of the loop, bypassing any statements that are not yet executed. It can be used only in an iteration statement.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "Compare array data type to pointer data type",
+		"answers": ".Array.is a collection of variables of same type that are referred through a common name and a.pointer.is a variable that holds a memory address. pointers can point to array and array to pointers.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What are bit fields in C ?",
+		"answers": ".Bit fields are used to store multiple, logical, neighboring bits, where each of the sets of bits and single bits can be addressed.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What are different storage class specifiers in C",
+		"answers": ".auto, register, static, extern are storage class specifiers in C.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What is NULL pointer?",
+		"answers": ".NULL.is used to indicate that the pointer doesn.9t point to a valid location. Ideally, we should initialize pointers as NULL if we don.9t know their value at the time of declaration. Also, we should make a pointer NULL when memory pointed by it is deallocated in the middle of a program.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "Explain main function in C ?",
+		"answers": ".Main Function is the function where every C program begins executing. it will usually call other functions to help perform its job, some that you wrote, and from libraries that are provided for you.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What does printf does ?",
+		"answers": ".The printf is a library function that prints output. requires the \\n newline character, even separately like printf(.c\\n);. The first argument is the string of characters to be printed, with each % indicating where one of the other arguments is to be substituted, and in what form it is to be printed.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "List some applications of C programming language?",
+		"answers": ".Application of C Programming Language.To develop embedded software.It is to create a computer application.It is effective to create a compiler for various computer languages to convert them into low-level language that is the machine understandable language.It can be used to develop an Operating system and UNIX is one which is developed by the C .programming language.It is used for creating software for various applications and even hardware.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "Write program to remove duplicate in an array ?",
+		"answers": ".C program to remove duplicate programme:.#include &lt;stdio.h&gt;\nint main(){\n  int n, a[100], b[100], calc = 0, i, j;\n  printf(\"Enter no. of elements in array\\n\");\n  scanf(\"%d\", &amp;n);\n   printf(\"Enter %d integers\\n\", n);\n   for (i = 0; i &lt; n; i++)\n    scanf(\"%d\", &amp;a[i]);\n   for (i = 0; i&lt;n; i++) {\n    for (j = 0; j &lt; calc; j++) {\n      if(a[i] == b[j])\n        .break.;   }\n    if (j== calc){\n      b[count] = a[i];\n      calc++;  }  }\n   printf(\"Array obtained after removing duplicate elements:\\n\");\n   for (i = 0; i &lt; calc; i++)\n    printf(\"%d\\n\", b[i]);\n  return 0;}\n.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "Explain Pointers in C programming?",
+		"answers": ".Pointers are variables that are used to store addresses. The concept of the pointer is considered to be one of the difficult part of learning the C and C++ programming languages. There are several easy ways to write programs without pointers, but in case of dynamic memory allocation, the knowledge of pointers is a must.Knowing about memory locations and addresses defined will enable you with the ideas of how every variable function in a program.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "How can you find the exact size of a data type in C?",
+		"answers": ".One can determine the exact size of a data type by using the sizeof operator. The storage size of the data type is obtained in bytes by using the syntax: sizeof.(data_type).",
+		"Priority": "easy",
+		"language": "c"
+	},
+	{
+		"question": "If the size of int data type is two bytes, what is the range of signed int data type?",
+		"answers": ".The range of signed int data type if from .-32768. to. 32767.",
+		"Priority": "easy",
+		"language": "c"
+	},
+	{
+		"question": "What do you understand by normalization of pointers?",
+		"answers": ".Normalization is the process by which an address is converted to a form such that if two non-normalized pointers point to the same address, they both are converted to normalized form, thereby having a specific address.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What is the best way to store flag values in a program?",
+		"answers": ".Flag values are used to make decisions between two or more options during the execution of a program. Generally, flag values are small (often two) and it tries to save space by not storing each flag according to its own data type.The best way to store flag values is to keep each of the values in their own integer variable. If there are large number of flags, we can create an array of characters or integers. We can also store flag values by using low-order bits more efficiently.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "Explain bit masking in C?",
+		"answers": ".Bit masking. refers to selecting a particular set of bits from the byte(s) having many values of bits. Bit masking is used to examine the bit values and can be done by 'AND' operation of byte, bitwise.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "Is  there any demerits of using pointer?",
+		"answers": ".Yes. As pointers have access to a particular memory location, the security level decreases and restricted memory areas can be accessed. Other demerits include memory holes, process and memory panics, etc.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "Is there any data type in C with variable size?",
+		"answers": ".Yes,.Struct is one of the data type in C that have variable size. It is because the size of the structure depends on the fields which can be variable as set by the user.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What is a void pointer?",
+		"answers": ".Void. pointer. is a generic pointer in programming. If the pointer type is unknown, we make use of the void pointer.",
+		"Priority": "easy",
+		"language": "c"
+	},
+	{
+		"question": "When can you use a pointer with a function?",
+		"answers": ".A pointer can be used with a function-.When an address is to be passed to a function.When an array elements are to be accessed through a function. Passing base address will give access to the whole array.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "When can a far pointer be used?",
+		"answers": ".Sometimes the task we are required to do might not fit in the allocated data and code segments. Far pointers help to access rest of the memory inside a program. Far pointers are the information present outside the data segment (generally 64 kb). Such pointers are used when we need to access an address outside of the current segment.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What is AVL tree?",
+		"answers": ".AVL tree. is a binary search tree where the node difference of heights in either the right and left subtrees is less than or equal to one. Three developers by name Adelson, Velskii and Landi developed the technique for balancing the binary trees height. From the first letter of their names, (AVL) came to be. AVL tree has advantages such as low time complexity in inserting and deleting operations.",
+		"Priority": "medium",
+		"language": "c"
+	},
+	{
+		"question": "What is array in C?",
+		"answers": ".An array is a collection of the same data items, which are stored in a contagious memory location.",
+		"Priority": "medium",
+		"language": "c"
+	},{
+		"question": "Explain what is OOP?",
+		"answers": ". Object-oriented programming (OOP) is a type of computer programming, also more commonly known as software design, in which the programmers define the data type of a data structure and the types of operations or functions which can be applied to the data structure.The data structure becomes an object that includes both data and functions. Additionally, programmers can create relationships between one object and another. Object-oriented programming basically aims to implement real-world entities in programming. These include data abstraction, data encapsulation, inheritance, polymorphism and more.",
+		"Priority": "easy",
+		"language": "cpp"
+	},
+	{
+		"question": "What is the difference between #import and #include in C++?",
+		"answers": ". The statement #include is used in C++ to include the source file or import the header files containing definitions of function declarations, macro definitions to be shared between several source files and variables using the preprocessor. On the other hand, #import is a Microsoft-specific statement used for binary library like DLL or .Lib files. It is very similar to include that it load all the header function definitions from the DLL file so that the user can use the header file just like the case with #include.The statement #include allows the user to include the same file many times while #import ensures that the preprocessor only includes a file once.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What is this  pointer?",
+		"answers": ".The .this. pointer is passed as a hidden argument to all the non-static member method calls and is available as a local variable within the body of all non-static methods. The pointer .this. is a constant pointer which holds the memory address of the current object. The pointer .this. is not available in static member functions as static member functions can be called without any object (using class name).",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What are the vectors in C++?",
+		"answers": ".Vectors are a kind of data structure sequence containers, which represent arrays but can change in size. Just like arrays, vectors make use of contiguous storage locations for their elements, which implies that the elements of vectors can also be accessed using offsets on regular pointers to its elements, and just as efficiently as in arrays. However, unlike arrays, their size can change dynamically, with their storage being handled automatically by the container.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Differentiate between structure and class in C++.",
+		"answers": ".In C++, a class is simply an extension of a structure used in the C programming language. A class is a user-defined data type, which actually binds the data and its related functions in one unit. A structure and a class in C++ differs a lot as a structure has limited functionality and features when compared to a class.The structure is also a user-defined data type with a certain template. It is used to represent a record. In C++, a structure can have both data members as well as methods as classes. They also differ in the purpose for which they are used- class is used for data abstraction and further inheritance whereas a structure is generally meant for grouping of data.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What is the use of dot in C++?",
+		"answers": ".The dot basically means to reference the method or property of the object before it in object-oriented programming. The connection between the attributes or the methods with the object is indicated by a .dot. (...) written between them. Both, the ... (dot) Operator as well as the -&gt; (arrow) operator, are used to reference individual members of classes, structures, and unions. The dot operator is applied to the actual object defined in class.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Differentiate between a pointer and a reference with respect to C++.",
+		"answers": ".A pointer can be reassigned n number of times while a reference cannot be re-assigned after binding. Pointers can point nowhere or to a NULL value, whereas a reference always refers to an object. The users cannot take the address of a reference like they can with pointers.There.s no .reference arithmetic. but the user can take the address of an object pointed by a reference and perform pointer arithmetic on it.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What is the Identity function in C++? How is it useful?",
+		"answers": ".In general, an ID is an abbreviation for identification. Identification is the act of being identified so a system can verify whom you say you really are. For example, if a service or system is protected with a username and password and the correct username and password is entered you are identified and can log in to the service or system. Implementing an identity function is usually with the goal of substituting every occurrence of an expression in the code by an identity function without changing the semantics of the program at all. However, the identity function is supposedly nothing more than a cast and it doesn.t affect the performance of the program. Lifetime extension applies to temporaries whose construction is visible. Interposing the call to the identity function disables lifetime extension.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Differentiate between C and C++?",
+		"answers": "The C language follows the procedural style programming.C++ is a multi-paradigm programming language. It supports both procedural and object-oriented styles of programming.Data is less secure in C as compared to C++.In case of C++, you can use modifiers for class members to make it inaccessible for outside users. Thus, the data is more secure in C++.The C language follows the top-down approach.The C++ language follows the bottom-up approach.There is no scope for function overloading in C.C++ supports function overloading.The user cannot use functions in structure in the case of C.In case of C++, the user can use functions in structure.C also does not support reference variables.C++ supports use of reference variables.In C, the methods scanf() and printf() are mainly used for input or output.The C++ language mainly uses streams cin and cout to perform the input and output operations...",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Differentiate between an array and a list?",
+		"answers": ".An array is a collection of homogeneous elements whereas a list is a collection of heterogeneous elements.Array memory allocation is always static and continuous while the memory allocation of a list is dynamic and quite random.In case of arrays, users need not keep a track of next memory allocation, whereas in case of lists, a user has to keep a track of next location where memory is allocated due to its dynamism.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Explain what are accessor methods?",
+		"answers": ".An accessor method is a method that fetches private data that is stored within an object. An accessor provides the means by which to obtain the state of an object from other program parts. This is a preferred method in object-oriented paradigms as it provides an abstraction layer that hides the implementation details of functionality sets. An accessor doesn.t need arguments and it has the same type as the retrieved variable. The name of the accessor begins with the Get prefix and a naming convention is necessary while defining accessor methods. Though a new dependent code is contained within accessor methods, yet they directly access state data. Furthermore, within a database fetch, the dependent code need not be changed. This is also an advantage of this type of object-oriented programming.When comparing two data items, two access method calls are necessary in order to make the comparison. Accessors seek underlying data such as data creation, data retrieval, initialization, as well as modification. The accessor method is basically a type of instance method that contains a sequence of programming statements for the purpose of performing an action, customizing those actions with a parameter and producing a return value of some sort. An accessor function or method must be called to access a private object member.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Explain what is class definition in C++ ?",
+		"answers": ".A class describes the behavior and properties common to any particular type of object. It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. Defining a class means defining a blueprint for a data type or an object. A class definition begins with the keyword class followed by the class name and the class body, which is enclosed by a pair of curly braces. A class definition must always be followed either by a semicolon or a list of declarations for it to be valid.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Explain what are mutator methods in C++?",
+		"answers": ".While an accessor function makes a protected data member or private object accessible to an outside user, it does not give permission for editing it or modifying it in any way. Modification of a protected data member always requires calling a mutator function. Since the mutator methods provide direct access to protected data, both mutator and accessor functions must be written and used carefully by the user.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Explain what are single and multiple inheritances in C++?",
+		"answers": ".The concept of inheritance brings something of a real-world view to programming. It allows a class to be defined that has a certain set of characteristics (such as methods and instance variables) and then other classes to be created, which are derived from that class. The derived class inherits all of the features of the parent class and typically then adds some features of its own. Multiple Inheritances is a feature of C++ wherein a single class can inherit objects and methods from more than one classes. The constructors of the inherited classes are called in the same order by the base class in which they are inherited. Multiple inheritances is a feature which is not common to many programming languages. Even though it is an extremely useful feature which allows a user to apply multiple interfaces to a class, a user might encounter problems such as ambiguity and the Diamond Problem if it is not used or executed correctly.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Explain what is polymorphism in C++?",
+		"answers": ".Polymorphism is a kind of runtime generalization that is enabled by the type system in object-oriented as well as functional programming languages like C++ and Haskell. Typically, we talk about two types of polymorphism in programming languages:...Subtype polymorphism . which allows a function that is defined over a formal parameter having one type also to be defined over subtypes of same...Parametric polymorphism . which allows a template, already defined class over a template parameter having one type also to be defined over subtypes of same....",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Explain what data encapsulation is in C++?",
+		"answers": ".Data encapsulation is a mechanism of bundling the data and the functions that use them where the implementation details of a class are kept hidden from the user. With this, the user can only perform a restricted set of operations on the hidden members of the class by executing special functions, which are also commonly known as methods. This vital concept of object-oriented programming is also often used to hide the internal representation, or state, of an object from the outside world.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What is data abstraction? How is it different from data encapsulation?",
+		"answers": ".Data abstraction is a mechanism of exposing only the interfaces and hiding the implementation details from the user. Encapsulation can merely be understood as wrapping up of data and methods in a capsule, which means just hiding properties and methods. Encapsulation is used for hiding the code and data in a single unit to protect the data from the outside the world. The class is the best example of encapsulation in C++. On the other hand, abstraction means showing only the necessary details to the intended user.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "How is new() different from malloc()?",
+		"answers": ".New () is a preprocessor whereas malloc() is a function or method. There is no need for the user to allocate the memory while using new but in malloc() you have to use the function sizeof() to allocate the memory. .new. initializes the new memory to 0 while malloc() stores a random value in the newly allotted memory location.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What are inline functions? What is the syntax for defining an inline function?",
+		"answers": ".The C++ language provides inline functions to reduce the function call overhead. An inline function is a method or function that is expanded in line when it is called. Whenever the inline function is called, the complete code of the inline function gets inserted or substituted at the point of the inline function call. The C++ compiler does this substitution at compile time. The inline function may increase the efficiency of the code if it is small.The syntax for defining the function inline is:.inline return-type function-name(parameters)..\n{\n// function code\n}\n..",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Is it possible to have a recursive inline function in C++?",
+		"answers": ".Although a user can call an inline function from within itself, the compiler may not generate the inline code as the compiler is unable to determine the depth of recursion at compile time. A compiler with a good optimizer can inline recursive calls until some depth fixed at compile-time (say three or five recursive calls), and insert non-recursive calls at compile time for cases when the actual depth gets exceeded at run time.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What is a responder chain?",
+		"answers": ".The responder chain is a series of linked responder objects. The responder chain begins with the first responder object and ends with the app object. In case the first responder is unable to handle an event, the chain forwards the event to the next responder in line.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What do you mean by delegate? Can a user retain delegates?",
+		"answers": ".A delegate is an object, which acts on behalf of, or in coordination or sync with, another object when the other/second object encounters an event during program execution. Delegates can be retained if the user wants to. If the user declares it to be retained (which means the delegate will be influential in ARC) it.ll be retained. Generally, the norm is not to retain the delegates because they are already retained elsewhere and more importantly, the user can avoid retaining cycles by opting not to retain them.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "How is Objective C different from C++?",
+		"answers": ".There are a considerable amount of difference between c and c++ : Objective C.C++.The classes in Objective C allow a method or function and a variable with the exact same name.In case of C++, they must be different.Objective C does not support a constructor or destructor. Instead, it has init and dealloc methods, which must be called explicitly when needed.C++ supports constructors and destructors.Objective C uses the signs + and . to differentiate between class methods (which are also known as factory methods in Java) and instance methods.On the other hand, C++ uses static to specify a factory method.Multiple inheritances is not allowed in Objective C, however, a user can use a protocol to some extent.Multiple inheritances are allowed in C++.Objective C does not directly allow for method overloading and has a workaround, but that is not the case for operator overloading.C++ directly allows for method overloading.Objective C does not allow stack-based objects either. Each object must be a pointer to a block of memory for it to exist.C++ can use stack based objects which is automatically allocated, instantiated and deallocated on the stack.In Objective C the message overloading is somehow faked by naming the parameters. The user is required to mangle the names manually.C++ actually does the same but the compiler does the name mangling for the user instead of having to do it himself.Objective C doesn.t allow automatic type coercion.C++ allows automatic type coercion.Objective C has references. But as pointers can be used wherever a reference is employed, there isn.t any specific need for references in general.C++ has references as the language requires.Objective C doesn.t have templates.The users of C++ need templates because the programming language has a strong typing and static binding that prevents generic classes, such as Lists and Arrays...",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Explain the volatile and mutable keywords.",
+		"answers": ".The keyword volatile informs the compiler that a variable may change without the compiler knowing it. Variables that are declared as volatile will not be cached by the compiler, and will therefore always be read from memory.The keyword mutable can be used for class member variables. Mutable variables are allowed to change from within constant member functions of the class.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What is Dynamic and Static Typing?",
+		"answers": ".Static typed languages concerning computer applications are those in which type checking is done only at compile-time, while the dynamic typed languages are those in which type checking is done during run-time.Since C++ is a statically typed language, the user needs to tell the compiler what type of object they.re working with at compile time.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What is a static member?",
+		"answers": ".Static is a keyword in C++ programming used to give unique characteristics to an element. The static elements are allocated storage only once in an entire program lifetime in the static storage area. Also, they have a scope for the span of the program lifetime. Static member functions do not have this pointer, and they cannot be of a virtual type Member method declarations with the same name and the name parameter-type-list cannot be overloaded if any of them is a static member function declaration. Furthermore, a static member function cannot be declared as const, volatile, or const volatile.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What is a virtual function?",
+		"answers": ".A virtual function is a method, which is used to replace the implementation provided by the base class. The said replacement is always called whenever the object in question is actually of the derived class, even if a base pointer instead of a derived pointer accesses the object. Virtual functions are always used with inheritance, and they are called according to the type of the object pointed or referred, not according to the type of pointer or reference. In other words, virtual functions are resolved later than usual, at runtime. The keyword virtual is used to make a method virtual.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What do you mean by function and operator overloading in C++?",
+		"answers": ".C++ facilitates the user to specify more than one definition for a function name or an operator in the same scope. This is called function overloading and operator overloading respectively. Function overloading is primarily a feature in C++ where two or more functions can have not only the same name but also different types and numbers of parameters. Operating overloading, on the other hand, allows the user to make operators work for user-defined classes. For example, we can overload an operator such as .+. in a class like String so that we can concatenate two strings by just using + instead of other descriptive functions. Other example classes where the user may overload arithmetic operators are Complex Number, Fractional Number, Big Integer, and more.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What is function overriding?",
+		"answers": ".If a user inherits a class into a derived class and provides a definition for one of the base class.s function again inside the derived class, then this function is called an overridden function, and this mechanism is known as function overriding. When the member function exists in both classes (base and derived) is called in the case of overridden functions, the member function of the derived class is invoked, and the function of the base class is ignored.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Differentiate between a constructor and a destructor in C++.",
+		"answers": "A constructor is used to initialize the instance of a class or object.A destructor simply destroys the objects when they are no longer needed.A constructor is called when a new instance of a class or object is created.A destructor is called when an instance of a class or object is deleted or released.A constructor allocates the memory.A destructor releases or frees the memory.Constructors can have arguments.A destructor cannot have any arguments.Overloading of the constructor is possible in C++.Overloading of destructors is not possible.A constructor has the same name as class name.A destructor also has the same name as class name but with (~) tiled operator...",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What are the two main components of C++?",
+		"answers": ".The C++ language itself has two main components, namely a direct mapping of hardware features, which are provided primarily by the C subset, and zero-overhead abstractions, which are based on those mappings. This is also why C++ is considered to be a highly portable language as compared to  It is often the language of choice for multi-device, multi-platform app development and large-scale commercial applications for end users.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Why is C++ a mid-level programming language?",
+		"answers": ".C++ is also considered as (but never proven to be) the superset of C. Since it is like an extension of C language is a mid-level programming language, and it acquires the features of both, low level as well as high-level programming languages.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "Explain the properties and principles of OOP.",
+		"answers": ".Abstraction is the process of providing only essential information regarding the standard features of objects and procedures while hiding the details from the user.The class is a category of objects, which defines all the common properties of the various objects that belong to it.Encapsulation is the process of combining or wrapping up of data or elements to create a single, new entity.Information hiding is the process of hiding details of an object or function for reducing complexity.Inheritance is a feature that represents the .is-a. relationship between the various classes.The interface is the set of languages and codes that the applications or programs use to communicate with each other as well as with the hardware.Messaging or message passing is a kind of communication used in parallel programming and OOP.The object is a self-contained entity, which consists of both data and procedures employed to manipulate the data.Polymorphism is a programming language.s ability to process objects differently depending on their data type or class.The procedure is merely a section of a program that performs a specific task.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "How many characters are recognized by ANSI C++?",
+		"answers": "There are 128 characters defined in the C++ ASCII list.",
+		"Priority": "easy",
+		"language": "cpp"
+	},
+	{
+		"question": "What is copy constructor?",
+		"answers": ".Just like the name, a copy constructor is one the other constructors used for creating a copy of an object of class type that has been in existence already. The translator known as compiler makes available a default copy constructor for every class. The named constructor comes from creating while copy simply means new object from an existing one. In a simpler term, a copy constructor creates a copy of an already existing or available object.",
+		"Priority": "medium",
+		"language": "cpp"
+	},
+	{
+		"question": "What is function overloading in C++?",
+		"answers": "..Function overloading. is one of the features in C++ programming language where more than one function can one particular name but distinct parameters.",
+		"Priority": "easy",
+		"language": "cpp"
+	}
 
 	]
 }
